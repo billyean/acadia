@@ -13,10 +13,10 @@ class Tree:
     def recursive_is_balanced(self):
         hf = 0
         hr = 0
-        if self._left != None:
+        if self._left is not None:
             hf = self._left.recursive_is_balanced()
 
-        if self._right != None:
+        if self._right is not None:
             hr = self._right.recursive_is_balanced()
 
         if hf == -1 or hr == -1 or abs(hf - hr) > 1:
