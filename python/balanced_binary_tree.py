@@ -1,3 +1,5 @@
+# Here is the story
+# https://www.linkedin.com/pulse/software-engineer-detained-several-hours-us-customs-given-fairchild
 
 class Tree:
     def __init__(self, left, right, value):
