@@ -15,6 +15,7 @@ Here is the language specific
 
 ### Medium
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/medium/AddTwoNumbers.java)
+- [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
 
 ### Hard
 
