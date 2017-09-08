@@ -1,4 +1,4 @@
-# Haibo Yan's Code Review 
+# Haibo Yan's Algorithm Practice
 
 Here is the language specific 
 
@@ -18,6 +18,30 @@ Here is the language specific
 
 ### Hard
 
+### Other Interview
+
+#### Google
+
+#### Facebook
+
+#### Cloudera
+
+#### Amazon
+
+#### Workday
+
+#### Linkedin
+
+#### Salesforce
+
 ## C++
 
 ## Swift
+
+# Below has some practice for advance algorithm
+
+## Java
+
+### Consistent Hashing
+
+ 
