@@ -1,4 +1,8 @@
+package com.haibo.yan.algorithm.facebook;
 
+/**
+ * Find
+ */
 public class Facebook2 {
 	static class VersionCorrect {
 		static boolean isVersionBad(int bad) {

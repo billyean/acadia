@@ -1,3 +1,5 @@
+package com.haibo.yan.algorithm.facebook;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;

@@ -1,3 +1,5 @@
+package com.haibo.yan.algorithm.google;
+
 import java.util.HashMap;
 import java.util.Random;
 import java.util.function.Supplier;
