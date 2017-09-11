@@ -10,6 +10,10 @@ Here is the language specific
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/Node.java)
 - [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)
 
+### String
+- [Knuth–Morris–Pratt](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)
+- [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
+
 ### Easy
 
 - [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
@@ -19,7 +23,6 @@ Here is the language specific
 
 ### Medium
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/medium/AddTwoNumbers.java)
-- [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
 
 ### Hard
 
