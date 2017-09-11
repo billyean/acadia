@@ -6,6 +6,9 @@ Here is the language specific
 
 ## Java
 
+### Stack
+- [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
+
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/Node.java)
 - [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)
