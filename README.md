@@ -6,6 +6,9 @@ Here is the language specific
 
 ## Java
 
+### Tree
+- [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/Node.java)
+
 ### Easy
 
 - [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
