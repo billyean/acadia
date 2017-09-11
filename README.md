@@ -8,6 +8,7 @@ Here is the language specific
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/Node.java)
+- [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)
 
 ### Easy
 
