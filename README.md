@@ -4,6 +4,8 @@ Haibo Yan's Algorithm and Design Practice
 Here is the language specific 
 ## Java
 
+- [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/ReverseInteger.java)
+
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
 
