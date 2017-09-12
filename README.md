@@ -33,7 +33,7 @@ Here is the language specific
 
 ## Swift
 
-# Below has some practice for advance algorithm
+# Advanced algorithm
 
 ## Java
 
