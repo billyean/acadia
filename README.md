@@ -1,9 +1,7 @@
-# Haibo Yan's Algorithm Practice
+Haibo Yan's Algorithm and Design Practice
 
+# Algorithm Practice
 Here is the language specific 
-
-## Python
-
 ## Java
 
 ### Stack
@@ -29,6 +27,18 @@ Here is the language specific
 
 ### Hard
 
+## Python
+
+## C++
+
+## Swift
+
+# Below has some practice for advance algorithm
+
+## Java
+
+### Consistent Hashing
+
 ### Other Interview
 
 #### Google
@@ -45,14 +55,8 @@ Here is the language specific
 
 #### Salesforce
 
-## C++
+# Design Practice
 
-## Swift
-
-# Below has some practice for advance algorithm
-
-## Java
-
-### Consistent Hashing
+## TinyURL
 
  
