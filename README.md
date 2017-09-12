@@ -4,6 +4,9 @@ Haibo Yan's Algorithm and Design Practice
 Here is the language specific 
 ## Java
 
+### Array
+- [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
+
 ### Stack
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
 
