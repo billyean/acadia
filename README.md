@@ -14,6 +14,9 @@ Here is the language specific
 - [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
 - [Bibrary Search on rotate array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
 
+### Linked List
+- [Circle](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
+
 ### Stack
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
 
@@ -26,7 +29,7 @@ Here is the language specific
 - [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
 - [Isomorphic Strings](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)
 
-## Permutation
+### Permutation
 - [Permutation](java/src/main/java/com/haibo/yan/algorithm/Permutation.java)
 
 ## Python

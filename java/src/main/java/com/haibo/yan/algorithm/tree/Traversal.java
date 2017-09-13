@@ -28,6 +28,7 @@ public class Traversal {
         return result;
     }
 
+
     public List<Integer> inOrderTraverse(Node head) {
         List<Integer> result = new ArrayList<>();
 
@@ -35,6 +36,7 @@ public class Traversal {
             Stack<Node> stack = new Stack<>();
             Node cur = head;
 
+            // cur is null means previous accessed node doesn't have right child, we can keep pop up node.
             while (!stack.isEmpty() || cur != null){
                 if (cur != null) {
                     stack.push(cur);

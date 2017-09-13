@@ -64,7 +64,7 @@ public class Permutation {
     }
 
     /**
-     * Below algorithm works for array has duplicate elements. 
+     * Below algorithm works for array has duplicate elements.
      *
      * The algorithm is working as following:
      * 1. Find not ascendant(note it's not descendant) start from end of array, set i as previous index of descendant start.
