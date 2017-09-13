@@ -25,6 +25,9 @@ Here is the language specific
 - [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
 - [Isomorphic Strings](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)
 
+## Permutation
+- [Permutation](java/src/main/java/com/haibo/yan/algorithm/Permutation.java)
+
 ## Python
 
 ## C++
