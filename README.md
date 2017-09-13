@@ -33,6 +33,10 @@ Here is the language specific
 ### Permutation
 - [Permutation](java/src/main/java/com/haibo/yan/algorithm/Permutation.java)
 
+### Data Structure
+- [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
+- [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)
+
 ## Python
 
 ## C++
