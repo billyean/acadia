@@ -1,9 +1,9 @@
 package com.haibo.yan.algorithm.linkedlist;
 
 public class Node<T> {
-    T value;
+    public T value;
 
-    Node<T> next;
+    public Node<T> next;
 
     public Node(T value, Node<T> next) {
         this.value = value;
