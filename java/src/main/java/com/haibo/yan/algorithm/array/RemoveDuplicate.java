@@ -1,9 +1,5 @@
 package com.haibo.yan.algorithm.array;
 
-import java.util.Arrays;
-
-import static java.util.stream.Collectors.joining;
-
 /**
  * see https://leetcode.com/problems/remove-element
  *
