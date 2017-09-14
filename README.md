@@ -69,7 +69,7 @@ Here is the language specific
 
 - [Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)
 - [Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)
-- [Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton .java)
+- [Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)
 - [Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)
 
 # Company Interview
