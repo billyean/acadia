@@ -60,8 +60,17 @@ Here is the language specific
 # Advanced algorithm
 
 ## Java
+- [Consistent Hashing]
 
-- Consistent Hashing
+# Design Pattern
+## Java
+
+### Singleton Pattern
+
+-[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)
+-[Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)
+-[Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)
+-[Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)
 
 # Company Interview
 
@@ -78,6 +87,7 @@ Here is the language specific
 ## Linkedin
 
 ## Salesforce
+
 
 # System Design Practice
 
