@@ -36,4 +36,16 @@ public class TestUtilities {
             }
         }
     }
+
+    public static <T> void assertEqualsWithLen(T[] actual, T[] expected, int len) {
+        for (int i = 0; i < len; i++) {
+            Assert.assertEquals(actual[i], expected[i]);
+        }
+    }
+
+    public static void assertEqualsWithLen(int[] actual, int[] expected, int len) {
+        for (int i = 0; i < len; i++) {
+            Assert.assertEquals(actual[i], expected[i]);
+        }
+    }
 }
