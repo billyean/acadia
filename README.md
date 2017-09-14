@@ -39,6 +39,8 @@ Here is the language specific
 
 ## Python
 
+- [Count cross for reorder array](python/cross_count.py) 
+
 ### String
 - [Knuth–Morris–Pratt](python/kmp.py)
 - [Count number of sub string](python/count_substring.py)
