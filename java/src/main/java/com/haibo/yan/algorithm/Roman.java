@@ -26,7 +26,11 @@ public class Roman {
 
     };
 
-
+    /**
+     * User boundies and correponding character.
+     * @param num
+     * @return
+     */
     public static String intToRoman(int num) {
         StringBuilder sb = new StringBuilder();
 
@@ -51,6 +55,13 @@ public class Roman {
         return sb.toString();
     }
 
+    /**
+     * Hint: check current roman digit with next digit, if it's less than next digit; we minus its value, otherwise add
+     * its value.
+     *
+     * @param roman roman digits
+     * @return mapping int value of this roman digits
+     */
     public static int romanToInt(String roman) {
         int decimalValue = 0;
         char[] cs = roman.toCharArray();
