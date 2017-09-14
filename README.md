@@ -39,6 +39,16 @@ Here is the language specific
 
 ## Python
 
+### String
+- [Knuth–Morris–Pratt](python/kmp.py)
+- [Count number of sub string](python/count_substring.py)
+
+### Permutation
+- [permutation](python/permutation.py)
+
+### Tree
+- [Balanced Binrary Tree](python/balanced_binary_tree.py)
+
 ## C++
 
 ## Swift
