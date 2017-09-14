@@ -14,6 +14,7 @@ Here is the language specific
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
 - [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
 - [Bibrary Search on rotate array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
+- [Rotate Array](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)
 
 ### Linked List
 - [Circle](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
