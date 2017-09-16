@@ -91,6 +91,9 @@ Here is the language specific
 
 ## Salesforce
 
+- [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
+
+
 
 # System Design Practice
 
