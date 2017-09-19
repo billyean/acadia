@@ -9,6 +9,7 @@ Here is the language specific
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
 - [One's Number](java/src/main/java/com/haibo/yan/algorithm/OneNumbers.java)
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)
+- [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
 
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
@@ -26,7 +27,7 @@ Here is the language specific
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/Node.java)
 - [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)
-
+- [Minimum Height Trees](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)
 ### String
 - [Knuth–Morris–Pratt](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)
 - [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)

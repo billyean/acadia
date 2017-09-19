@@ -22,11 +22,4 @@ public class ValidPalindrome {
             return false;
         }
     }
-
-    public static void main(String[] args) {
-        ValidPalindrome instance = new ValidPalindrome();
-        System.out.println(instance.isValid(""));
-        System.out.println(instance.isValid("Red rum, sir, is murder"));
-        System.out.println(instance.isValid("Programcreek is awesome"));
-    }
 }
