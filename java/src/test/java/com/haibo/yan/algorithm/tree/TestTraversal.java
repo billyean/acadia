@@ -24,36 +24,36 @@ public class TestTraversal {
      */
     @DataProvider
     public static Object[][] preOrderTree() {
-        return new Object[][] {{Node.deserialize("9!4!3!1!###6!5!##7!#8!##13!10!##15!14!###"),
+        return new Object[][] {{BinaryTreeNode.deserialize("9!4!3!1!###6!5!##7!#8!##13!10!##15!14!###"),
                 Arrays.asList(9, 4, 3, 1, 6, 5, 7, 8, 13, 10, 15, 14)}};
     }
 
     @Test(dataProvider = "preOrderTree")
-    public void testPreOrder(Node head, List<Integer> expectedResult){
+    public void testPreOrder(BinaryTreeNode head, List<Integer> expectedResult){
         Traversal traversal = new Traversal();
         assertEquals(traversal.preOrderTraverse(head), expectedResult);
     }
 
     @DataProvider
     public static Object[][] inOrderTree() {
-        return new Object[][] {{Node.deserialize("9!4!3!1!###6!5!##7!#8!##13!10!##15!14!###"),
+        return new Object[][] {{BinaryTreeNode.deserialize("9!4!3!1!###6!5!##7!#8!##13!10!##15!14!###"),
                 Arrays.asList(1, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15)}};
     }
 
     @Test(dataProvider = "inOrderTree")
-    public void testInOrder(Node head, List<Integer> expectedResult){
+    public void testInOrder(BinaryTreeNode head, List<Integer> expectedResult){
         Traversal traversal = new Traversal();
         assertEquals(traversal.inOrderTraverse(head), expectedResult);
     }
 
     @DataProvider
     public static Object[][] postOrderTree() {
-        return new Object[][] {{Node.deserialize("9!4!3!1!###6!5!##7!#8!##13!10!##15!14!###"),
+        return new Object[][] {{BinaryTreeNode.deserialize("9!4!3!1!###6!5!##7!#8!##13!10!##15!14!###"),
                 Arrays.asList(1, 3, 5, 8, 7, 6, 4, 10, 14, 15, 13, 9)}};
     }
 
     @Test(dataProvider = "postOrderTree")
-    public void testPostOrder(Node head, List<Integer> expectedResult){
+    public void testPostOrder(BinaryTreeNode head, List<Integer> expectedResult){
         Traversal traversal = new Traversal();
         assertEquals(traversal.postOrderTraverse(head), expectedResult);
     }

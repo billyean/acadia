@@ -8,14 +8,18 @@ Here is the language specific
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
 - [One's Number](java/src/main/java/com/haibo/yan/algorithm/OneNumbers.java)
-- [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)
+- [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
+
 
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
 - [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
 - [Bibrary Search on rotate array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
 - [Rotate Array](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)
+
+### Matrix
+- [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
 
 ### Linked List
 - [Circle](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
@@ -25,9 +29,11 @@ Here is the language specific
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
 
 ### Tree
-- [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/Node.java)
-- [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)
+- [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
+- [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)(Facebook)
 - [Minimum Height Trees](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)
+- [Longest Consecutive Path](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)(Google)
+
 ### String
 - [Knuth–Morris–Pratt](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)
 - [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
@@ -38,6 +44,10 @@ Here is the language specific
 
 ### Dynamic Programming
 - [Fibonacci](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)
+
+### Binary Search
+- [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)
+- [Lookup Latest Good Version](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)(Facebook)
 
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
@@ -59,6 +69,8 @@ Here is the language specific
 
 ## C++
 
+## Javascript
+
 ## Swift
 
 # Advanced algorithm
@@ -69,6 +81,7 @@ Here is the language specific
 # Design Pattern
 ## Java
 
+- [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
 ### Singleton Pattern
 
 - [Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)
@@ -76,21 +89,6 @@ Here is the language specific
 - [Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)
 - [Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)
 
-# Company Interview
-
-## Google
-
-## Facebook
-
-## Cloudera
-
-## Amazon
-
-## Workday
-
-## Linkedin
-
-## Salesforce
 
 - [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
 

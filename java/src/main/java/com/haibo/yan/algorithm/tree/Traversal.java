@@ -6,14 +6,14 @@ import java.util.Stack;
 
 public class Traversal {
 
-    public List<Integer> preOrderTraverse(Node head) {
+    public List<Integer> preOrderTraverse(BinaryTreeNode root) {
         List<Integer> result = new ArrayList<>();
-        if (head != null) {
-            Stack<Node> stack = new Stack<>();
-            stack.push(head);
+        if (root != null) {
+            Stack<BinaryTreeNode> stack = new Stack<>();
+            stack.push(root);
 
             while (!stack.isEmpty()){
-                Node node = stack.pop();
+                BinaryTreeNode node = stack.pop();
                 result.add(node.value);
 
                 if (node.right != null) {
@@ -29,12 +29,12 @@ public class Traversal {
     }
 
 
-    public List<Integer> inOrderTraverse(Node head) {
+    public List<Integer> inOrderTraverse(BinaryTreeNode root) {
         List<Integer> result = new ArrayList<>();
 
-        if (head != null) {
-            Stack<Node> stack = new Stack<>();
-            Node cur = head;
+        if (root != null) {
+            Stack<BinaryTreeNode> stack = new Stack<>();
+            BinaryTreeNode cur = root;
 
             // cur is null means previous accessed node doesn't have right child, we can keep pop up node.
             while (!stack.isEmpty() || cur != null){
@@ -52,19 +52,19 @@ public class Traversal {
         return result;
     }
 
-    public List<Integer> postOrderTraverse(Node head) {
+    public List<Integer> postOrderTraverse(BinaryTreeNode root) {
         List<Integer> result = new ArrayList<>();
 
-        if (head != null) {
-            Stack<Node> stack = new Stack<>();
+        if (root != null) {
+            Stack<BinaryTreeNode> stack = new Stack<>();
 
             // remember the child when pop from stack, represent parent if pushing to stack. Initiate with null.
-            Node prev = null;
+            BinaryTreeNode prev = null;
 
-            stack.push(head);
+            stack.push(root);
 
             while (!stack.isEmpty()){
-                Node cur = stack.peek();
+                BinaryTreeNode cur = stack.peek();
 
                 if (prev == null || prev.left == cur ||  prev.right == cur) {
                     /**
