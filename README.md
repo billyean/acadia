@@ -24,6 +24,7 @@ Here is the language specific
 ### Linked List
 - [Circle](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
 - [Remove reverse kth element](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)
+- [One diff only](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)(Facebook)
 
 ### Stack
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
