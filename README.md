@@ -3,6 +3,7 @@
 Here is the language specific 
 ## Java
 
+### Miscellaneous
 - [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/ReverseInteger.java)
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/medium/AddTwoNumbers.java)
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
@@ -25,6 +26,7 @@ Here is the language specific
 - [Circle](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
 - [Remove reverse kth element](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)
 - [One diff only](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)(Facebook)
+- [Swap Pairs](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)
 
 ### Stack
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
@@ -93,10 +95,18 @@ Here is the language specific
 
 - [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
 
-
-
 # System Design Practice
 
 ## TinyURL
+
+## Web Crawler
+
+## Twitter
+
+## Search Engine
+
+## Messenger
+
+
 
  

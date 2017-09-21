@@ -48,4 +48,19 @@ public class TestUtilities {
             Assert.assertEquals(actual[i], expected[i]);
         }
     }
+
+    public static void assertEquals(int[] actual, int[] expected) {
+        Assert.assertEquals(actual.length, expected.length);
+        assertEqualsWithLen(actual, expected, actual.length);
+    }
+
+    public static <T extends Comparable> void assertEquals(Node<T> h1, Node<T> h2) {
+        while (h1 != null && h2 != null) {
+            Assert.assertEquals(h1.value.compareTo(h2.value), 0, String.format("h1.value = %s, h2.value = %s", h1.value, h2.value));
+            h1 = h1.next;
+            h2 = h2.next;
+        }
+
+        Assert.assertTrue(h1 == null && h2 == null);
+    }
 }
