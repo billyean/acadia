@@ -31,14 +31,14 @@ public class SwapPairs {
      * @param <T>
      * @return
      */
-    public static <T> Node<T> swap(Node<T> head) {
+    public static <T> ListNode<T> swap(ListNode<T> head) {
         if (head == null || head.next == null) {
             return head;
         }
 
-        Node<T> current = head;
-        Node<T> prev = null;
-        Node<T> newHead = null;
+        ListNode<T> current = head;
+        ListNode<T> prev = null;
+        ListNode<T> newHead = null;
 
         while (current != null && current.next != null) {
             if (prev == null) {
@@ -65,15 +65,15 @@ public class SwapPairs {
      * @param <T>
      * @return
      */
-    public static <T> Node<T> swapWithExtraNode(Node<T> head) {
+    public static <T> ListNode<T> swapWithExtraNode(ListNode<T> head) {
         if (head == null || head.next == null) {
             return head;
         }
 
-        Node<T> extra = new Node(0);
-        Node<T> prev = extra;
+        ListNode<T> extra = new ListNode(0);
+        ListNode<T> prev = extra;
         prev.next = head;
-        Node<T> current = head;
+        ListNode<T> current = head;
 
         while (current != null && current.next != null) {
                 prev.next = current.next;

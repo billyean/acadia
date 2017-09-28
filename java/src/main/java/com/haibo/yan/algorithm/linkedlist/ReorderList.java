@@ -26,26 +26,26 @@ import java.util.StringJoiner;
  * without altering the nodes' values.
  */
 public class ReorderList {
-    public static <T> void reorder(Node<T> head) {
+    public static <T> void reorder(ListNode<T> head) {
         if (head == null || head.next == null) {
             return;
         }
 
-        Node one = head;
-        Node two = head.next;
+        ListNode one = head;
+        ListNode two = head.next;
 
         while(two != null && two.next !=  null) {
             one = one.next;
             two = two.next.next;
         }
 
-        Node l2 = one.next;
+        ListNode l2 = one.next;
         one.next = null;
         l2 = reverse(l2);
-        Node l1 = head;
+        ListNode l1 = head;
 
         while (l2 != null) {
-            Node i = l2;
+            ListNode i = l2;
             l2 = l2.next;
             i.next = l1.next;
             l1.next = i;
@@ -53,18 +53,18 @@ public class ReorderList {
         }
     }
 
-    private static <T> Node<T> reverse(Node<T> head) {
+    private static <T> ListNode<T> reverse(ListNode<T> head) {
         if (head == null || head.next == null) {
             return head;
         }
 
-        Node<T> currentHead = head;
-        Node<T> insertNode = head.next;
+        ListNode<T> currentHead = head;
+        ListNode<T> insertListNode = head.next;
         currentHead.next = null;
 
-        while (insertNode != null) {
-            Node<T> newHead = insertNode;
-            insertNode = insertNode.next;
+        while (insertListNode != null) {
+            ListNode<T> newHead = insertListNode;
+            insertListNode = insertListNode.next;
             newHead.next = currentHead;
             currentHead = newHead;
         }
@@ -72,7 +72,7 @@ public class ReorderList {
         return currentHead;
     }
 
-    private static <T> void print(Node<T> head) {
+    private static <T> void print(ListNode<T> head) {
         StringJoiner sj = new StringJoiner(" -> ");
         while (head != null) {
             sj.add(head.value.toString());

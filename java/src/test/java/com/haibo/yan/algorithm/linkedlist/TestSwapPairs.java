@@ -24,18 +24,18 @@ public class TestSwapPairs {
     @DataProvider
     public Object[][] linkedList() {
         return new Object[][]{
-                {Node.deserialize("1#2#3#4"), Node.deserialize("2#1#4#3")},
-                {Node.deserialize("1#2#3"), Node.deserialize("2#1#3")}
+                {ListNode.deserialize("1#2#3#4"), ListNode.deserialize("2#1#4#3")},
+                {ListNode.deserialize("1#2#3"), ListNode.deserialize("2#1#3")}
         };
     }
 
     @Test(dataProvider = "linkedList")
-    public void testSwap(Node<Integer> original, Node<Integer> expected) {
+    public void testSwap(ListNode<Integer> original, ListNode<Integer> expected) {
         TestUtilities.assertEquals(SwapPairs.swap(original), expected);
     }
 
     @Test(dataProvider = "linkedList")
-    public void testSwapWithExtra(Node<Integer> original, Node<Integer> expected) {
+    public void testSwapWithExtra(ListNode<Integer> original, ListNode<Integer> expected) {
         TestUtilities.assertEquals(SwapPairs.swapWithExtraNode(original), expected);
     }
 }

@@ -1,6 +1,6 @@
 package com.haibo.yan.algorithm;
 
-import com.haibo.yan.algorithm.linkedlist.Node;
+import com.haibo.yan.algorithm.linkedlist.ListNode;
 import org.testng.Assert;
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class TestUtilities {
         }
     }
 
-    public static <T> void assertLinkedListValues(Node head, List<T> expectedValues) {
+    public static <T> void assertLinkedListValues(ListNode<T> head, List<T> expectedValues) {
         if (expectedValues == null || expectedValues.size() == 0) {
             assertNull(head);
         } else {
@@ -54,7 +54,7 @@ public class TestUtilities {
         assertEqualsWithLen(actual, expected, actual.length);
     }
 
-    public static <T extends Comparable> void assertEquals(Node<T> h1, Node<T> h2) {
+    public static <T extends Comparable> void assertEquals(ListNode<T> h1, ListNode<T> h2) {
         while (h1 != null && h2 != null) {
             Assert.assertEquals(h1.value.compareTo(h2.value), 0, String.format("h1.value = %s, h2.value = %s", h1.value, h2.value));
             h1 = h1.next;

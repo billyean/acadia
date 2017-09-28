@@ -21,7 +21,7 @@ package com.haibo.yan.algorithm.linkedlist;
  *  differences.
  */
 public class OneDiff {
-    public <T extends Comparable> boolean isOneDiff(Node<T> l1, Node<T> l2) {
+    public <T extends Comparable> boolean isOneDiff(ListNode<T> l1, ListNode<T> l2) {
         int diff = 0;
 
         while (l1 != null && l2 != null) {

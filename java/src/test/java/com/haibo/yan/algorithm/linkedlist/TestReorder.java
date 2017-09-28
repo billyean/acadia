@@ -27,10 +27,10 @@ import static com.haibo.yan.algorithm.TestUtilities.assertLinkedListValues;
 public class TestReorder {
     @DataProvider
     public Object[][] reorderLL() {
-        Node<Integer> ll1 = new Node(1);
+        ListNode<Integer> ll1 = new ListNode(1);
         ll1.append(2).append(3).append(4);
 
-        Node<Integer> ll2 = new Node(1);
+        ListNode<Integer> ll2 = new ListNode(1);
         ll2.append(2).append(3).append(4).append(5);
 
         return new Object[][] {
@@ -40,7 +40,7 @@ public class TestReorder {
     }
 
     @Test(dataProvider = "reorderLL")
-    public void testReorder(Node<Integer> head, List<Integer> array) {
+    public void testReorder(ListNode<Integer> head, List<Integer> array) {
         ReorderList.reorder(head);
         assertLinkedListValues(head, array);
     }

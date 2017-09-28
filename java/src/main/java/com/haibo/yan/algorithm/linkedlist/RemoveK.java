@@ -4,9 +4,9 @@ package com.haibo.yan.algorithm.linkedlist;
  * Remove reversed kth node in a linkedlist
  */
 public class RemoveK {
-    public Node head;
+    public ListNode head;
 
-    public RemoveK(Node head) {
+    public RemoveK(ListNode head) {
         this.head = head;
     }
 
@@ -18,7 +18,7 @@ public class RemoveK {
             head = head.next;
         } else {
 
-            Node kth = head;
+            ListNode kth = head;
 
             while (kth != null && k > 0) {
                 kth = kth.next;
@@ -26,8 +26,8 @@ public class RemoveK {
             }
 
             if (kth != null) {
-                Node prev = null;
-                Node curr = head;
+                ListNode prev = null;
+                ListNode curr = head;
 
                 while (kth != null) {
                     prev = curr;

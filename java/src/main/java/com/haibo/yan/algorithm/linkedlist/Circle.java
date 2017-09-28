@@ -11,7 +11,7 @@ public class Circle<T> {
      * @param head a linkedlist node that checks if there is circle.
      * @return true there is a circle in linkedlist, false otherwise.
      */
-    public boolean hasCircle(Node<T> head) {
+    public boolean hasCircle(ListNode<T> head) {
         if (head == null || head.next == null) {
             return false;
         }
@@ -20,8 +20,8 @@ public class Circle<T> {
             return true;
         }
 
-        Node<T> first = head;
-        Node<T> second = head.next;
+        ListNode<T> first = head;
+        ListNode<T> second = head.next;
 
         while (second != null && second.next != null) {
             if (first == second)
@@ -51,7 +51,7 @@ public class Circle<T> {
      * @param head a linkedlist node that finds its circle's start place.
      * @return null if there is not circle in the linkedlist, a value that start place node holds.
      */
-    public T circleStart(Node<T> head) {
+    public T circleStart(ListNode<T> head) {
         if (head == null || head.next == null) {
             return null;
         }
@@ -60,8 +60,8 @@ public class Circle<T> {
             return head.value;
         }
 
-        Node<T> first = head;
-        Node<T> second = head.next;
+        ListNode<T> first = head;
+        ListNode<T> second = head.next;
 
         while (second != null && second.next != null) {
             if (first == second) {
