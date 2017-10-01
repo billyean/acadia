@@ -12,6 +12,7 @@ Here is the language specific
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
 - [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/MoveZeroes.java)(Facebook)
+- [Add One](java/src/main/java/com/haibo/yan/algorithm/AddOne)(Apple)
 
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
@@ -57,7 +58,7 @@ Here is the language specific
 
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
-- [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)
+- [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)(Salesforce)
 
 ## Python
 
