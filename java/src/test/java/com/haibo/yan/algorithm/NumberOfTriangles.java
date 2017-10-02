@@ -41,7 +41,7 @@ import java.util.Arrays;
  *
  * There is only one triangle (1, 2, 3), but it is incorrect: 1 + 2 = 3.
  */
-public class NumberOfTrangles {
+public class NumberOfTriangles {
     public static int number(int[] sticks) {
         Arrays.sort(sticks);
 
