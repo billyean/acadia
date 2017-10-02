@@ -13,7 +13,7 @@ Here is the language specific
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
 - [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/MoveZeroes.java)(Facebook)
 - [Add One](java/src/main/java/com/haibo/yan/algorithm/AddOne)(Apple)
-- [Sort by one](java/src/main/java/com/haibo/yan/algorithm/SortByOne.java)
+- [Sort by one](java/src/main/java/com/haibo/yan/algorithm/SortByOne.java)(GE electric)
 
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
