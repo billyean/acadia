@@ -102,6 +102,12 @@ Here is the language specific
 
 # System Design Practice
 
+## Concept
+ - [Caching]
+ - [Sharding]
+ - [Consistent Hashing]
+ - [Copysets]
+
 ## TinyURL
 
 ## Web Crawler
