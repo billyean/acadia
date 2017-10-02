@@ -6,6 +6,7 @@ Here is the language specific
 ### Miscellaneous
 - [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/ReverseInteger.java)
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/medium/AddTwoNumbers.java)
+- [Number of Triangles](java/src/main/java/com/haibo/yan/algorithm/medium/NumberOfTriangles.java)
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
 - [One's Number](java/src/main/java/com/haibo/yan/algorithm/OneNumbers.java)
