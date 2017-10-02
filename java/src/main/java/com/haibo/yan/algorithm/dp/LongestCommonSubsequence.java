@@ -16,6 +16,11 @@
 
 package com.haibo.yan.algorithm.dp;
 
+/**
+ * Typical dynamic programming problem. Trace back if need find out what's the longest common subsequence of two
+ * strings.
+ *
+ */
 public class LongestCommonSubsequence {
     public static int longestCommonSequence(String str1, String str2) {
         if (str1 == null || str2 == null || str1.length() == 0 || str2.length() == 0) {
