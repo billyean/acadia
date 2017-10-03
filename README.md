@@ -53,7 +53,7 @@ Here is the language specific
 - [Fibonacci](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)
 - [Coin Change](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)
 - [Knapsack](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)
-- [Longest Common Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)
+- [Longest Common Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)(Linkedin)
 - [Subset to Sum](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
 
 ### Binary Search
