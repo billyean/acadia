@@ -19,14 +19,16 @@ Application Layer
 REST API/HTTP -> Load Balancer -> Application Server(Cache) -> Persistent
 
 ## Points
-- [unique tinyURL]
 
-### unique tinyURL design
+### Unique tinyURL
 - tinyURL characters domain: all alphabetnumber characters(a-z, A-Z, 0-9), 62 characters
 - how many chacracters you should use:
-    based on throughput n tps, and how many time you can support, Example: 1m tps and 3000 years, you can get 1m * 3000 * 366 * 24 * 3600 = 9.48672e16 urls, you ting url length shoudl at least log(62)(9.48672e16) = 10
+    * based on throughput n tps, and how many time you can support. 
+      * Example: 1m tps and 3000 years, you can get 1m * 3000 * 366 * 24 * 3600 = 9.48672e16 urls, you ting url length shoudl at least log(62)(9.48672e16) = 10
 - Schema
   key value map
+  
+### Technique
 - Random key vs Counter
 - Write consistency(Random)
   * Try to get tiny URL, if doesn't exist, put into database 
