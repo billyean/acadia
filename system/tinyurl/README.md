@@ -48,3 +48,6 @@ REST API/HTTP -> Load Balancer -> Application Server(Cache) -> Persistent
 ### Cache
 - [Redis]
 - [MemCached]
+
+### CDN
+Different regions use CDN as cache.
