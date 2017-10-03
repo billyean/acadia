@@ -123,7 +123,7 @@ Here is the language specific
 ## Practice
 
 ### TinyURL
-- [Design diagram](/tinyurl)
+- [Design diagram](/system/tinyurl)
 
 ### Web Crawler
 
@@ -132,7 +132,7 @@ Here is the language specific
 ### Search Engine
 
 ### Messenger
-- [Design diagram](/messenger)
+- [Design diagram](/system/messenger)
 
 
  
