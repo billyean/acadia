@@ -9,7 +9,7 @@ Application Layer
 
 ### Design diagram
 
-<img src='system/tinyurl/tinyurl.png' title='Basic Design' width='' alt='Basic Design' />
+<img src='tinyurl.png' title='Basic Design' width='' alt='Basic Design' />
 
 ### API - how to user interact with system
 - CreateTiny: create(LongURL) -> tinyURL
