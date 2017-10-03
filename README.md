@@ -16,6 +16,9 @@ Here is the language specific
 - [Add One](java/src/main/java/com/haibo/yan/algorithm/AddOne)(Apple)
 - [Sort by one](java/src/main/java/com/haibo/yan/algorithm/SortByOne.java)(GE electric)
 
+### Bit Operation
+- [Power Of Four](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)
+
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
 - [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
