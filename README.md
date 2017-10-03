@@ -106,19 +106,25 @@ Here is the language specific
 # System Design Practice
 
 ## Concept
- - [Caching]
- - [Sharding]
- - [Consistent Hashing]
- - [Copysets]
 
-## TinyURL
+### Caching
+### Sharding
+### Consistent Hashing
+### Copysets
+### CAP Theorem(Consistency,Availability,Partition Tolerance)
+- [https://en.wikipedia.org/wiki/CAP_theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 
-## Web Crawler
+### Vector Clock
+-[Why Vector Clock is easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
+-[Why Cassandra doesn’t need vector clocks](https://www.datastax.com/dev/blog/why-cassandra-doesnt-need-vector-clocks)
 
-## Twitter
 
-## Search Engine
+## Practice
 
+### TinyURL
+### Web Crawler
+### Twitter
+### Search Engine
 ## Messenger
 
 
