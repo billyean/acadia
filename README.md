@@ -121,23 +121,12 @@ Here is the language specific
 
 ## Practice
 
-### TinyURL
-- [Design diagram](/system/tinyurl)
-
-### Web Crawler
-- [Design diagram](/system/webcrawler)
-
-### Twitter
-- [Design diagram](/system/twitter)
-
-### Search Engine
-- [Design diagram](/system/searchengine)
-
-### Messenger
-- [Design diagram](/system/messenger)
-
-### Dropbox
-- [Design diagram](/system/dropbox)
+- [TinyURL](/system/tinyurl)
+- [Web Crawler](/system/webcrawler)
+- [Twitter](/system/twitter)
+- [Search Engine](/system/searchengine)
+- [Messenger](/system/messenger)
+- [Dropbox](/system/dropbox)
 
 
  
