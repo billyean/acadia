@@ -55,6 +55,7 @@ Here is the language specific
 - [Knapsack](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)
 - [Longest Common Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)(Linkedin)
 - [Subset to Sum](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
+- [Maximal Square](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)
 
 ### Binary Search
 - [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)(Salesforce)
@@ -93,15 +94,16 @@ Here is the language specific
 ## Java
 
 - [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
-### Singleton Pattern
 
+### Singleton(Creational)
 - [Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)
 - [Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)
 - [Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)
 - [Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)
 
+### Abstract Factory(Creational)
 
-- [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
+### Observer(Listener)
 
 # System Design Practice
 
