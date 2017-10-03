@@ -54,6 +54,7 @@ Here is the language specific
 - [Coin Change](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)
 - [Knapsack](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)
 - [Longest Common Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)
+- [Subset to Sum](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
 
 ### Binary Search
 - [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)
