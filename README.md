@@ -120,10 +120,10 @@ Here is the language specific
 - [Why Vector Clock is easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
 - [Why Cassandra doesn’t need vector clocks](https://www.datastax.com/dev/blog/why-cassandra-doesnt-need-vector-clocks)
 
-
 ## Practice
 
 ### TinyURL
+- [Design diagram](/tinyurl)
 
 ### Web Crawler
 
@@ -132,7 +132,7 @@ Here is the language specific
 ### Search Engine
 
 ### Messenger
-
+- [Design diagram](/messenger)
 
 
  
