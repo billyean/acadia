@@ -88,7 +88,6 @@ Here is the language specific
 # Advanced algorithm
 
 ## Java
-- [Consistent Hashing]
 
 # Design Pattern
 ## Java
