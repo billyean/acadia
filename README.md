@@ -47,7 +47,7 @@ Here is the language specific
 - [Isomorphic Strings](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)
 
 ### Permutation
-- [Permutation](java/src/main/java/com/haibo/yan/algorithm/Permutation.java)
+- [Permutation](java/src/main/java/com/haibo/yan/algorithm/Permutation.java)(Apple)
 
 ### Dynamic Programming
 - [Fibonacci](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)
@@ -57,12 +57,12 @@ Here is the language specific
 - [Subset to Sum](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
 
 ### Binary Search
-- [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)
+- [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)(Salesforce)
 - [Lookup Latest Good Version](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)(Facebook)
 
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
-- [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)(Salesforce)
+- [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)(Salesforce/Amazon)
 
 ## Python
 
