@@ -60,6 +60,7 @@ Here is the language specific
 - [Longest Common Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)(Linkedin)
 - [Subset to Sum](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
 - [Maximal Square](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)
+- [Longest Increasing Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)
 
 ### Binary Search
 - [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)(Salesforce)

@@ -16,6 +16,20 @@
 
 package com.haibo.yan.algorithm.dp;
 
-public class TesLongestCommonSubsequence {
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
+
+public class TestLongestIncreasingSubsequence {
+    @DataProvider
+    public Object[][] longestIncreasingSubsequenceTestObjects(){
+        return new Object[][] {
+                {new int[]{0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15}, 6}
+        };
+    }
+    @Test(dataProvider = "longestIncreasingSubsequenceTestObjects")
+    public void test(int[] testArray, int longestSubsequenceLength) {
+        assertEquals(LongestIncreasingSubsequence.longest(testArray), longestSubsequenceLength);
+    }
 }
