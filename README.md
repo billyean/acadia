@@ -18,6 +18,7 @@ Here is the language specific
 
 ### Bit Operation
 - [Power Of Four](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)
+- [Single Number](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)
 
 ### Array
 - [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
