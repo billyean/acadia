@@ -68,8 +68,8 @@ Here is the language specific
 - [Lookup Latest Good Version](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)(Facebook)
 
 ### Graph
-[Topology Sort](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)(Apple)
-[Dijkstra Algorithm](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)
+- [Topology Sort](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)(Apple)
+- [Dijkstra Algorithm](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)
 
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
@@ -77,7 +77,6 @@ Here is the language specific
 - [Binary Heap](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)
 
 ## Python
-
 - [Count cross for reorder array](python/cross_count.py) 
 
 ### String
