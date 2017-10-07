@@ -24,6 +24,8 @@ import java.util.Set;
 public abstract class Graph<T> {
     protected HashMap<Vertex<T>, List<Vertex<T>>> verticesToAdjacents = new HashMap<>();
 
+    protected HashMap<Vertex<T>, List<Edge<T>>> verticesToEdges = new HashMap<>();
+
     protected List<Edge<T>> edges;
 
     public Graph(Set<Vertex<T>> vertices) {
@@ -35,6 +37,10 @@ public abstract class Graph<T> {
 
     public List<Vertex<T>> getAdjacents(Vertex<T> vertex) {
         return verticesToAdjacents.get(vertex);
+    }
+
+    public List<Edge<T>> getAllEdges(Vertex<T> vertex) {
+        return verticesToEdges.get(vertex);
     }
 
     public Set<Vertex<T>> allVertices() {

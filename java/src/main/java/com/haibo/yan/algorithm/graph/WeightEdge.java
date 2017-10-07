@@ -15,25 +15,12 @@
  */
 package com.haibo.yan.algorithm.graph;
 
-public class WeightEdge<T>{
-    private final Vertex<T> from;
-
-    private final Vertex<T> to;
-
+public class WeightEdge<T> extends Edge<T>{
     private final int weight;
 
     public WeightEdge(Vertex<T> from, Vertex<T> to, int weight){
-        this.from = from;
-        this.to = to;
+        super(from, to);
         this.weight = weight;
-    }
-
-    public Vertex<T> getFrom() {
-        return from;
-    }
-
-    public Vertex<T> getTo() {
-        return to;
     }
 
     public int getWeight() {

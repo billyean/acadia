@@ -34,5 +34,9 @@ public class DirectGraph<T> extends Graph {
         List<Vertex<T>> adjacents = (List<Vertex<T>>)verticesToAdjacents.getOrDefault(from, new ArrayList<>());
         adjacents.add(to);
         verticesToAdjacents.put(from, adjacents);
+
+        List<Edge<T>> edges = (List<Edge<T>>)verticesToEdges.getOrDefault(from, new ArrayList<>());
+        edges.add(edge);
+        verticesToEdges.put(from, edges);
     }
 }
