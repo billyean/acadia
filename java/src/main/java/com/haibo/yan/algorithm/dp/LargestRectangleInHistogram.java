@@ -38,26 +38,26 @@ public class LargestRectangleInHistogram {
 
         Stack<Integer> stack = new Stack<>();
         int index = 0;
-        stack.push(index++);
 
         int maxArea = 0;
 
-        while (index < heights.length ) {
-            if (stack.isEmpty()) {
+        /**
+         * Here in stack store all bars whose height is smaller than current. If there is no bars smaller than current
+         * bar, smallest height will be stored.
+         * Tricky part is in bottom of stack store the smallest bar height
+         */
+        while (index < heights.length) {
+            if (stack.isEmpty() || heights[index] > heights[stack.peek()]) {
                 stack.push(index++);
             } else {
-                if (heights[index] < heights[stack.peek()]) {
-                    maxArea = Integer.max(maxArea, heights[stack.peek()]  * (index - stack.peek()));
-                    stack.pop();
-                } else {
-                    stack.push(index++);
-                }
+                int top = stack.pop();
+                maxArea = Math.max(maxArea, heights[top]  * (stack.isEmpty() ? index : index - stack.peek() - 1));
             }
         }
 
         while (!stack.isEmpty()) {
-            maxArea = Integer.max(maxArea, heights[stack.peek()]  * (index - stack.peek()));
-            stack.pop();
+            int top = stack.pop();
+            maxArea = Math.max(maxArea, heights[top]  * (stack.isEmpty() ? index : index - stack.peek() - 1));
         }
 
         return maxArea;

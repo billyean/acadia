@@ -26,7 +26,9 @@ public class TestLargestRectangleInHistogram {
     public Object[][] histogramData() {
         return new Object[][]{
                 {new int[]{2, 1, 5, 6, 2, 3}, 10},
-                {new int[]{1, 2, 3, 4, 5}, 9}
+                {new int[]{1, 2, 3, 4, 5}, 9},
+                {new int[]{2, 1, 2}, 3},
+                {new int[]{5, 6, 7, 8, 4, 3, 4, 5}, 24}
         };
     }
     @Test(dataProvider = "histogramData")
