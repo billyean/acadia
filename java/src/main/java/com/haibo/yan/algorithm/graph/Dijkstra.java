@@ -21,7 +21,7 @@ import java.util.HashMap;
 
 public class Dijkstra {
     /**
-     * 
+     *
      * @param from
      * @param graph
      * @param <T>
