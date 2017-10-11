@@ -22,7 +22,7 @@ package com.haibo.yan.algorithm.bitop;
  * Given an array of integers, every element appears twice except for one. Find that single one.
  */
 public class SingleNumber {
-    public static int find(int[] array) {
+    public static int findInTwo(int[] array) {
         int single = 0;
 
         for (int v : array) {
@@ -30,5 +30,36 @@ public class SingleNumber {
         }
 
         return single;
+    }
+
+
+    public static int findInThree(int[] array) {
+        int one = 0, two = 0, three = 0;
+
+        for (int v : array) {
+            two |= one & v;
+            one ^= v;
+            three = one & two;
+            one &= ~three;
+            two &= ~three;
+        }
+
+        return one;
+    }
+
+    public static int findInFour(int[] array) {
+        int one = 0, two = 0, three = 0, four = 0;
+
+        for (int v : array) {
+            two |= one & v;
+            one ^= v;
+            three = one & two;
+            four = three & ~(one);
+            one &= ~four;
+            two &= ~four;
+            three &= ~four;
+        }
+
+        return one;
     }
 }

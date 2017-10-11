@@ -23,15 +23,42 @@ import static org.testng.Assert.assertEquals;
 
 public class TestSingleNumber {
     @DataProvider
-    public Object[][] singleNumberProvider() {
+    public Object[][] singleInTwoNumberProvider() {
         return new Object[][] {
                 {new int[]{1, 1, 0}, 0},
                 {new int[]{1, 0, -1, 0, 1}, -1}
         };
     }
 
-    @Test(dataProvider = "singleNumberProvider")
-    public void test(int[] array, int expected) {
-        assertEquals(SingleNumber.find(array), expected);
+    @Test(dataProvider = "singleInTwoNumberProvider")
+    public void test1(int[] array, int expected) {
+        assertEquals(SingleNumber.findInTwo(array), expected);
+    }
+
+    @DataProvider
+    public Object[][] singleInThreeNumberProvider() {
+        return new Object[][] {
+                {new int[]{1, 1, 1, 0}, 0},
+                {new int[]{1, 0, -1, 0, 1, 1, 0}, -1}
+        };
+    }
+
+    @Test(dataProvider = "singleInThreeNumberProvider")
+    public void test2(int[] array, int expected) {
+        assertEquals(SingleNumber.findInThree(array), expected);
+    }
+
+
+    @DataProvider
+    public Object[][] singleInFourNumberProvider() {
+        return new Object[][] {
+                {new int[]{1, 1, 1, 0, 1}, 0},
+                {new int[]{1, 0, -1, 0, 1, 1, 0, 1, 0}, -1}
+        };
+    }
+
+    @Test(dataProvider = "singleInFourNumberProvider")
+    public void test3(int[] array, int expected) {
+        assertEquals(SingleNumber.findInFour(array), expected);
     }
 }
