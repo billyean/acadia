@@ -27,6 +27,7 @@ Here is the language specific
 - [Bibrary Search on rotate array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
 - [Rotate Array](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)
 - [Reverse Vowels of a String](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)
+- [Print Pattern](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)
 
 ### Matrix
 - [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
