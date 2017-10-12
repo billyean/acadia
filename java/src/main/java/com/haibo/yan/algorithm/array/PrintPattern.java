@@ -32,20 +32,24 @@ public class PrintPattern {
 
         for (int i = 0; i < size - 1; i++) {
             List<Integer> prev = result.get(result.size() - 1);
-            LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
-
-            for (int v : prev) {
-                int c = map.getOrDefault(v, 0) + 1;
-                map.put(v, c);
-            }
-
-            List<Integer> newLine = new ArrayList<>();
-            map.forEach((k, v) -> { newLine.add(v); newLine.add(k); });
-            result.add(newLine);
+            result.add(generatePattern(prev));
         }
 
         return result;
     }
 
-
+    private static List<Integer> generatePattern(List<Integer> list) {
+        List<Integer> newLine = new ArrayList<>();
+        int count = 0;
+        for (int i = 0; i < list.size(); i++) {
+            if (i == list.size() - 1 || list.get(i) != list.get(i + 1)) {
+                newLine.add(count + 1);
+                newLine.add(list.get(i));
+                count = 0;
+            } else {
+                count++;
+            }
+        }
+        return newLine;
+    }
 }
