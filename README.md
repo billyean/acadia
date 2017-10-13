@@ -77,6 +77,7 @@ Here is the language specific
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
 - [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)(Salesforce/Amazon)
+- [LFU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)
 - [Binary Heap](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)
 
 ## Python

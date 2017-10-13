@@ -17,9 +17,6 @@
 package com.haibo.yan.algorithm.array;
 
 import java.util.*;
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.joining;
 
 public class PrintPattern {
     public static List<List<Integer>> getPattern(int size) {
