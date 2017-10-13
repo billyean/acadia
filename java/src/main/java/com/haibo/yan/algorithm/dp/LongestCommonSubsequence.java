@@ -17,7 +17,7 @@
 package com.haibo.yan.algorithm.dp;
 
 /**
- * Typical dynamic programming problem. Trace back if need find out what's the longest common subsequence of two
+ * Typical dynamic programming problem. Trace back if need findInTwo out what's the longest common subsequence of two
  * strings.
  *
  */
