@@ -19,7 +19,7 @@ package com.haibo.yan.algorithm;
 import java.util.Arrays;
 
 /**
- * You have N sticks. Given an array of their lengths, find the number of triangles that can be constructed using any
+ * You have N sticks. Given an array of their lengths, findInTwo the number of triangles that can be constructed using any
  * three of these sticks. Note that the sum of the lengths of any two sides of a triangle must be greater than the third
  * side.
  *

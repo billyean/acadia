@@ -76,7 +76,7 @@ public class Traversal {
                         stack.push(cur.right);
                     } else {
                         result.add(cur.value);
-                        prev = stack.pop();
+                        stack.pop();
                     }
                 } else if (cur.left == prev)   {
                     // Once pop, if popped node is left child, check if top node has right child, pop top node if it

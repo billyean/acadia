@@ -16,7 +16,7 @@
 package com.haibo.yan.algorithm.facebook;
 
 /**
- * You have a list of build version, which built failed, find first failed build in this list.
+ * You have a list of build version, which built failed, findInTwo first failed build in this list.
  * Typical binary search algorithm.
  *
  */

@@ -67,6 +67,7 @@ Here is the language specific
 - [Maximal Square](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)
 - [Longest Increasing Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)
 - [Largest Rectangle in Histogram](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)
+- [Wildcard Matching](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)
 
 ### Binary Search
 - [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)(Salesforce)
