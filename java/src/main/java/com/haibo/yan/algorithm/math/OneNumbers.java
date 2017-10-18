@@ -14,24 +14,26 @@
  * limitations under the License.
  */
 
-package com.haibo.yan.algorithm;
+package com.haibo.yan.algorithm.math;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+public class OneNumbers {
+    /**
+     * Fenwick tree solution for count one number in binaries representation
+     *
+     * @param i an integer to calculate one's number.
+     * @return numbers of one in integer i's binary representation.
+     */
+    public static int countDigits(int i) {
+        int count = 0;
 
-import static org.testng.Assert.assertEquals;
+        while (i != 0) {
+            int lsb = -i & i;
+            if (i < 0)
+                lsb = -lsb;
+            count++;
+            i -= lsb;
+        }
 
-public class TestMinSubArrayLen {
-    @DataProvider
-    public Object[][] arrayProvider() {
-        return new Object[][]{
-                {7 , new int[]{2, 3, 1, 2, 4, 3}, 2},
-                {7 , new int[]{2, 3, 1, 1, 8, 3}, 4},
-        };
-    }
-
-    @Test(dataProvider = "arrayProvider")
-    public void test(int sum, int[] array, int expected) {
-        assertEquals(MinSubArrayLen.minSubArrayLen(sum, array), expected);
+        return count;
     }
 }

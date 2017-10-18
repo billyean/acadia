@@ -97,7 +97,8 @@ public class TestPackageManager {
 
         try {
             List<String> removed = manager.remove("BROWSER").stream().map(Package::getName).collect(toList());
-            assertEquals(removed, Arrays.asList("BROWSER", "TCPIP", "NETCARD", "HTML"), String.format("%s", removed.stream().collect(joining(","))));
+            assertEquals(removed, Arrays.asList("BROWSER", "TCPIP", "NETCARD", "HTML"),
+                    String.format("%s", removed.stream().collect(joining(","))));
         } catch (NotInstalledException e) {
             assertTrue(false, "Should not reach here.");
         } catch (NotRemovedException e) {

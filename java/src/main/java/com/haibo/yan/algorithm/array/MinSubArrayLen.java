@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.haibo.yan.algorithm;
+package com.haibo.yan.algorithm.array;
 
 public class MinSubArrayLen {
     /**

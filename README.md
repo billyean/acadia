@@ -4,16 +4,12 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/ReverseInteger.java)
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/medium/AddTwoNumbers.java)
 - [Number of Triangles](java/src/main/java/com/haibo/yan/algorithm/medium/NumberOfTriangles.java)
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
-- [One's Number](java/src/main/java/com/haibo/yan/algorithm/OneNumbers.java)
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
-- [Sort by one](java/src/main/java/com/haibo/yan/algorithm/SortByOne.java)(GE electric)
-- [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/MinSubArrayLen.java)
 - [Max Points on a Line](java/src/main/java/com/haibo/yan/algorithm/MaxPointsOnLine.java)
 
 ### Bit Operation
@@ -30,6 +26,7 @@ Here is the language specific
 - [Print Pattern](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)
 - [Sliding Windows](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)
 - [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)(Facebook)
+- [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)
 
 ### Matrix
 - [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
@@ -46,6 +43,9 @@ Here is the language specific
 
 ### Math
 - [Add One](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)(Apple)
+- [Sort by one](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)(GE electric)
+- [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)
+- [One's Number](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
