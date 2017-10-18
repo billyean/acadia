@@ -7,12 +7,19 @@ import static java.util.stream.Collectors.toList;
 public class PackageManager {
     private static PackageManager instance = new PackageManager();
 
+    /**
+     * package name map to package instance, it makes easy to look for package instance by package name.
+     */
     HashMap<String, Package> packageMap = new HashMap<>();
 
+    /**
+     * package name map to all dependent package instances.
+     */
     HashMap<String, Set<Package>> dependentPackageMap = new HashMap<>();
 
-    private List<Package> installedPackages = new ArrayList<>();
-
+    /**
+     * Private constructor for singleton pattern.
+     */
     private PackageManager(){}
 
     public static PackageManager getInstance(){
@@ -48,6 +55,8 @@ public class PackageManager {
     }
 
     /**
+     * Declare a package along with its dependencies, every package should only declares once. Declare same package
+     * multiple times could cause unexpected resul.
      *
      * @param packageName
      * @param dependencies
@@ -71,9 +80,9 @@ public class PackageManager {
     /**
      * Check if a package can be removed based on if there is any package depends on it.
      * @param checked
-     * @return true able to be removed, false otherwise.
+     * @return true ready to be removed if there is no package depends on given package, false otherwise.
      */
-    public boolean ableToRemove(Package checked) {
+    public boolean readyToRemove(Package checked) {
         for (Package installedPackage : packageMap.values().stream().filter(Package::isInstalled).collect(toList()))  {
             if (dependentPackageMap.get(installedPackage.getName()).contains(checked)) {
                 return false;
@@ -96,13 +105,19 @@ public class PackageManager {
             throw new NotInstalledException(String.format("%s is not installed.", packageName));
         }
 
-        if (!ableToRemove(tobeRemoved)) {
+        if (!readyToRemove(tobeRemoved)) {
             throw new NotRemovedException(String.format("%s is still needed.", packageName));
         }
 
         return recursiveRemove(packageName);
     }
 
+    /**
+     * Recursively remove the package, only set the install flag as false when remove a package for performance reason.
+     *
+     * @param packageName
+     * @return
+     */
     public List<Package> recursiveRemove(String packageName) {
         List<Package> removedPackages = new ArrayList<>();
 
@@ -111,7 +126,7 @@ public class PackageManager {
             return removedPackages;
         }
 
-        if (!ableToRemove(tobeRemoved)) {
+        if (!readyToRemove(tobeRemoved)) {
             return removedPackages;
         }
 
