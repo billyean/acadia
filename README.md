@@ -4,7 +4,6 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- [Number of Triangles](java/src/main/java/com/haibo/yan/algorithm/medium/NumberOfTriangles.java)
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
@@ -82,6 +81,9 @@ Here is the language specific
 ### Graph
 - [Topology Sort](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)(Apple)
 - [Dijkstra Algorithm](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)
+
+### Geometry
+- [Valid Triangle Number](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)
 
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
