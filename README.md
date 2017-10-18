@@ -16,6 +16,7 @@ Here is the language specific
 - [Add One](java/src/main/java/com/haibo/yan/algorithm/AddOne.java)(Apple)
 - [Sort by one](java/src/main/java/com/haibo/yan/algorithm/SortByOne.java)(GE electric)
 - [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/MinSubArrayLen.java)
+- [Max Points on a Line](java/src/main/java/com/haibo/yan/algorithm/MaxPointsOnLine.java)
 
 ### Bit Operation
 - [Power Of Four](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)
