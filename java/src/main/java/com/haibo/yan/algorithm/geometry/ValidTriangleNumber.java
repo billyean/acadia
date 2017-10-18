@@ -16,6 +16,8 @@
 
 package com.haibo.yan.algorithm.geometry;
 
+import java.util.Arrays;
+
 /**
  * see https://leetcode.com/problems/valid-triangle-number
  *
@@ -55,5 +57,26 @@ public class ValidTriangleNumber {
         int sum = a + b + c;
         int max = Math.max(a, Math.max(b, c));
         return sum - max > max;
+    }
+
+    public int triangleNumber2(int[] nums) {
+        /**
+         * Sort the edges for avoiding calculation
+         */
+        Arrays.sort(nums);
+
+        int triangles = 0;
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            for (int j = i + 1; j < nums.length - 1; j++) {
+                int k = j + 1;
+                while (k < nums.length && nums[i] + nums[j] > nums[k]) {
+                    triangles++;
+                    k++;
+                }
+            }
+        }
+
+        return triangles;
     }
 }

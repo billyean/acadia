@@ -8,7 +8,6 @@ Here is the language specific
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
-- [Max Points on a Line](java/src/main/java/com/haibo/yan/algorithm/MaxPointsOnLine.java)
 
 ### Bit Operation
 - [Power Of Four](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)
@@ -84,6 +83,7 @@ Here is the language specific
 
 ### Geometry
 - [Valid Triangle Number](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)
+- [Max Points on a Line](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)
 
 ### Data Structure
 - [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
