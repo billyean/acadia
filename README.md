@@ -60,7 +60,7 @@ Here is the language specific
 - [Reverse Words](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)
 
 ### Permutation
-- [Permutation](java/src/main/java/com/haibo/yan/algorithm/Permutation.java)(Apple)
+- [Permutation](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)(Apple)
 
 ### Dynamic Programming(Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem)
 - [Fibonacci](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)
