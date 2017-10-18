@@ -12,8 +12,6 @@ Here is the language specific
 - [One's Number](java/src/main/java/com/haibo/yan/algorithm/OneNumbers.java)
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
-- [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/MoveZeroes.java)(Facebook)
-- [Add One](java/src/main/java/com/haibo/yan/algorithm/AddOne.java)(Apple)
 - [Sort by one](java/src/main/java/com/haibo/yan/algorithm/SortByOne.java)(GE electric)
 - [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/MinSubArrayLen.java)
 - [Max Points on a Line](java/src/main/java/com/haibo/yan/algorithm/MaxPointsOnLine.java)
@@ -31,7 +29,7 @@ Here is the language specific
 - [Reverse Vowels of a String](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)
 - [Print Pattern](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)
 - [Sliding Windows](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)
-
+- [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)(Facebook)
 
 ### Matrix
 - [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
@@ -45,6 +43,9 @@ Here is the language specific
 
 ### Stack
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
+
+### Math
+- [Add One](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)(Apple)
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
