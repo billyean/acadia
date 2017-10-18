@@ -4,7 +4,6 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/medium/AddTwoNumbers.java)
 - [Number of Triangles](java/src/main/java/com/haibo/yan/algorithm/medium/NumberOfTriangles.java)
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
 - [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
@@ -46,6 +45,8 @@ Here is the language specific
 - [Sort by one](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)(GE electric)
 - [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)
 - [One's Number](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)
+- [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)
+- [ATOI](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
