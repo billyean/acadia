@@ -5,7 +5,6 @@ Here is the language specific
 
 ### Miscellaneous
 - [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
-- [Two Sum](java/src/main/java/com/haibo/yan/algorithm/easy/TwoSum.java)
 - [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
 - [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
 
@@ -45,6 +44,7 @@ Here is the language specific
 - [One's Number](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)
 - [ATOI](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)
+- [Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
@@ -90,6 +90,9 @@ Here is the language specific
 - [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)(Salesforce/Amazon)
 - [LFU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)
 - [Binary Heap](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)
+
+### Backtracking
+- [Generate Parentheses](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)
 
 ## Python
 - [Count cross for reorder array](python/cross_count.py) 
