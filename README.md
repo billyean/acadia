@@ -45,6 +45,7 @@ Here is the language specific
 - [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)
 - [ATOI](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)
 - [Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)
+- [Ugly Number](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
