@@ -24,6 +24,7 @@ Here is the language specific
 - [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)(Facebook)
 - [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)
 - [Continuous Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)
+- [Subarray Product Less Than K](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java) 
 
 ### Matrix
 - [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
