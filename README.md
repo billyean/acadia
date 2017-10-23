@@ -37,7 +37,7 @@ Here is the language specific
 - [Reorder List](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)
 
 ### Stack
-- [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)
+- [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)(Netflix)
 
 ### Math
 - [Add One](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)(Apple)
@@ -56,6 +56,7 @@ Here is the language specific
 - [Minimum Height Trees](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)
 - [Longest Consecutive Path](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)(Google)
 - [Binary Tree Zigzag Level Order Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)
+- [Find Duplicate Subtrees](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)
 
 ### String
 - [Knuth–Morris–Pratt](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)
