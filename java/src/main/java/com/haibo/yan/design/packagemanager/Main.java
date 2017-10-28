@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) [2017] [Haibo(Tristan) Yan]
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.haibo.yan.design.packagemanager;
 
 import java.util.Arrays;
@@ -5,8 +20,33 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Main class:
- * Reading command from standard input
+ * Main class: read all different command from standard input, parse the command and execute tje command, print given
+ * command along with the output.
+ *
+ * Support command include:
+ * DEPEND item1 item2 [item3...]
+ *         item1 depends on item2(and item3...).
+ * INSTALL item
+ *         install item and those on which it depends.
+ * LIST
+ *         list the names of all currently installed packages.
+ * REMOVE item
+ *         remove item, along with those on which it depends. If no other package depends on it.
+ * END
+ *         exit current application
+ *
+ * todo: There is a bug in the example output. When removing browser happens, NETCARD should be removed also, but given
+ *       output example doesn't remove it.
+ *
+ * How to build:
+ * mvn clean package
+ *
+ * How to run the application:
+ *
+ * java  -jar target/com.haiboyan.packagemanager-1.0-SNAPSHOT.jar < [INPUT_FILE]
+ * here we have test_input as an example.
+ *
+ *
  */
 public class Main {
     public static void main(String[] args) {
