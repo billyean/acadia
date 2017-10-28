@@ -4,124 +4,106 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- [Binary Watch](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
-- [Roman Digits](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
-- [Valid Anagram](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
+- Binary Watch [java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
+- Roman Digits [java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
+- Valid Anagram [java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
 
 ### Bit Operation
-- [Power Of Four](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)
-- [Single Number](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)
-- [Swap Two Integer](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)
+- Power Of Four [java](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)
+- Single Number [java](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)
+- Swap Two Integer [java](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)
 
 ### Array
-- [Zigzag Conversion](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
-- [Remove duplicates int from array](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
-- [Bibrary Search on rotate array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
-- [Rotate Array](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)
-- [Reverse Vowels of a String](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)
-- [Print Pattern](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)(Ebay)
-- [Sliding Windows](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)
-- [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)(Facebook)
-- [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)
-- [Continuous Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)
-- [Subarray Product Less Than K](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java) 
-- [Longest Palindrome Length](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java) 
-- [Merge Intervals](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)(Netflix)
+- Zigzag Conversion [java](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)
+- Remove duplicates int from array [java](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)
+- Bibrary Search on rotate array [java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
+- Rotate Array [java](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)
+- Reverse Vowels of a String [java](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)
+- Print Pattern [java](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)(Ebay)
+- Sliding Windows [java](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)
+- Move Zero To The End [java](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)(Facebook)
+- Minimum Size Subarray Sum [java](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)
+- Continuous Subarray Sum [java](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)
+- Subarray Product Less Than K [java](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java) 
+- Longest Palindrome Length [java](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java) 
+- Merge Intervals [java](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)(Netflix)
 
 ### Matrix
-- [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
+- Minimum steps to G [java](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
 
 ### Linked List
-- [Circle](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
-- [Remove reverse kth element](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)
-- [One diff only](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)(Facebook)
-- [Swap Pairs](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)
-- [Reorder List](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)
-- [Odd Even Linked List](java/src/test/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)
+- Circle [java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)
+- Remove reverse kth element [java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)
+- One diff only [java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)(Facebook)
+- Swap Pairs [java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)
+- Reorder List [java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)
+- Odd Even Linked List [java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)
 
 ### Stack
-- [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)(Netflix)
+- Min Stack [java](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)(Netflix)
 
 ### Math
-- [Add One](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)(Apple)
-- [Sort by one](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)(GE electric)
-- [Reverse Integer](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)
-- [One's Number](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)
-- [Add Two Numbers](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)
-- [ATOI](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)
-- [Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)
-- [Ugly Number](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)
-- [Count Numbers with Unique Digits](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)
-- [Prime Sum](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)(Facebook)
+- Add One [java](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)(Apple)
+- Sort by one [java](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)(GE electric)
+- Reverse Integer [java](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)
+- One's Number [java](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)
+- Add Two Numbers [java](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)
+- ATOI [java](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)
+- Sum [java](Two Sum, Three Sum, Three Sum Closest, 4 Sum)(java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)
+- Ugly Number [java](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)
+- Count Numbers with Unique Digits [java](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)
+- Prime Sum [java](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)(Facebook)
 
 ### Tree
-- [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
-- [Binrary Tree Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)(Facebook)
-- [Minimum Height Trees](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)
-- [Longest Consecutive Path](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)(Google)
-- [Binary Tree Zigzag Level Order Traversal](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)
-- [Find Duplicate Subtrees](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)
+- Binrary Tree Serialization [java](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
+- Binrary Tree Traversal [java](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)(Facebook)
+- Minimum Height Trees [java](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)
+- Longest Consecutive Path [java](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)(Google)
+- Binary Tree Zigzag Level Order Traversal [java](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)
+- Find Duplicate Subtrees [java](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)
+- Balanced Binrary Tree [python](python/balanced_binary_tree.py)
 
 ### String
-- [Knuth–Morris–Pratt](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)
-- [Longest Substring Without Repeating Characters](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
-- [Isomorphic Strings](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)
-- [Reverse Words](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)
-- [Interleave](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)(Facebook)
-
+- Knuth–Morris–Pratt [java](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java) [python](python/kmp.py)
+- Longest Substring Without Repeating Characters [java](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)
+- Isomorphic Strings [java](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)
+- everse Words [java](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)
+- Interleave [java](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java) -(Facebook)
+- Count cross for reorder array java [python](python/cross_count.py) 
 ### Permutation
-- [Permutation](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)(Apple)
+- Permutation(Apple) [java](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java) [python](python/permutation.py)
 
 ### Dynamic Programming(Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem)
-- [Fibonacci](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)
-- [Coin Change](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)
-- [Knapsack](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)
-- [Longest Common Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)(Linkedin)
-- [Subset to Sum](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
-- [Maximal Square](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)
-- [Longest Increasing Subsequence](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)
-- [Largest Rectangle in Histogram](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)
-- [Wildcard Matching](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)
+- Fibonacci [java](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)
+- Coin Change [java](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)
+- Knapsack [java](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)
+- Longest Common Subsequence [java](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java) -(Linkedin)
+- Subset to Sum [java](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)
+- Maximal Square [java](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)
+- Longest Increasing Subsequence [java](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)
+- Largest Rectangle in Histogram [java](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)
+- Wildcard Matching [java](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)
 
 ### Binary Search
-- [Binary Search in rotated order array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)(Salesforce)
-- [Lookup Latest Good Version](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)(Facebook)
+- Binary Search in rotated order array [java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java) -(Salesforce)
+- Lookup Latest Good Version [java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java) -(Facebook)
 
 ### Graph
-- [Topology Sort](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)(Apple)
-- [Dijkstra Algorithm](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)
+- Topology Sort [java](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java) -(Apple)
+- Dijkstra Algorithm [java](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)
 
 ### Geometry
-- [Valid Triangle Number](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)
-- [Max Points on a Line](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)
+- Valid Triangle Number [java](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)
+- Max Points on a Line [java](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)
 
 ### Data Structure
-- [Trie](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
-- [LRU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)(Salesforce/Amazon)
-- [LFU](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)
-- [Binary Heap](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)
+- Trie [java](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)
+- LRU [java](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java) -(Salesforce/Amazon)
+- LFU [java](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)
+- Binary Heap [java](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)
 
 ### Backtracking
-- [Generate Parentheses](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)
-
-## Python
-- [Count cross for reorder array](python/cross_count.py) 
-
-### String
-- [Knuth–Morris–Pratt](python/kmp.py)
-- [Count number of sub string](python/count_substring.py)
-
-### Permutation
-- [permutation](python/permutation.py)
-
-### Tree
-- [Balanced Binrary Tree](python/balanced_binary_tree.py)
-
-## C++
-
-## Javascript
-
-## Swift
+- Generate Parentheses [java](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)
 
 # Advanced algorithm
 
