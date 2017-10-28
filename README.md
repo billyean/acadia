@@ -4,7 +4,7 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- Binary Watch [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
+- [Binary Watch] [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
 - Roman Digits [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)] [python] [c++] [swift] [javascript] -(LinkedIn)
 - Valid Anagram [[java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)]  [python] [c++] [swift] [javascript]
 
@@ -14,7 +14,7 @@ Here is the language specific
 - Swap Two Integer [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)] [python] [c++] [swift] [javascript]
 
 ### Array
-- Zigzag Conversion ][java](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)] [python] [c++] [swift] [javascript]
+- Zigzag Conversion [java](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)] [python] [c++] [swift] [javascript]
 - Remove duplicates int from array ][java](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)] [python] [c++] [swift] [javascript]
 - Bibrary Search on rotate array [[java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)] [python] [c++] [swift] [javascript]
 - Rotate Array [[java](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)] [python] [c++] [swift] [javascript]
