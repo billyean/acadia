@@ -4,8 +4,8 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- Binary Watch [java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)
-- Roman Digits [java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)
+- Binary Watch [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)]
+- Roman Digits [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)(LinkedIn)]
 - Valid Anagram [java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)
 
 ### Bit Operation
