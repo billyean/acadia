@@ -19,13 +19,14 @@ Here is the language specific
 - [Bibrary Search on rotate array](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)
 - [Rotate Array](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)
 - [Reverse Vowels of a String](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)
-- [Print Pattern](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)
+- [Print Pattern](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)(Ebay)
 - [Sliding Windows](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)
 - [Move Zero To The End](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)(Facebook)
 - [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)
 - [Continuous Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)
 - [Subarray Product Less Than K](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java) 
 - [Longest Palindrome Length](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java) 
+- [Merge Intervals](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)(Netflix)
 
 ### Matrix
 - [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
