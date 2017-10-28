@@ -25,6 +25,7 @@ Here is the language specific
 - [Minimum Size Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)
 - [Continuous Subarray Sum](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)
 - [Subarray Product Less Than K](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java) 
+- [Longest Palindrome Length](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java) 
 
 ### Matrix
 - [Minimum steps to G](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)(Facebook)
