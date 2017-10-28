@@ -4,69 +4,69 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- [Binary Watch] [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
-- Roman Digits [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)] [python] [c++] [swift] [javascript] -(LinkedIn)
+- Binary Watch  [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
+- Roman Digits   [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)] [python] [c++] [swift] [javascript] -(LinkedIn)
 - Valid Anagram [[java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)]  [python] [c++] [swift] [javascript]
 
 ### Bit Operation
 - Power Of Four [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)]  [python] [c++] [swift] [javascript]
 - Single Number [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)] [python] [c++] [swift] [javascript]
-- Swap Two Integer [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)] [python] [c++] [swift] [javascript]
+- Swap Two Integer  [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)] [python] [c++] [swift] [javascript]
 
 ### Array
 - Zigzag Conversion [java](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)] [python] [c++] [swift] [javascript]
-- Remove duplicates int from array ][java](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)] [python] [c++] [swift] [javascript]
-- Bibrary Search on rotate array [[java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)] [python] [c++] [swift] [javascript]
-- Rotate Array [[java](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)] [python] [c++] [swift] [javascript]
-- Reverse Vowels of a String [[java](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)] [python] [c++] [swift] [javascript]
+- Remove duplicates int from array  [[java](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)] [python] [c++] [swift] [javascript]
+- Bibrary Search on rotate array    [[java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)] [python] [c++] [swift] [javascript]
+- Rotate Array  [[java](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)] [python] [c++] [swift] [javascript]
+- Reverse Vowels of a String    [[java](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)] [python] [c++] [swift] [javascript]
 - Print Pattern [[java](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)] [python] [c++] [swift] [javascript] -(Ebay)
-- Sliding Windows [[java](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)] [python] [c++] [swift] [javascript]
-- Move Zero To The End [[java](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)] [python] [c++] [swift] [javascript] -(Facebook)
+- Sliding Windows   [[java](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)] [python] [c++] [swift] [javascript]
+- Move Zero To The End  [[java](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)] [python] [c++] [swift] [javascript] -(Facebook)
 - Minimum Size Subarray Sum [[java](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)] [python] [c++] [swift] [javascript]
-- Continuous Subarray Sum [[java](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)] [python] [c++] [swift] [javascript]
-- Subarray Product Less Than K [[java](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)]  [python] [c++] [swift] [javascript]
+- Continuous Subarray Sum   [[java](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)] [python] [c++] [swift] [javascript]
+- Subarray Product Less Than K  [[java](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)]  [python] [c++] [swift] [javascript]
 - Longest Palindrome Length [[java](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)] [python] [c++] [swift] [javascript]
-- Merge Intervals [[java](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)] [python] [c++] [swift] [javascript] -(Netflix)
+- Merge Intervals   [[java](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)] [python] [c++] [swift] [javascript] -(Netflix)
 
 ### Matrix
-- Minimum steps to G [[java](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)] [python] [c++] [swift] [javascript] -(Facebook)
+- Minimum steps to G    [[java](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)] [python] [c++] [swift] [javascript] -(Facebook)
 
 ### Linked List
-- Circle [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)] [python] [c++] [swift] [javascript]
-- Remove reverse kth element [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)] [python] [c++] [swift] [javascript]
+- Circle    [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)] [python] [c++] [swift] [javascript]
+- Remove reverse kth element    [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)] [python] [c++] [swift] [javascript]
 - One diff only [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)] [python] [c++] [swift] [javascript] -(Facebook)
-- Swap Pairs [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)] [python] [c++] [swift] [javascript]
-- Reorder List [[java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)] [python] [c++] [swift] [javascript]
-- Odd Even Linked List [[java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)] [python] [c++] [swift] [javascript]
+- Swap Pairs    [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)] [python] [c++] [swift] [javascript]
+- Reorder List  [[java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)] [python] [c++] [swift] [javascript]
+- Odd Even Linked List  [[java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)] [python] [c++] [swift] [javascript]
 
 ### Stack
 - Min Stack [[java](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)] [python] [c++] [swift] [javascript] -(Netflix)
 
 ### Math
-- Add One [[java](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)] [python] [c++] [swift] [javascript] -(Apple)
-- Sort by one [[java](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)] [python] [c++] [swift] [javascript] -(GE)
-- Reverse Integer [[java](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)] [python] [c++] [swift] [javascript]
-- One's Number [[java](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)] [python] [c++] [swift] [javascript]
-- Add Two Numbers [[java](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)] [python] [c++] [swift] [javascript]
-- ATOI [[java](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)] [python] [c++] [swift] [javascript]
+- Add One   [[java](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)] [python] [c++] [swift] [javascript] -(Apple)
+- Sort by one   [[java](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)] [python] [c++] [swift] [javascript] -(GE)
+- Reverse Integer   [[java](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)] [python] [c++] [swift] [javascript]
+- One's Number  [[java](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)] [python] [c++] [swift] [javascript]
+- Add Two Numbers   [[java](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)] [python] [c++] [swift] [javascript]
+- ATOI  [[java](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)] [python] [c++] [swift] [javascript]
 - Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum) [[java](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)] [python] [c++] [swift] [javascript]
-- Ugly Number [[java](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)] [python] [c++] [swift] [javascript]
-- Count Numbers with Unique Digits [[java](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)] [python] [c++] [swift] [javascript]
+- Ugly Number   [[java](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)] [python] [c++] [swift] [javascript]
+- Count Numbers with Unique Digits  [[java](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)] [python] [c++] [swift] [javascript]
 - Prime Sum [[java](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)] [python] [c++] [swift] [javascript] -(Facebook)
 
 ### Tree
-- Binrary Tree Serialization [[java](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)] [python] [c++] [swift] [javascript] -(Apple)
-- Binrary Tree Traversal [[java](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)] [python] [c++] [swift] [javascript] -(Facebook)
-- Minimum Height Trees [[java](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)] [python] [c++] [swift] [javascript]
-- Longest Consecutive Path [[java](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)] [python] [c++] [swift] [javascript] -(Google)
-- Binary Tree Zigzag Level Order Traversal [[java](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)] [python] [c++] [swift] [javascript]
-- Find Duplicate Subtrees [[java](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)] [python] [c++] [swift] [javascript]
+- Binrary Tree Serialization    [[java](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)] [python] [c++] [swift] [javascript] -(Apple)
+- Binrary Tree Traversal    [[java](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)] [python] [c++] [swift] [javascript] -(Facebook)
+- Minimum Height Trees  [[java](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)] [python] [c++] [swift] [javascript]
+- Longest Consecutive Path  [[java](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)] [python] [c++] [swift] [javascript] -(Google)
+- Binary Tree Zigzag Level Order Traversal  [[java](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)] [python] [c++] [swift] [javascript]
+- Find Duplicate Subtrees   [[java](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)] [python] [c++] [swift] [javascript]
 - Balanced Binrary Tree [java] [[python](python/balanced_binary_tree.py)] [c++] [swift] [javascript]
 
 ### String
-- Knuth–Morris–Pratt [[java](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)] [[python](python/kmp.py)] [c++] [swift] [javascript]
-- Longest Substring Without Repeating Characters [[java](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)] [python] [c++] [swift] [javascript]
-- Isomorphic Strings [[java](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)] [python] [c++] [swift] [javascript]
+- Knuth–Morris–Pratt    [[java](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)] [[python](python/kmp.py)] [c++] [swift] [javascript]
+- Longest Substring Without Repeating Characters    [[java](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)] [python] [c++] [swift] [javascript]
+- Isomorphic Strings    [[java](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)] [python] [c++] [swift] [javascript]
 - everse Words [[java](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)] [python] [c++] [swift] [javascript]
 - Interleave [[java](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)] [python] [c++] [swift] [javascript] -(Facebook)
 - Count cross for reorder array  [java] [[python](python/cross_count.py)] [c++] [swift] [javascript] 
