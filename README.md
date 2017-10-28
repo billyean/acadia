@@ -51,6 +51,7 @@ Here is the language specific
 - [Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)
 - [Ugly Number](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)
 - [Count Numbers with Unique Digits](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)
+- [Prime Sum](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)(Facebook)
 
 ### Tree
 - [Binrary Tree Serialization](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)(Apple)
