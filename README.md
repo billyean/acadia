@@ -37,6 +37,7 @@ Here is the language specific
 - [One diff only](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)(Facebook)
 - [Swap Pairs](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)
 - [Reorder List](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)
+- [Odd Even Linked List](java/src/test/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)
 
 ### Stack
 - [Min Stack](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)(Netflix)

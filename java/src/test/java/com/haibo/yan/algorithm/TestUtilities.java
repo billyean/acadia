@@ -30,7 +30,7 @@ public class TestUtilities {
             assertNull(head);
         } else {
             for (int i = 0; i < expectedValues.size(); i++) {
-                Assert.assertNotNull(head);
+                Assert.assertNotNull(head, String.format("Actual %dth Node is null", i));
                 Assert.assertEquals(head.value, expectedValues.get(i));
                 head = head.next;
             }

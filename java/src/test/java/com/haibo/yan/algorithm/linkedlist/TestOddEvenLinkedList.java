@@ -26,19 +26,13 @@ import java.util.List;
 public class TestOddEvenLinkedList {
     @DataProvider
     public Object[][] oddEvenList() {
-        ListNode oddNum1 = new ListNode(1);
-        oddNum1.append(2).append(3).append(4).append(5);
-        ListNode oddNum2 = new ListNode(1);
-        ListNode evenNum1 = new ListNode(1);
-        evenNum1.append(2).append(3).append(4);
-        ListNode evenNum2 = new ListNode(1);
-        evenNum2.append(2);
-
         return new Object[][]{
-                {oddNum1, Arrays.asList(1, 3, 5, 2, 4)} ,
-                {oddNum2, Arrays.asList(1)},
-                {evenNum1, Arrays.asList(1, 3, 2, 4)} ,
-                {evenNum2, Arrays.asList(1, 2)}
+                {ListNode.deserialize("1#2#3#4#5"), Arrays.asList(1, 3, 5, 2, 4)} ,
+                {ListNode.deserialize("1"), Arrays.asList(1)},
+                {ListNode.deserialize("1#2#3#4"), Arrays.asList(1, 3, 2, 4)} ,
+                {ListNode.deserialize("1#2"), Arrays.asList(1, 2)},
+                {ListNode.deserialize("1#2#3"), Arrays.asList(1, 3, 2)},
+                {ListNode.deserialize("1#2#3#4#5#6#7#8"), Arrays.asList(1, 3, 5, 7, 2, 4, 6, 8)}
         };
     }
 

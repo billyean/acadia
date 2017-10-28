@@ -34,26 +34,24 @@ public class OddEvenLinkedList {
     public static <T> ListNode<T> oddEvenList(ListNode<T> head) {
         if (head == null || head.next == null) return head;
 
+        ListNode<T> prev = head, tail = head.next;
 
-        ListNode<T> odd = head, oddC = odd;
-        ListNode<T> even = head.next, evenC = even;
+        ListNode<T> current = tail.next;
 
-        ListNode<T> current = even.next;
-
-        while (current != null && current.next != null) {
-            oddC.next = current;
-            evenC.next = current.next;
-            oddC = oddC.next;
-            evenC = evenC.next;
-            current = current.next.next;
+        while (current != null) {
+            ListNode<T> currentNext = current.next;
+            current.next = prev.next;
+            prev.next = current;
+            tail.next = currentNext;
+            prev = prev.next;
+            if (currentNext != null) {
+                current = currentNext.next;
+            } else {
+                current = null;
+            }
+            tail = tail.next;
         }
 
-        if (current != null) {
-            oddC.next = current;
-            oddC = oddC.next;
-        }
-        oddC.next = even;
-
-        return odd;
+        return head;
     }
 }
