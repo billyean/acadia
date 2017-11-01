@@ -14,6 +14,35 @@ public class BinaryTreeNode {
         this.value = value;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof BinaryTreeNode) || o == null) {
+            return false;
+        }
+
+        BinaryTreeNode other = (BinaryTreeNode)o;
+
+        if (this.value != other.value) {
+            return false;
+        }
+
+        boolean leftSame = false;
+
+        if (this.left == null) {
+            return other.left == null;
+        } else {
+            leftSame = this.left.equals(other.left);
+        }
+
+        boolean rightSame = false;
+        if (this.right == null) {
+            return other.right == null;
+        } else {
+            rightSame = this.right.equals(other.right);
+        }
+        return leftSame && rightSame;
+    }
+
     /**
      * pre-order serialize tree.
      * We use special characters ! representing dilemeter of node, special characters # representing null node.
@@ -47,6 +76,136 @@ public class BinaryTreeNode {
             builder.append(root.value).append("!");
             recursiveSerialize(root.left, builder);
             recursiveSerialize(root.right, builder);
+        }
+    }
+
+    /**
+     * Be aware this is for binary search tree
+     * @param root
+     * @param key
+     * @return
+     */
+    public static BinaryTreeNode deleteNode (BinaryTreeNode root, int key) {
+        BinaryTreeNode parent = null, node = root;
+
+        while(node != null && node.value != key) {
+            parent = node;
+            node = node.value > key ? node.left : node.right;
+        }
+
+        BinaryTreeNode newNode = null;
+        if (node != null) {
+            BinaryTreeNode left = node.left;
+            BinaryTreeNode right = node.right;
+
+            if (left == null || right == null) {
+                newNode = left == null ? right : left;
+            } else {
+                BinaryTreeNode leftRight = left.right;
+                BinaryTreeNode next = right;
+                while (next.left != null) {
+                    next = next.left;
+                }
+                newNode = left;
+                newNode.right = right;
+                next.left = leftRight;
+            }
+
+            if (parent != null) {
+                if (parent.left == node) {
+                    parent.left = newNode;
+                } else {
+                    parent.right = newNode;
+                }
+            }
+        }
+
+        if (parent == null) {
+            return newNode;
+        } else {
+            return root;
+        }
+    }
+
+    /**
+     * see https://leetcode.com/problems/delete-node-in-a-bst
+     * Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root
+     * node reference (possibly updated) of the BST.
+     * Basically, the deletion can be divided into two stages:
+     * Search for a node to remove.
+     * If the node is found, delete the node.
+     * Note: Time complexity should be O(height of tree).
+     *
+     * Example:
+     *
+     * root = [5,3,6,2,4,null,7]
+     * key = 3
+     *
+     *     5
+     *   /  \
+     *  3    6
+     * / \    \
+     * 2   4   7
+     *
+     * Given key to delete is 3. So we find the node with value 3 and delete it.
+     *
+     * 1. One valid answer is [5,4,6,2,null,null,7], shown in the following BST.
+     *
+     *     5
+     *    / \
+     *   4   6
+     *  /     \
+     * 2       7
+     *
+     * 2. Another valid answer is [5,2,6,null,4,null,7].(Taking this approach)
+     *
+     *    5
+     *   / \
+     *  2   6
+     *  \   \
+     *   4   7
+     * @param parent
+     * @param node
+     * @param key
+     * @return
+     */
+    private static BinaryTreeNode deleteNode (BinaryTreeNode parent, BinaryTreeNode node, int key) {
+        if (node != null) {
+            if (node.value == key) {
+                BinaryTreeNode left = node.left;
+                BinaryTreeNode right = node.left;
+                BinaryTreeNode newNode;
+                if (left == null || right == null) {
+                    newNode = left == null ? right : left;
+                } else {
+                    BinaryTreeNode leftRight = left.right;
+                    BinaryTreeNode next = right;
+                    while (next.left != null) {
+                        next = next.left;
+                    }
+                    newNode = left;
+                    newNode.right = right;
+                    next.left = leftRight;
+                }
+
+                if (parent != null) {
+                    if (parent.left == node) {
+                        parent.left = newNode;
+                    } else {
+                        parent.right = newNode;
+                    }
+                }
+            } else if (node.value > key) {
+                deleteNode(node, node.left, key);
+            } else {
+                deleteNode(node, node.right, key);
+            }
+        }
+
+        if (parent == null) {
+            return node;
+        } else {
+            return parent;
         }
     }
 

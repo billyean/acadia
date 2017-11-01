@@ -17,27 +17,24 @@
 package com.haibo.yan.algorithm.dp;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
-/**
- *
- * See https://leetcode.com/problems/coin-change
- * You are given coins of different denominations and a total amount of money amount. Write a function to compute the
- * fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any
- * combination of the coins, return -1.
- *
- * Example 1:
- * coins = [1, 2, 5], amount = 11
- * return 3 (11 = 5 + 5 + 1)
- *
- * Example 2:
- * coins = [2], amount = 3
- * return -1.
- */
 public class CoinChange {
     /**
-     * Typical dp problem
-     * @param coins changes array you can use
+     * See https://leetcode.com/problems/coin-change
+     * <p>
+     * You are given coins of different denominations and a total amount of money amount. Write a function to compute the
+     * fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any
+     * combination of the coins, return -1.
+     * <p>
+     * Example 1:
+     * coins = [1, 2, 5], amount = 11
+     * return 3 (11 = 5 + 5 + 1)
+     * <p>
+     * Example 2:
+     * coins = [2], amount = 3
+     * return -1.
+     *
+     * @param coins  changes array you can use
      * @param amount total amount
      * @return minimin coins would be used to make up the amount.
      */
@@ -59,5 +56,52 @@ public class CoinChange {
         }
 
         return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
+    }
+
+    /**
+     * see https://leetcode.com/problems/coin-change-2
+     * <p>
+     * You are given coins of different denominations and a total amount of money. Write a function to compute the
+     * number of combinations that make up that amount. You may assume that you have infinite number of each kind of
+     * coin.
+     * Note: You can assume that
+     * <p>
+     * 0 <= amount <= 5000
+     * 1 <= coin <= 5000
+     * the number of coins is less than 500
+     * the answer is guaranteed to fit into signed 32-bit integer
+     *
+     * @param coins
+     * @param amount
+     * @return
+     */
+    public static int coinChange2(int[] coins, int amount) {
+        Arrays.sort(coins);
+        int[] dp = new int[amount + 1];
+
+
+
+        for (int j = 0; j < coins.length; j++) {
+            for (int i = 0; i < amount; i++) {
+                if (i + 1 == coins[j]) {
+                    dp[i]++;
+                } else if (i + 1 > coins[j]) {
+                    dp[i] += dp[i - coins[j]];
+                }
+            }
+        }
+
+        for (int i = 0; i < amount; i++) {
+            for (int j = 0; j < coins.length; j++) {
+                if (i + 1 == coins[j]) {
+                    dp[i]++;
+                } else if (i + 1 > coins[j]) {
+                    dp[i] += dp[i - coins[j]];
+                }
+                System.out.printf("i + 1 = %d, coins[%d] = %d, dp[%d] = %d\n", i + 1, j, coins[j], i, dp[i]);
+            }
+        }
+
+        return dp[amount - 1];
     }
 }

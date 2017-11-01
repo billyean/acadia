@@ -84,6 +84,7 @@ Here is the language specific
 - Longest Increasing Subsequence [[java](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)] [python] [c++] [swift] [javascript] 
 - Largest Rectangle in Histogram [[java](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)] [python] [c++] [swift] [javascript] 
 - Wildcard Matching              [[java](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)] [python] [c++] [swift] [javascript] 
+- Predict    Winner              [[java](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)] [python] [c++] [swift] [javascript]
 
 ### Binary Search
 - Binary Search in rotated order array [[java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)] [python] [c++] [swift] [javascript]  -(Salesforce)

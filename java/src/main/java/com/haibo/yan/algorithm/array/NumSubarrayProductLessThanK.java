@@ -18,7 +18,7 @@ package com.haibo.yan.algorithm.array;
 
 public class NumSubarrayProductLessThanK {
     /**
-     * 
+     *
      * see https://leetcode.com/problems/subarray-product-less-than-k
      *
      * Your are given an array of positive integers nums.
