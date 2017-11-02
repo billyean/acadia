@@ -15,15 +15,15 @@
 |------------------|---------------|--------|-----|-------|------------|-------|
 | Power Of Four    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)||||||
 | Single Number    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)||||||
-| Swap Two Integer |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/SwapTwoInt.java)||||||
+| Swap Two Integer |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)||||||
 
 ### Array
 
 | Problem                          | Java     | Python | C++ | Swift | JavaScript | Scala |
 |----------------------------------|----------|--------|-----|-------|------------|-------|
 | Zigzag Conversion                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)||||||
-| Remove duplicates int from array |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)||||||
-| Bibrary Search on rotate array   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)||||||
+| Remove duplicates int from array |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||||||
+| Bibrary Search on rotate array   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Rotate Array                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)||||||
 | Reverse Vowels of a String       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
 | Print Pattern                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
@@ -50,7 +50,7 @@
 | Remove reverse kth element |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
 | One diff only(Facebook)    |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
 | Swap Pairs                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)||||||
-| Reorder List               |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)||||||
+| Reorder List               |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)||||||
 | Odd Even Linked List       |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)||||||
 
 ### Stack
@@ -72,7 +72,7 @@
 | Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum) |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)||||||
 | Ugly Number                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)||||||
 | Count Numbers with Unique Digits                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
-| Prime Sum(Facebook)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)||||||
+| Prime Sum(Facebook)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)||||||
 
 ### Tree
 
