@@ -4,9 +4,12 @@ Here is the language specific
 ## Java
 
 ### Miscellaneous
-- Binary Watch  [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
-- Roman Digits  [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)] [python] [c++] [swift] [javascript] -(LinkedIn)
-- Valid Anagram [[java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)]  [python] [c++] [swift] [javascript]
+- Binary Watch  
+  [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
+- Roman Digits  
+  [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)] [python] [c++] [swift] [javascript] -(LinkedIn)
+- Valid Anagram 
+  [[java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)]  [python] [c++] [swift] [javascript]
 
 ### Bit Operation
 - Power Of Four    [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)]  [python] [c++] [swift] [javascript]
@@ -28,6 +31,7 @@ Here is the language specific
 - Longest Palindrome Length        [[java](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)] [python] [c++] [swift] [javascript]
 - Merge Intervals                  [[java](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)] [python] [c++] [swift] [javascript] -(Netflix)
 - Wiggle Sort                      [[java](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)] [python] [c++] [swift] [javascript]
+
 
 ### Matrix
 - Minimum steps to G [[java](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)] [python] [c++] [swift] [javascript] -(Facebook)
