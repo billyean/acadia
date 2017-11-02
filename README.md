@@ -21,70 +21,70 @@
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Zigzag Conversion                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)||||||
-| Remove duplicates int from array                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||||||
-| Bibrary Search on rotate array                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
-| Rotate Array                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)||||||
-| Reverse Vowels of a String                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
-| Print Pattern                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
-| Sliding Windows                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)||||||
-| Move Zero To The End                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)||||||
-| Minimum Size Subarray Sum                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)||||||
-| Continuous Subarray Sum                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)||||||
-| Subarray Product Less Than K                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)||||||
-| Longest Palindrome Length                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)||||||
-| Merge Intervals                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)||||||
-| Wiggle Sort                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
+| Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)||||||
+| Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||||||
+| Bibrary Search on rotate array                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
+| Rotate Array                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)||||||
+| Reverse Vowels of a String                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
+| Print Pattern                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
+| Sliding Windows                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)||||||
+| Move Zero To The End                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)||||||
+| Minimum Size Subarray Sum                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)||||||
+| Continuous Subarray Sum                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)||||||
+| Subarray Product Less Than K                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)||||||
+| Longest Palindrome Length                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)||||||
+| Merge Intervals                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)||||||
+| Wiggle Sort                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
 
 ### Matrix
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Minimum steps to G(Facebook)                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
+| Minimum steps to G(Facebook)                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
 
 ### Linked List
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Circle                                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)||||||
-| Remove reverse kth element                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
-| One diff only(Facebook)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
-| Swap Pairs                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)||||||
-| Reorder List                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)||||||
-| Odd Even Linked List                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)||||||
+| Circle                                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)||||||
+| Remove reverse kth element                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
+| One diff only(Facebook)                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
+| Swap Pairs                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)||||||
+| Reorder List                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)||||||
+| Odd Even Linked List                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)||||||
 
 ### Stack
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Min Stack(Netflix)                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||||||
+| Min Stack(Netflix)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||||||
 
 ### Math
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Add One(Apple)                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)||||||
-| Sort by one(GE)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)||||||
-| Reverse Integer                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)||||||
-| One's Number                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)||||||
-| Add Two Numbers                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)||||||
-| ATOI                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)||||||
-| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum) |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)||||||
-| Ugly Number                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)||||||
-| Count Numbers with Unique Digits                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
-| Prime Sum(Facebook)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)||||||
+| Add One(Apple)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)||||||
+| Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)||||||
+| Reverse Integer                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)||||||
+| One's Number                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)||||||
+| Add Two Numbers                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)||||||
+| ATOI                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)||||||
+| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)||||||
+| Ugly Number                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)||||||
+| Count Numbers with Unique Digits                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
+| Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)||||||
 
 ### Tree
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Binrary Tree Serialization(Apple)                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)||||||
-| Binrary Tree Traversal                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)||||||
-| Minimum Height Trees                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)||||||
-| Longest Consecutive Path                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)||||||
-| Binary Tree Zigzag Level Order Traversal          |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)||||||
-| Find Duplicate Subtrees                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)||||||
-| Balanced Binrary Tree                             ||[Solution](python/balanced_binary_tree.py)|||||
+| Binrary Tree Serialization(Apple)                |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)||||||
+| Binrary Tree Traversal                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)||||||
+| Minimum Height Trees                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)||||||
+| Longest Consecutive Path                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)||||||
+| Binary Tree Zigzag Level Order Traversal         |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)||||||
+| Find Duplicate Subtrees                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)||||||
+| Balanced Binrary Tree                            ||[Solution](python/balanced_binary_tree.py)|||||
 
 ### String
 
@@ -138,17 +138,17 @@
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Valid Triangle Number                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)||||||
-| Max Points on a Line                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)||||||
+| Valid Triangle Number                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)||||||
+| Max Points on a Line                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)||||||
 
 ### Data Structure
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Trie                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)||||||
-| LRU(Salesforce/Amazon)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)||||||
-| LFU                                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)||||||
-| Binary Heap                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)||||||
+| Trie                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)||||||
+| LRU(Salesforce/Amazon)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)||||||
+| LFU                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)||||||
+| Binary Heap                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)||||||
 
 ### Backtracking
 
@@ -171,9 +171,9 @@
 
 ### Singleton(Creational)
 
-|`Pattern                                         `|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
-|--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-| Singleton                                        |[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)|[Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)|[Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)|[Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)|
+|`Pattern                      `|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
+|-------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+| Singleton                     |[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)|[Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)|[Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)|[Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)|
 
 ### Abstract Factory(Creational)
 
@@ -185,11 +185,19 @@
 
 ### Caching
 
+- MemCached
+- Redis
+
 ### Sharding
 
 ### Consistent Hashing
 
+- [Princeton Essay(Original)](https://www.cs.princeton.edu/courses/archive/fall09/cos518/papers/chash.pdf)
+- [Stanford essay](http://theory.stanford.edu/~tim/s17/l/l1.pdf)
+
 ### Copysets
+
+- [https://web.stanford.edu/~skatti/pubs/usenix13-copysets.pdf](https://web.stanford.edu/~skatti/pubs/usenix13-copysets.pdf)
 
 ### CAP Theorem(Consistency,Availability,Partition Tolerance)
 - [WIKI CAP_theorem](https://en.wikipedia.org/wiki/CAP_theorem)
