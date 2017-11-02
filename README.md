@@ -90,49 +90,49 @@
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Knuth–Morris–Pratt                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)||||||
-| Longest Substring Without Repeating Characters    |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)||||||
-| Isomorphic Strings                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)||||||
-| Reverse Words                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)||||||
-| Interleave(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)||||||
-| Count cross for reorder array                     ||[Solution](python/cross_count.py)|||||
+| Knuth–Morris–Pratt                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)||||||
+| Longest Substring Without Repeating Characters   |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)||||||
+| Isomorphic Strings                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)||||||
+| Reverse Words                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)||||||
+| Interleave(Facebook)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)||||||
+| Count cross for reorder array                    ||[Solution](python/cross_count.py)|||||
 
 ### Permutation
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Permutation(Apple)                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation.py)|||||
+| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation.py)|||||
 
 ### Dynamic Programming
 
-__Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem__
+<blink>__Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem__</blink>
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Fibonacci                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||
-| Coin Change                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)||||||
-| Knapsack                                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)||||||
-| Longest Common Subsequence(Linkedin)              |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)||||||
-| Subset to Sum                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)||||||
-| Maximal Square                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)||||||
-| Longest Increasing Subsequence                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)||||||
-| Largest Rectangle in Histogram                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)||||||
-| Wildcard Matching                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)||||||
-| Predict Winner                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)||||||
+| Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||
+| Coin Change                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)||||||
+| Knapsack                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)||||||
+| Longest Common Subsequence(Linkedin)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)||||||
+| Subset to Sum                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)||||||
+| Maximal Square                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)||||||
+| Longest Increasing Subsequence                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)||||||
+| Largest Rectangle in Histogram                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)||||||
+| Wildcard Matching                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)||||||
+| Predict Winner                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)||||||
 
 ### Binary Search
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Binary Search in rotated order array(Salesforce)  |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
-| Lookup Latest Good Version(Facebook)              |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)||||||
+| Binary Search in rotated order array(Salesforce) |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
+| Lookup Latest Good Version(Facebook)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)||||||
 
 ### Graph
 
 |`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Topology Sort(Apple)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)||||||
-| Dijkstra Algorithm                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)||||||
+| Topology Sort(Apple)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)||||||
+| Dijkstra Algorithm                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)||||||
 
 ### Geometry
 
