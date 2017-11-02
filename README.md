@@ -3,81 +3,105 @@
 
 ### Miscellaneous
 
-| Problem       | Java          | Python | C++ | Swift | JavaScript | Scala |
-|---------------|---------------|--------|-----|-------|------------|-------|
-| Binary Watch  |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
-| Roman Digits  |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/Roman.java)||||||
-| Valid Anagram |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/ValidAnagram.java)||||||
-
-
+| Problem        | Java          | Python | C++ | Swift | JavaScript | Scala |
+|----------------|---------------|--------|-----|-------|------------|-------|
+| Binary Watch   |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
+| Roman Digits   |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/Roman.java)||||||
+| Valid Anagram  |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/ValidAnagram.java)||||||
 
 ### Bit Operation
-- Power Of Four    [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)]  [python] [c++] [swift] [javascript]
-- Single Number    [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)] [python] [c++] [swift] [javascript]
-- Swap Two Integer [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)] [python] [c++] [swift] [javascript]
+
+| Problem          | Java          | Python | C++ | Swift | JavaScript | Scala |
+|------------------|---------------|--------|-----|-------|------------|-------|
+| Power Of Four    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)||||||
+| Single Number    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)||||||
+| Swap Two Integer |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/SwapTwoInt.java)||||||
 
 ### Array
-- Zigzag Conversion                [[java](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)] [python] [c++] [swift] [javascript]
-- Remove duplicates int from array [[java](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)] [python] [c++] [swift] [javascript]
-- Bibrary Search on rotate array   [[java](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)] [python] [c++] [swift] [javascript]
-- Rotate Array                     [[java](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)] [python] [c++] [swift] [javascript]
-- Reverse Vowels of a String       [[java](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)] [python] [c++] [swift] [javascript]
-- Print Pattern                    [[java](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)] [python] [c++] [swift] [javascript] -(Ebay)
-- Sliding Windows                  [[java](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)] [python] [c++] [swift] [javascript]
-- Move Zero To The End             [[java](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)] [python] [c++] [swift] [javascript] -(Facebook)
-- Minimum Size Subarray Sum        [[java](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)] [python] [c++] [swift] [javascript]
-- Continuous Subarray Sum          [[java](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)] [python] [c++] [swift] [javascript]
-- Subarray Product Less Than K     [[java](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)]  [python] [c++] [swift] [javascript]
-- Longest Palindrome Length        [[java](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)] [python] [c++] [swift] [javascript]
-- Merge Intervals                  [[java](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)] [python] [c++] [swift] [javascript] -(Netflix)
-- Wiggle Sort                      [[java](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)] [python] [c++] [swift] [javascript]
 
+| Problem                          | Java     | Python | C++ | Swift | JavaScript | Scala |
+|----------------------------------|----------|--------|-----|-------|------------|-------|
+| Zigzag Conversion                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)||||||
+| Remove duplicates int from array |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/RemoveDuplicates.java)||||||
+| Bibrary Search on rotate array   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/rotate/Solution.java)||||||
+| Rotate Array                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)||||||
+| Reverse Vowels of a String       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
+| Print Pattern                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
+| Sliding Windows                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)||||||
+| Move Zero To The End             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)||||||
+| Minimum Size Subarray Sum        |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)||||||
+| Continuous Subarray Sum          |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)||||||
+| Subarray Product Less Than K     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)||||||
+| Longest Palindrome Length        |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)||||||
+| Merge Intervals                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)||||||
+| Wiggle Sort                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
 
 ### Matrix
-- Minimum steps to G [[java](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)] [python] [c++] [swift] [javascript] -(Facebook)
+
+| Problem                      | Java          | Python | C++ | Swift | JavaScript | Scala |
+|------------------------------|---------------|--------|-----|-------|------------|-------|
+| Minimum steps to G(Facebook) |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
 
 ### Linked List
-- Circle                     [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)] [python] [c++] [swift] [javascript]
-- Remove reverse kth element [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)] [python] [c++] [swift] [javascript]
-- One diff only              [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)] [python] [c++] [swift] [javascript] -(Facebook)
-- Swap Pairs                 [[java](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)] [python] [c++] [swift] [javascript]
-- Reorder List               [[java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)] [python] [c++] [swift] [javascript]
-- Odd Even Linked List       [[java](java/src/test/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)] [python] [c++] [swift] [javascript]
+
+| Problem                    | Java          | Python | C++ | Swift | JavaScript | Scala |
+|----------------------------|---------------|--------|-----|-------|------------|-------|
+| Circle                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)||||||
+| Remove reverse kth element |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
+| One diff only(Facebook)    |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
+| Swap Pairs                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)||||||
+| Reorder List               |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)||||||
+| Odd Even Linked List       |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)||||||
 
 ### Stack
-- Min Stack [[java](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)] [python] [c++] [swift] [javascript] -(Netflix)
+
+| Problem                    | Java          | Python | C++ | Swift | JavaScript | Scala |
+|----------------------------|---------------|--------|-----|-------|------------|-------|
+| Min Stack(Netflix)         |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||||||
 
 ### Math
-- Add One                                           [[java](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)] [python] [c++] [swift] [javascript] -(Apple)
-- Sort by one                                       [[java](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)] [python] [c++] [swift] [javascript] -(GE)
-- Reverse Integer                                   [[java](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)] [python] [c++] [swift] [javascript]
-- One's Number                                      [[java](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)] [python] [c++] [swift] [javascript]
-- Add Two Numbers                                   [[java](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)] [python] [c++] [swift] [javascript]
-- ATOI                                              [[java](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)] [python] [c++] [swift] [javascript]
-- Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum) [[java](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)] [python] [c++] [swift] [javascript]
-- Ugly Number                                       [[java](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)] [python] [c++] [swift] [javascript]
-- Count Numbers with Unique Digits                  [[java](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)] [python] [c++] [swift] [javascript]
-- Prime Sum                                         [[java](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)] [python] [c++] [swift] [javascript] -(Facebook)
+
+| Problem                                           | Java          | Python | C++ | Swift | JavaScript | Scala |
+|---------------------------------------------------|---------------|--------|-----|-------|------------|-------|
+| Add One(Apple)                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)||||||
+| Sort by one(GE)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)||||||
+| Reverse Integer                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)||||||
+| One's Number                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)||||||
+| Add Two Numbers                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)||||||
+| ATOI                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)||||||
+| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum) |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)||||||
+| Ugly Number                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)||||||
+| Count Numbers with Unique Digits                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
+| Prime Sum(Facebook)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)||||||
 
 ### Tree
-- Binrary Tree Serialization               [[java](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)] [python] [c++] [swift] [javascript] -(Apple)
-- Binrary Tree Traversal                   [[java](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)] [python] [c++] [swift] [javascript] -(Facebook)
-- Minimum Height Trees                     [[java](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)] [python] [c++] [swift] [javascript]
-- Longest Consecutive Path                 [[java](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)] [python] [c++] [swift] [javascript] -(Google)
-- Binary Tree Zigzag Level Order Traversal [[java](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)] [python] [c++] [swift] [javascript]
-- Find Duplicate Subtrees                  [[java](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)] [python] [c++] [swift] [javascript]
-- Balanced Binrary Tree                    [java] [[python](python/balanced_binary_tree.py)] [c++] [swift] [javascript]
+
+| Problem                                  | Java          | Python | C++ | Swift | JavaScript | Scala |
+|------------------------------------------|---------------|--------|-----|-------|------------|-------|
+| Binrary Tree Serialization(Apple)        |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)||||||
+| Binrary Tree Traversal                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)||||||
+| Minimum Height Trees                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)||||||
+| Longest Consecutive Path                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)||||||
+| Binary Tree Zigzag Level Order Traversal |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)||||||
+| Find Duplicate Subtrees                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)||||||
+| Balanced Binrary Tree                    |               |[Solution](python/balanced_binary_tree.py)|||||
 
 ### String
-- Knuth–Morris–Pratt                             [[java](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)] [[python](python/kmp.py)] [c++] [swift] [javascript]
-- Longest Substring Without Repeating Characters [[java](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)] [python] [c++] [swift] [javascript]
-- Isomorphic Strings                             [[java](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)] [python] [c++] [swift] [javascript]
-- everse Words                                   [[java](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)] [python] [c++] [swift] [javascript]
-- Interleave                                     [[java](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)] [python] [c++] [swift] [javascript] -(Facebook)
-- Count cross for reorder array                  [java] [[python](python/cross_count.py)] [c++] [swift] [javascript] 
+
+| Problem                                        | Java          | Python | C++ | Swift | JavaScript | Scala |
+|------------------------------------------------|---------------|--------|-----|-------|------------|-------|
+| Knuth–Morris–Pratt                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)||||||
+| Longest Substring Without Repeating Characters |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)||||||
+| Isomorphic Strings                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)||||||
+| Reverse Words                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)||||||
+| Interleave(Facebook)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)||||||
+| Count cross for reorder array                  ||[Solution](python/cross_count.py)|||||
 
 ### Permutation
-- Permutation [[java](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)] [[python](python/permutation.py)] [c++] [swift] [javascript]  -(Apple)
+
+| Problem                    | Java          | Python | C++ | Swift | JavaScript | Scala |
+|----------------------------|---------------|--------|-----|-------|------------|-------|
+| Permutation(Apple)         |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation.py)|||||
 
 ### Dynamic Programming(Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem)
 - Fibonacci                      [[java](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)] [python] [c++] [swift] [javascript] 
