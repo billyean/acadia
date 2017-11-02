@@ -6,8 +6,8 @@
 | Problem        | Java          | Python | C++ | Swift | JavaScript | Scala |
 |----------------|---------------|--------|-----|-------|------------|-------|
 | Binary Watch   |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
-| Roman Digits   |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/Roman.java)||||||
-| Valid Anagram  |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/ValidAnagram.java)||||||
+| Roman Digits   |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)||||||
+| Valid Anagram  |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)||||||
 
 ### Bit Operation
 
