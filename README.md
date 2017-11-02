@@ -156,20 +156,24 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Generate Parentheses                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)||||||
 
+
+### Design
+|`Problem                                         `|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+| [PackageManager](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) |[Solution](java/src/main/java/com/haibo/yan/design/packagemanager/)||||||
+
 # Advanced algorithm
 
-## Java
 
 # Design Pattern
+
 ## Java
 
-- [Requirement](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) -[Code](java/src/main/java/com/haibo/yan/design/packagemanager/)
-
 ### Singleton(Creational)
-- [Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)
-- [Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)
-- [Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)
-- [Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)
+
+|`Pattern                                         `|` Solution 1`|`Solution 2`|`Solution 3`|`Solution 4`|
+|--------------------------------------------------|---------------|--------|---------|---------|
+| Singleton                                        |[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)|[Double Check Lock Singleton(Lazy Initialization)](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)|[Static class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)|[Enum Singleton](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)|
 
 ### Abstract Factory(Creational)
 
