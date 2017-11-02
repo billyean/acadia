@@ -104,7 +104,9 @@
 | Permutation(Apple)                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation.py)|||||
 
 ### Dynamic Programming
-(Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem)
+
+Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem
+
 | Problem                                           | Java          | Python | C++ | Swift | JavaScript | Scala |
 |---------------------------------------------------|---------------|--------|-----|-------|------------|-------|
 | Fibonacci                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||
