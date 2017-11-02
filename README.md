@@ -184,15 +184,26 @@
 ## Concept
 
 ### Caching
+
 ### Sharding
+
 ### Consistent Hashing
+
 ### Copysets
+
 ### CAP Theorem(Consistency,Availability,Partition Tolerance)
-- [https://en.wikipedia.org/wiki/CAP_theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+- [WIKI CAP_theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+
+### Storage
+- LSM vs B-Tree [Link1](https://www.percona.com/live/17/sites/default/files/slides/Heaps%20B-trees%20log%20structured%20merge%20trees%202017-04-25.pptx_.pdf)
 
 ### Vector Clock
 - [Why Vector Clock is easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
 - [Why Cassandra doesn’t need vector clocks](https://www.datastax.com/dev/blog/why-cassandra-doesnt-need-vector-clocks)
+
+### Protocol
+- Raft [Link1](https://www.youtube.com/watch?v=YbZ3zDzDnrw&t=2149s)
+- Paxos [Link1](https://cseweb.ucsd.edu/classes/wi09/cse223a/paxos.pdf)
 
 ## Practice
 
