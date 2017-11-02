@@ -5,16 +5,11 @@
 
 | Problem       | Java          | Python | C++ | Swift | JavaScript | Scala |
 |---------------|---------------|--------|-----|-------|------------|-------|
-| Binary Watch  |[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
-| Roman Digits  |[java](java/src/main/java/com/haibo/yan/algorithm/easy/Roman.java)||||||
-| Valid Anagram |[java](java/src/main/java/com/haibo/yan/algorithm/easy/ValidAnagram.java)||||||
+| Binary Watch  |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
+| Roman Digits  |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/Roman.java)||||||
+| Valid Anagram |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/ValidAnagram.java)||||||
 
-- Binary Watch  
-  [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
-- Roman Digits  
-  [[java](java/src/main/java/com/haibo/yan/algorithm/Roman.java)] [python] [c++] [swift] [javascript] -(LinkedIn)
-- Valid Anagram 
-  [[java](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)]  [python] [c++] [swift] [javascript]
+
 
 ### Bit Operation
 - Power Of Four    [[java](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)]  [python] [c++] [swift] [javascript]
