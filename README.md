@@ -1,9 +1,14 @@
 # Algorithm/System Design Practice
 
-Here is the language specific 
-## Java
 
 ### Miscellaneous
+
+| Problem       | Java          | Python | C++ | Swift | JavaScript | Scala |
+|---------------|---------------|--------|-----|-------|------------|-------|
+| Binary Watch  |[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
+| Roman Digits  |[java](java/src/main/java/com/haibo/yan/algorithm/easy/Roman.java)||||||
+| Valid Anagram |[java](java/src/main/java/com/haibo/yan/algorithm/easy/ValidAnagram.java)||||||
+
 - Binary Watch  
   [[java](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)] [python] [c++] [swift] [javascript]
 - Roman Digits  
