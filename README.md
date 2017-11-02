@@ -27,6 +27,7 @@ Here is the language specific
 - Subarray Product Less Than K     [[java](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)]  [python] [c++] [swift] [javascript]
 - Longest Palindrome Length        [[java](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)] [python] [c++] [swift] [javascript]
 - Merge Intervals                  [[java](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)] [python] [c++] [swift] [javascript] -(Netflix)
+- Wiggle Sort                      [[java](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)] [python] [c++] [swift] [javascript]
 
 ### Matrix
 - Minimum steps to G [[java](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)] [python] [c++] [swift] [javascript] -(Facebook)
