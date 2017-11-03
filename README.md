@@ -171,14 +171,34 @@
 
 ## Java
 
-### Singleton(Creational)
+### Creational
 
 |`Pattern                                     List`|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
 |--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-| Singleton                     |[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)|[Lazy Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)|[Class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)|[Enum](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)|
+| Singleton                                        |[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)|[Lazy Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)|[Class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)|[Enum](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)|
+| Abstract Factory              |||||
 
-### Abstract Factory(Creational)
+### Structural
+|`Pattern                                     List`|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
+|--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+| Observer(Listener)                               |||||
+| FlyWeight                                        |[Generic](java/src/main/java/com/haibo/yan/algorithm/graph/Vertex.java)||||
 
+### Behavioral
+|`Pattern                                     List`|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
+|--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+| Chain of Responsibility                          |||||
+| Command                                          |||||
+| Iterpreter                                       |||||
+| Iterator                                         |||||
+| Mediator                                         |||||
+| Memento                                          |||||
+| Observer(Listener)                               |||||
+| State                                            |||||
+| Strategy                                         |||||
+| Visitor                                          |||||
+
+# Anti-Pattern
 ### Observer(Listener)
 
 # System Design Practice
