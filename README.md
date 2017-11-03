@@ -72,7 +72,8 @@
 | Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)||||||
 | Ugly Number                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)||||||
 | Count Numbers with Unique Digits                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
-| Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Primesum.java)||||||
+| Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)||||||
+| Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)||||||
 
 ### Tree
 
@@ -84,6 +85,7 @@
 | Longest Consecutive Path                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)||||||
 | Binary Tree Zigzag Level Order Traversal         |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)||||||
 | Find Duplicate Subtrees                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)||||||
+| Longest Path(Facebook)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestPath.java)||||||
 | Balanced Binrary Tree                            ||[Solution](python/balanced_binary_tree.py)|||||
 
 ### String
