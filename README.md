@@ -4,7 +4,7 @@
 ### Miscellaneous
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Binary Watch                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
 | Roman Digits                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)||||||
 | Valid Anagram                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)||||||
@@ -12,7 +12,7 @@
 ### Bit Operation
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Power Of Four                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)||||||
 | Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)||||||
 | Swap Two Integer                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)||||||
@@ -20,7 +20,7 @@
 ### Array
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)||||||
 | Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||||||
 | Bibrary Search on rotate array                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
@@ -39,13 +39,13 @@
 ### Matrix
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Minimum steps to G(Facebook)                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
 
 ### Linked List
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Circle                                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)||||||
 | Remove reverse kth element                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
 | One diff only(Facebook)                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
@@ -56,13 +56,13 @@
 ### Stack
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Min Stack(Netflix)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||||||
 
 ### Math
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Add One(Apple)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)||||||
 | Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)||||||
 | Reverse Integer                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)||||||
@@ -78,7 +78,7 @@
 ### Tree
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Binrary Tree Serialization(Apple)                |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)||||||
 | Binrary Tree Traversal                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)||||||
 | Minimum Height Trees                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)||||||
@@ -91,7 +91,7 @@
 ### String
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Knuth–Morris–Pratt                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)||||||
 | Longest Substring Without Repeating Characters   |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)||||||
 | Isomorphic Strings                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)||||||
@@ -102,7 +102,7 @@
 ### Permutation
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation.py)|||||
 
 ### Dynamic Programming
@@ -110,7 +110,7 @@
 <blink>__Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem__</blink>
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||
 | Coin Change                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)||||||
 | Knapsack                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)||||||
@@ -125,28 +125,28 @@
 ### Binary Search
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Binary Search in rotated order array(Salesforce) |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Lookup Latest Good Version(Facebook)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)||||||
 
 ### Graph
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Topology Sort(Apple)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)||||||
 | Dijkstra Algorithm                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)||||||
 
 ### Geometry
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Valid Triangle Number                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)||||||
 | Max Points on a Line                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)||||||
 
 ### Data Structure
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Trie                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)||||||
 | LRU(Salesforce/Amazon)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)||||||
 | LFU                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)||||||
@@ -155,13 +155,13 @@
 ### Backtracking
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Generate Parentheses                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)||||||
 
 
 ### Design
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|:------------------------------------------------:|---------------|--------|---------|---------|--------------|---------|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | [PackageManager](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) |[Solution](java/src/main/java/com/haibo/yan/design/packagemanager/)||||||
 
 # Advanced algorithm
@@ -174,14 +174,14 @@
 ### Creational
 
 |`Pattern                                     List`|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
-|:------------------------------------------------:|-----------------------|-----------------------|-----------------------|-----------------------|
+|--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | Abstract Factory                                 |||||
 | Builder                                          |||||
 | Singleton                                        |[Early Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/EarlyIniSingleton.java)|[Lazy Initialization](java/src/main/java/com/haibo/yan/pattern/Singleton/DoubleCheckLockSingleton.java)|[Class holder](java/src/main/java/com/haibo/yan/pattern/Singleton/StaticHolderSingleton.java)|[Enum](java/src/main/java/com/haibo/yan/pattern/Singleton/EnumSingleton.java)|
 
 ### Structural
 |`Pattern                                     List`|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
-|:------------------------------------------------:|-----------------------|-----------------------|-----------------------|-----------------------|
+|--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | Adapter                                          |||||
 | Bridge                                           |||||
 | Composite                                        |||||
@@ -192,7 +192,7 @@
 
 ### Behavioral
 |`Pattern                                     List`|` Solution 1          `|`Solution 2           `|`Solution 3           `|`Solution 4           `|
-|:------------------------------------------------:|-----------------------|-----------------------|-----------------------|-----------------------|
+|--------------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | Chain of Responsibility                          |||||
 | Command                                          |||||
 | Iterpreter                                       |||||
