@@ -121,6 +121,7 @@
 | Largest Rectangle in Histogram                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)||||||
 | Wildcard Matching                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)||||||
 | Predict Winner                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)||||||
+| 2 Keys Keyboard                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)||||||
 
 ### Binary Search
 
@@ -169,7 +170,7 @@
 
 # Design Pattern
 
-## Java
+## Pattern
 
 ### Creational
 
@@ -204,8 +205,10 @@
 | Strategy                                         |||||
 | Visitor                                          |||||
 
-# Anti-Pattern
-### Observer(Listener)
+## Anti-Pattern
+
+# Multiple Thread Programming
+
 
 # System Design Practice
 
