@@ -49,7 +49,7 @@ public class Circle<T> {
      *
      *
      * @param head a linkedlist node that finds its circle's start place.
-     * @return null if there is not circle in the linkedlist, a value that start place node holds.
+     * @return null if there is not circle in the linkedlist, a val that start place node holds.
      */
     public T circleStart(ListNode<T> head) {
         if (head == null || head.next == null) {
@@ -57,7 +57,7 @@ public class Circle<T> {
         }
 
         if (head.next == head) {
-            return head.value;
+            return head.val;
         }
 
         ListNode<T> first = head;
@@ -70,7 +70,7 @@ public class Circle<T> {
                     first = first.next;
                     second = second.next;
                 }
-                return first.value;
+                return first.val;
             }
 
             first = first.next;

@@ -36,7 +36,7 @@ import java.util.ArrayList;
  *
  * If a < c OR a==c AND b < d.
  */
-public class Primesum {
+public class PrimeSum {
     public ArrayList<Integer> primesum(int a) {
         boolean[] primes = allPrimes(a);
         ArrayList<Integer> list = new ArrayList<>();

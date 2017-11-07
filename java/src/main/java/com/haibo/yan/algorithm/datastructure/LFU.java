@@ -16,10 +16,7 @@
 
 package com.haibo.yan.algorithm.datastructure;
 
-import com.haibo.yan.algorithm.linkedlist.ListNode;
-
 import java.util.HashMap;
-import java.util.LinkedList;
 
 public class LFU<K, V> {
     FeqListNode<DoubleLinkedList<K, V>> freqList;
@@ -44,16 +41,16 @@ public class LFU<K, V> {
 
     public void set(K key, V value) {
         if (map.size() == capacity) {
-            while (freqList.value.head == null) {
+            while (freqList.val.head == null) {
                 freqList = (FeqListNode<DoubleLinkedList<K, V>>)freqList.next;
             }
 
-            map.remove(freqList.value.head.key);
-            if (freqList.value.head == freqList.value.tail) {
+            map.remove(freqList.val.head.key);
+            if (freqList.val.head == freqList.val.tail) {
 
                 freqList = (FeqListNode<DoubleLinkedList<K, V>>)freqList.next;
             } else {
-                DoubleLinkedList<K, V> list = freqList.value;
+                DoubleLinkedList<K, V> list = freqList.val;
                 list.remove(list.head);
             }
         }
@@ -67,7 +64,7 @@ public class LFU<K, V> {
                 newFreqList.next = freqList;
                 freqList = newFreqList;
             }
-            freqList.value.append(node);
+            freqList.val.append(node);
             node.freqList = freqList;
             freqList.feq = 1;
         } else {
@@ -92,12 +89,12 @@ public class LFU<K, V> {
             next.feq = current.feq + 1;
             node.freqList = newFreqListNode;
         }
-        appendNode(next.value, node);
+        appendNode(next.val, node);
         node.freqList = next;
     }
 
     private void removeNode(LinkedDLLNode<K, V> node) {
-        DoubleLinkedList<K, V> list = node.freqList.value;
+        DoubleLinkedList<K, V> list = node.freqList.val;
         list.remove(node);
     }
 

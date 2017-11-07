@@ -1,19 +1,20 @@
 package com.haibo.yan.algorithm.linkedlist;
 
+import java.io.PrintStream;
 import java.util.Arrays;
 
 public class ListNode<T> {
-    public T value;
+    public T val;
 
     public ListNode<T> next;
 
-    public ListNode(T value, ListNode<T> next) {
-        this.value = value;
+    public ListNode(T val, ListNode<T> next) {
+        this.val = val;
         this.next = next;
     }
 
-    public ListNode(T value) {
-        this(value, null);
+    public ListNode(T val) {
+        this(val, null);
     }
 
     public ListNode append(int value) {
@@ -39,5 +40,18 @@ public class ListNode<T> {
 
             return head;
         }
+    }
+
+    public static void print(ListNode<Integer> head, PrintStream ps) {
+        ListNode<Integer> current = head;
+
+        while (current != null) {
+            ps.print(current.val);
+            if (current.next != null) {
+                ps.printf(" -> ");
+            }
+            current = current.next;
+        }
+        ps.println();
     }
 }

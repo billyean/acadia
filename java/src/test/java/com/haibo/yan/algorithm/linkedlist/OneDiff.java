@@ -25,7 +25,7 @@ public class OneDiff {
         int diff = 0;
 
         while (l1 != null && l2 != null) {
-            if (l1.value.compareTo(l2.value) != 0) {
+            if (l1.val.compareTo(l2.val) != 0) {
                 diff++;
                 if (diff > 1) {
                     return false;

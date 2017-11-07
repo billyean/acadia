@@ -43,7 +43,7 @@ package com.haibo.yan.algorithm.dp;
  */
 public class PredictWinner {
     /**
-     * DP problem, in array, the value is max value you can get
+     * DP problem, in array, the val is max val you can get
      * @param nums
      * @return
      */

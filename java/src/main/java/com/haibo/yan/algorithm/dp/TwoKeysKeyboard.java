@@ -52,8 +52,8 @@ public class TwoKeysKeyboard {
     }
 
     /**
-     * Use a map as cache remember all traveled value min steps(Kind of DP).
-     * Every value n if it dividable as i * j, it should be min value of minSteps(i) + j, minSteps(j) + i
+     * Use a map as cache remember all traveled val min steps(Kind of DP).
+     * Every val n if it dividable as i * j, it should be min val of minSteps(i) + j, minSteps(j) + i
      *
      * @param n
      * @param pairs

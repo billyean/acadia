@@ -1,7 +1,7 @@
 package com.haibo.yan.algorithm.tree;
 
 /**
- * Binary tree for hold int value.
+ * Binary tree for hold int val.
  */
 public class BinaryTreeNode {
     int value;
@@ -147,7 +147,7 @@ public class BinaryTreeNode {
      * / \    \
      * 2   4   7
      *
-     * Given key to delete is 3. So we find the node with value 3 and delete it.
+     * Given key to delete is 3. So we find the node with val 3 and delete it.
      *
      * 1. One valid answer is [5,4,6,2,null,null,7], shown in the following BST.
      *
