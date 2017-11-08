@@ -2,6 +2,8 @@ package com.haibo.yan.algorithm;
 
 import com.haibo.yan.algorithm.linkedlist.ListNode;
 import org.testng.Assert;
+
+import java.io.PrintStream;
 import java.util.List;
 
 import static java.util.stream.Collectors.joining;
@@ -31,7 +33,7 @@ public class TestUtilities {
         } else {
             for (int i = 0; i < expectedValues.size(); i++) {
                 Assert.assertNotNull(head, String.format("Actual %dth Node is null", i));
-                Assert.assertEquals(head.value, expectedValues.get(i));
+                Assert.assertEquals(head.val, expectedValues.get(i));
                 head = head.next;
             }
         }
@@ -56,7 +58,7 @@ public class TestUtilities {
 
     public static <T extends Comparable> void assertEquals(ListNode<T> h1, ListNode<T> h2) {
         while (h1 != null && h2 != null) {
-            Assert.assertEquals(h1.value.compareTo(h2.value), 0, String.format("h1.value = %s, h2.value = %s", h1.value, h2.value));
+            Assert.assertEquals(h1.val.compareTo(h2.val), 0, String.format("h1.val = %s, h2.val = %s", h1.val, h2.val));
             h1 = h1.next;
             h2 = h2.next;
         }

@@ -75,7 +75,7 @@ public class ReorderList {
     private static <T> void print(ListNode<T> head) {
         StringJoiner sj = new StringJoiner(" -> ");
         while (head != null) {
-            sj.add(head.value.toString());
+            sj.add(head.val.toString());
             head = head.next;
         }
 

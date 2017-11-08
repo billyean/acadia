@@ -121,7 +121,9 @@
 | Largest Rectangle in Histogram                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)||||||
 | Wildcard Matching                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)||||||
 | Predict Winner                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)||||||
-| 2 Keys Keyboard                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)||||||
+| 2 Keys Keyboard                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)||||||
+| Edit Distance                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)||||||
+| Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PrintHouse.java)||||||
 
 ### Binary Search
 
