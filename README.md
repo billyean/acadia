@@ -35,6 +35,7 @@
 | Longest Palindrome Length                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)||||||
 | Merge Intervals                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)||||||
 | Wiggle Sort                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
+| Brick Wall                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/BrickWall.java)||||||
 
 ### Matrix
 
@@ -98,6 +99,7 @@
 | Reverse Words                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)||||||
 | Interleave(Facebook)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)||||||
 | Count cross for reorder array                    ||[Solution](python/cross_count.py)|||||
+| Minimum Time Difference                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/MinimumTimeDifference.java)||||||
 
 ### Permutation
 
