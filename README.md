@@ -126,6 +126,7 @@
 | 2 Keys Keyboard                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)||||||
 | Edit Distance                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)||||||
 | Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PrintHouse.java)||||||
+| Wiggle Subsequence                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)||||||
 
 ### Binary Search
 
