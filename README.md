@@ -9,14 +9,6 @@
 | Roman Digits                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)||||||
 | Valid Anagram                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)||||||
 
-### Bit Operation
-
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Power Of Four                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)||||||
-| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)||||||
-| Swap Two Integer                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)||||||
-
 ### Array
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
@@ -75,6 +67,15 @@
 | Count Numbers with Unique Digits                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
 | Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)||||||
 | Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)||||||
+| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)||||||
+
+### Bit Operation
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+| Power Of Four                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)||||||
+| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)||||||
+| Swap Two Integer                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)||||||
 
 ### Tree
 
