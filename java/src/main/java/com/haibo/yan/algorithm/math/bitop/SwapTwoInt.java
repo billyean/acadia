@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.haibo.yan.algorithm.bitop;
+package com.haibo.yan.algorithm.math.bitop;
 
 public class SwapTwoInt {
     public static void swap(int[] array) {

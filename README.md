@@ -13,9 +13,9 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Power Of Four                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/PowerOfFour.java)||||||
-| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SingleNumber.java)||||||
-| Swap Two Integer                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/bitop/SwapTwoInt.java)||||||
+| Power Of Four                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)||||||
+| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)||||||
+| Swap Two Integer                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)||||||
 
 ### Array
 
