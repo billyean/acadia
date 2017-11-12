@@ -28,6 +28,7 @@
 | Merge Intervals                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)||||||
 | Wiggle Sort                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
 | Brick Wall                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/BrickWall.java)||||||
+| Next Greater Element                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NextGreaterElement.java)||||||
 
 ### Matrix
 
@@ -220,12 +221,24 @@
 
 ## Concept
 
+### Proxies
+
+### Load Balancing
+
 ### Caching
 
+- [Distributed Cache](https://en.wikipedia.org/wiki/Distributed_cache)
 - MemCached
 - Redis
 
-### Sharding
+### Sharding and Data Partition
+
+-[Horizontal partitioning vs Vertical Partitioning]
+
+Deal with Sharing Problem
+- [Joins and Denormalization]
+- [Referential integrity]
+- [Rebalancing]
 
 ### Consistent Hashing
 
@@ -249,6 +262,10 @@
 ### Protocol
 - Raft [Link1](https://www.youtube.com/watch?v=YbZ3zDzDnrw&t=2149s)
 - Paxos [Link1](https://cseweb.ucsd.edu/classes/wi09/cse223a/paxos.pdf)
+
+### Event Update
+
+-[Long-Polling(pull) vs WebSockets vs Server-Sent Events(push)]
 
 ## Practice
 
