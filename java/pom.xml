@@ -58,7 +58,7 @@
           <jdkToolchain>
             <version>9</version>
           </jdkToolchain>
-          <release>6</release>
+          <release>9</release>
         </configuration>
       </plugin>
     </plugins>
