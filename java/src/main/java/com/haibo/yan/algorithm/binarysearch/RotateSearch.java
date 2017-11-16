@@ -17,14 +17,14 @@
 package com.haibo.yan.algorithm.binarysearch;
 
 class RotateSearch {
-    public int search(int[] nums, int target) {
+    public int search1(int[] nums, int target) {
         if (nums == null || nums.length == 0)
             return -1;
 
-        return search(nums, target, 0, nums.length - 1);
+        return search1(nums, target, 0, nums.length - 1);
     }
 
-    private int search(int[] nums, int target, int left, int right) {
+    private int search1(int[] nums, int target, int left, int right) {
         while (left <= right) {
             int medium = (left  + right) / 2;
 
@@ -32,15 +32,15 @@ class RotateSearch {
                 return medium;
             } else if (nums[left] <= nums[medium]) {
                 if (target < nums[medium] && target >= nums[left]) {
-                    return search(nums, target, left, medium - 1);
+                    return search1(nums, target, left, medium - 1);
                 } else {
-                    return search(nums, target, medium + 1, right);
+                    return search1(nums, target, medium + 1, right);
                 }
             } else {
                 if (target > nums[medium] && target <= nums[right]) {
-                    return search(nums, target, medium + 1, right);
+                    return search1(nums, target, medium + 1, right);
                 } else {
-                    return search(nums, target, left, medium - 1);
+                    return search1(nums, target, left, medium - 1);
                 }
             }
         }
@@ -48,8 +48,33 @@ class RotateSearch {
         return -1;
     }
 
-    public static void main(String[] args) {
-        RotateSearch s = new RotateSearch();
-        System.out.println(s.search(new int[]{5, 1, 3}, 5));
+    public int search2(int[] nums, int target) {
+        if (nums == null || nums.length == 0)
+            return -1;
+
+        return search2(nums, target, 0, nums.length - 1);
+    }
+
+    private int search2(int[] nums,int target,  int s, int e) {
+        if (s > e)
+            return -1;
+
+        int m = (s + e) / 2;
+
+        if (nums[m] == target) {
+            return m;
+        } else if (nums[m] > target) {
+            if (nums[s] < nums[m] && target >= nums[s] || nums[s] > nums[m]) {
+                return search2(nums,target,  s, m - 1);
+            } else {
+                return search2(nums,target,  m + 1, e);
+            }
+        } else {
+            if (nums[m] < nums[e] && target <= nums[e] || nums[m] > nums[e]) {
+                return search2(nums,target,  m + 1, e);
+            } else {
+                return search2(nums,target,  s, m - 1);
+            }
+        }
     }
 }

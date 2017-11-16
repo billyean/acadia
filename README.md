@@ -137,7 +137,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Binary Search in rotated order array(Salesforce) |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
+| Binary Search in rotated order array(Salesforce/Linkedin) |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Lookup Latest Good Version(Facebook)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)||||||
 
 ### Graph
