@@ -56,6 +56,7 @@ class RotateSearch {
     }
 
     private int search2(int[] nums,int target,  int s, int e) {
+        System.out.printf("s = %d, e = %d\n", s, e);
         if (s > e)
             return -1;
 
@@ -74,6 +75,38 @@ class RotateSearch {
                 return search2(nums,target,  m + 1, e);
             } else {
                 return search2(nums,target,  s, m - 1);
+            }
+        }
+    }
+
+    public boolean isInList(int[] nums, int target) {
+        if (nums == null || nums.length == 0)
+            return false;
+
+        return isInList(nums, target, 0, nums.length - 1);
+    }
+
+    private boolean isInList(int[] nums,int target,  int s, int e) {
+        if (s > e)
+            return false;
+
+        int m = (s + e) / 2;
+
+        if (nums[m] == target) {
+            return true;
+        } else if (nums[s] == nums[m] && nums[e] == nums[m]) {
+            return isInList(nums, target, s, m - 1) || isInList(nums, target, m + 1, e);
+        } else if (nums[m] > target) {
+            if (nums[s] < nums[m] && target >= nums[s] || nums[s] > nums[m]) {
+                return isInList(nums, target, s, m - 1);
+            } else {
+                return isInList(nums, target, m + 1, e);
+            }
+        } else {
+            if (nums[m] < nums[e] && target <= nums[e] || nums[m] > nums[e]) {
+                return isInList(nums, target, m + 1, e);
+            } else {
+                return isInList(nums, target, s, m - 1);
             }
         }
     }

@@ -77,6 +77,15 @@ public class TestRotateSearch {
         };
     }
 
+    @DataProvider
+    public Object[][] hasDuplicate(){
+        return new Object[][]{
+                {new int[]{1, 1, 1, 3}, 3, true},
+                {new int[]{1, 1, 3, 1}, 3, true},
+                {new int[]{1, 3, 1, 1, 1}, 3, true},
+        };
+    }
+
     @Test(dataProvider = "rotatedArray")
     public void test1(int[] nums, int target, int expectedIndex){
         assertEquals(new RotateSearch().search1(nums, target), expectedIndex);
