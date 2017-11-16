@@ -65,4 +65,16 @@ public class TestSlidingWindow {
                 DoubleStream.of(medWindows).mapToObj(String::valueOf).collect(joining(",", "[", "]"))
                 ));
     }
+
+    @DataProvider
+    public Object[][] minSlideWindosDP() {
+        return new Object[][]{
+                {"abcdebdde", "bde", "bcde"}
+        };
+    }
+
+    @Test(dataProvider = "minSlideWindosDP")
+    public void testMin(String S, String T, String expected) {
+        assertEquals(new SlidingWindow().minWindowOrdered(S, T), expected);
+    }
 }

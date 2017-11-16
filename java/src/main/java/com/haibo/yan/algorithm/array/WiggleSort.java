@@ -17,6 +17,9 @@
 package com.haibo.yan.algorithm.array;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
+
+import static java.util.stream.Collectors.joining;
 
 /**
  *
@@ -54,17 +57,38 @@ public class WiggleSort {
      * @param nums
      */
     public void wiggleSortN(int[] nums) {
-        if (nums.length > 3) {
-            boolean less = nums[0] < nums[1];
+        if (nums.length >= 2) {
+            Arrays.sort(nums);
+            boolean flag = true;
 
-            for (int i = 1; i < nums.length - 1; i++) {
-                less = !less;
-                if (less ^ (nums[i] < nums[i + 1])) {
-                    int t = nums[i];
-                    nums[i] = nums[i + 1];
-                    nums[i + 1] = t;
+            int i = 1, j = nums.length - 1;
+
+            while (i < j && nums[i] != nums[i + 1] && nums[j] != nums[j - 1]) {
+                if (flag) {
+                    swap(nums, i, j);
                 }
+                i++;
+                j--;
+                flag = !flag;
             }
         }
+    }
+
+    private void moveDiff(int[] nums, int i) {
+        int j = i;
+        while (j < nums.length && nums[j] == nums[i - 1]) {
+            j++;
+        }
+
+        if (j != i && j < nums.length) {
+            swap(nums, i, j);
+        }
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        System.out.printf("Swap %d and %d\n", i, j);
+        int t = nums[i];
+        nums[i] = nums[j];
+        nums[j] = t;
     }
 }

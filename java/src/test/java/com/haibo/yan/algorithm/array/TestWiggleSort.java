@@ -29,7 +29,10 @@ public class TestWiggleSort {
     public Object[][] wiggleSortArray() {
         return new Object[][]{
                 {new int[]{1, 5, 1, 1, 6, 4}},
-                {new int[]{1, 3, 2, 2, 3, 1}}
+                {new int[]{1, 3, 2, 2, 3, 1}},
+                {new int[]{2, 1}},
+                {new int[]{1, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2}},
+                {new int[]{4, 5, 5, 6}},
         };
     }
 
@@ -47,6 +50,24 @@ public class TestWiggleSort {
         return true;
     }
 
+    private boolean wiggleSortedN(int[] array) {
+        if (array.length < 2) {
+            return true;
+        }
+
+        if (array[0] >= array[1]) {
+            return false;
+        }
+
+        for (int i = 1; i < array.length; i++) {
+            if ((i & 0x01) == 1 && array[i] <= array[i - 1])
+                return false;
+            if ((i & 0x01) == 0 && array[i] >= array[i - 1])
+                return false;
+        }
+        return true;
+    }
+
     @Test(dataProvider = "wiggleSortArray")
     public void testWiggleSort(int[] nums) {
         new WiggleSort().wiggleSort(nums);
@@ -56,6 +77,8 @@ public class TestWiggleSort {
     @Test(dataProvider = "wiggleSortArray")
     public void testWiggleSortN(int[] nums) {
         new WiggleSort().wiggleSortN(nums);
-        assertTrue(wiggleSorted(nums));
+        assertTrue(String.format("%s is not wiggle sorted", IntStream.of(nums).mapToObj(String::valueOf).
+                        collect(joining(",", "[", "]"))),
+                wiggleSortedN(nums));
     }
 }

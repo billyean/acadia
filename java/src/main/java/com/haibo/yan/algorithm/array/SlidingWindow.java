@@ -16,9 +16,7 @@
 
 package com.haibo.yan.algorithm.array;
 
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.*;
 
 
 public class SlidingWindow {
@@ -71,6 +69,102 @@ public class SlidingWindow {
 
         return result;
     }
+
+    public String minWindowOrdered(String S, String T) {
+        char[] cs = S.toCharArray(), ct = T.toCharArray();
+
+        int[][] dp = new int[ct.length][cs.length + 1];
+
+        for (int i = 0; i < ct.length; i++) {
+            for (int j = 0; j <= cs.length; j++) {
+                dp[i][j] = -1;
+            }
+        }
+
+        for (int i = 0; i < ct.length; i++) {
+            for (int j = 1; j <= cs.length; j++) {
+                if (ct[i] == cs[j - 1]) {
+                    if (i == 0) {
+                        dp[i][j] = j - 1;
+                    } else {
+                        dp[i][j] =  dp[i - 1][j - 1];
+                    }
+                } else {
+                    dp[i][j] =  dp[i][j - 1];
+                }
+            }
+        }
+
+        int start = -1, len = Integer.MAX_VALUE;
+
+        for (int i = 1; i <= cs.length; i++) {
+            int s = dp[ct.length - 1][i];
+            if (s != -1 && i - s < len) {
+                len = i - s;
+                start = s;
+            }
+        }
+
+        if (start == -1) {
+            return "";
+        } else {
+            return S.substring(start, start + len);
+        }
+
+    }
+
+    /**
+     *
+     * @param s
+     * @param t
+     * @return
+     */
+    public String minWindowUnordered(String s, String t) {
+        Deque<Integer> deque = new LinkedList<>();
+
+        Map<Character, Integer> tm = new HashMap<>();
+
+        for (char c : t.toCharArray()) {
+            tm.put(c, tm.getOrDefault(c, 0) + 1);
+        }
+
+        int minLen = s.length() + 1, start = -1;
+        char[] cs = s.toCharArray();
+        int totalReach = t.length();
+
+        for (int i = 0; i < cs.length; i++) {
+            char c = cs[i];
+            if (tm.containsKey(c)) {
+                if (tm.get(c) != 0) {
+                    tm.put(c, tm.get(c) - 1);
+                    totalReach--;
+                    if (totalReach == 0) {
+                        int wLen = i - deque.peek() + 1;
+                        if (wLen < minLen) {
+                            start = deque.peek();
+                            minLen = wLen;
+                        }
+                    }
+                } else {
+                    char fc = cs[deque.peek()];
+                    if (fc == c) {
+                        if (totalReach == 0) {
+                            deque.pop();
+                            deque.push(i);
+                            int wLen = i - deque.peek() + 1;
+                            if (wLen < minLen) {
+                                start = deque.peek();
+                                minLen = wLen;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        return start == -1 ? "" : s.substring(start, start + minLen);
+    }
+
 
     /**
      * Median is the middle val in an ordered integer list. If the size of the list is even, there is no middle val.

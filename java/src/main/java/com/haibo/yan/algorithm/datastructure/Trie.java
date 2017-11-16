@@ -1,5 +1,7 @@
 package com.haibo.yan.algorithm.datastructure;
 
+import java.util.Arrays;
+
 public class Trie {
     public static final int ALPHABETIC_SIZE = 26;
 
@@ -66,5 +68,22 @@ public class Trie {
         }
 
         return true;
+    }
+
+    private String shortestPrefix(char[] cs, int begin) {
+        TrieNode current = root;
+
+        int len = 0;
+
+        for (int i = begin; i < cs.length; i++) {
+            int index = cs[i] - 'a';
+            if (current.children[index] == null) {
+                return null;
+            } else if (current.children[index].leaf) {
+                return new String(Arrays.copyOfRange(cs, begin, i + 1));
+            }
+        }
+
+        return null;
     }
 }
