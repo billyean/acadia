@@ -1,4 +1,4 @@
-
+package com.haibo.yan.algorithm.string;
 public class StringRotate {
     public String rotate(String string) {
         char[] cs = string.toCharArray();
