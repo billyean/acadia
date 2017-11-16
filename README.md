@@ -29,6 +29,7 @@
 | Wiggle Sort                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
 | Brick Wall                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/BrickWall.java)||||||
 | Next Greater Element                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NextGreaterElement.java)||||||
+| Search for a Range                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SearchRange.java)||||||
 
 ### Matrix
 

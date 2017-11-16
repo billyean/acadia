@@ -17,6 +17,8 @@
 package com.haibo.yan.algorithm.array;
 
 /**
+ *
+ * see https://leetcode.com/problems/search-for-a-range
  * Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
  *
  * Your algorithm's runtime complexity must be in the order of O(log n).
@@ -28,9 +30,14 @@ package com.haibo.yan.algorithm.array;
  * return [3, 4].
  */
 public class SearchRange {
-    public final static int[] NOT_FOUND = {-1, -1};
-
+    /**
+     * Binary Search
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] searchRange(int[] nums, int target) {
+        if (nums.length == 0)   return NOT_FOUND;
         return searchRange(nums, 0, nums.length, 0, target);
     }
 
@@ -40,29 +47,31 @@ public class SearchRange {
      * @param nums
      * @param s
      * @param t
-     * @param d
+     * @param d 0 means no direction has been decided, we need look for left and right hand side both.
+     *          1 means only look for left hand side.
+     *          2 means look for right hand side.
      * @param target
      * @return
      */
     public int[] searchRange(int[] nums, int s, int t, int d, int target) {
-        System.out.println("s = %d, s = %");
+        System.out.printf("s = %d, t = %d\n", s, t);
         if (s < t) {
             int m = (s + t) / 2;
             if (target == nums[m]) {
                 if (d == 0) {
                     int left = m, right = m;
-                    int[] leftR = searchRange(nums, s, m - 1, 1, target);
-                    int[] rightR = searchRange(nums, s, m - 1, 1, target);
+                    int[] leftR = searchRange(nums, s, m, 1, target);
+                    int[] rightR = searchRange(nums, m + 1, t, 2, target);
                     if (leftR != NOT_FOUND) {
                         left = leftR[0];
                     }
                     if (rightR != NOT_FOUND) {
-                        right = rightR[0];
+                        right = rightR[1];
                     }
                     return new int[]{left, right};
                 } else if (d == 1){
                     int left = m, right = t;
-                    int[] leftR = searchRange(nums, s, m - 1, d, target);
+                    int[] leftR = searchRange(nums, s, m, d, target);
                     if (leftR != NOT_FOUND) {
                         left = leftR[0];
                     }
@@ -71,12 +80,12 @@ public class SearchRange {
                     int left = s, right = m;
                     int[] rightR = searchRange(nums, m + 1, t, d, target);
                     if (rightR != NOT_FOUND) {
-                        right = rightR[0];
+                        right = rightR[1];
                     }
                     return new int[]{left, right};
                 }
             } else if (target < nums[m]) {
-                return searchRange(nums, s, m - 1, d, target);
+                return searchRange(nums, s, m, d, target);
             } else {
                 return searchRange(nums, m + 1, t, d, target);
             }
@@ -84,4 +93,6 @@ public class SearchRange {
             return NOT_FOUND;
         }
     }
+
+    public final static int[] NOT_FOUND = {-1, -1};
 }
