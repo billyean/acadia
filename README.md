@@ -165,6 +165,7 @@
 | LRU(Salesforce/Amazon)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)||||||
 | LFU                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)||||||
 | Binary Heap                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)||||||
+| Magic Dictionary                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)||||||
 
 ### Backtracking
 
