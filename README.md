@@ -30,6 +30,7 @@
 | Brick Wall                                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/BrickWall.java)||||||
 | Next Greater Element                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NextGreaterElement.java)||||||
 | Search for a Range                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SearchRange.java)||||||
+| 1-bit and 2-bit Characters                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/OneBit.java)||||||
 
 ### Matrix
 
@@ -133,6 +134,7 @@
 | Edit Distance                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)||||||
 | Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PrintHouse.java)||||||
 | Wiggle Subsequence                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)||||||
+| Maximum Length of Repeated Subarray              |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)||||||
 
 ### Binary Search
 
