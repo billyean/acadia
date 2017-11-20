@@ -166,6 +166,7 @@
 | LFU                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)||||||
 | Binary Heap                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)||||||
 | Magic Dictionary                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)||||||
+| Map Sum Pairs                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MapSum.java)||||||
 
 ### Backtracking
 

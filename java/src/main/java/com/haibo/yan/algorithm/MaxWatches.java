@@ -62,7 +62,7 @@ public class MaxWatches {
      *
      * This one calculates max watches at any time, which means any of time, we only care about one time span.
      *
-     * Solution: Sort the array based on the entry time. use a binary heap to stored current max wataches, every time we
+     * MyCalendar: Sort the array based on the entry time. use a binary heap to stored current max wataches, every time we
      * enter a time frame, we add it to binary heap, when exits a time frame, we pop the frame. Try to catch max watches
      * at any time.
      *
