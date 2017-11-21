@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 @Test
-public class RotateArrayTest {
+public class TestRotateArray {
     public void testRotate() {
         int[] testArray1 = new int[]{1, 2, 3};
 
