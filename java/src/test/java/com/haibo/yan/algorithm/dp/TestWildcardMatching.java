@@ -25,6 +25,8 @@ public class TestWildcardMatching {
     @DataProvider
     public Object[][] matchObjects() {
         return new Object[][]{
+                {"","*", true} ,
+                {"a","a*", true} ,
                 {"aa","a", false} ,
                 {"aa","aa", true} ,
                 {"aaa","aa", false} ,

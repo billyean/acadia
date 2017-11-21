@@ -16,6 +16,8 @@
 
 package com.haibo.yan.algorithm.dp;
 
+import java.util.Arrays;
+
 /**
  * Implement wildcard pattern matching with support for '?' and '*'.
  * '?' Matches any single character.
@@ -34,17 +36,24 @@ package com.haibo.yan.algorithm.dp;
  */
 public class WildcardMatching {
     public static boolean isMatch(String s, String p) {
+
         char[] cs = s.toCharArray();
         char[] cp = p.toCharArray();
 
         boolean[][] matches = new boolean[cp.length + 1][cs.length + 1];
 
         matches[0][0] = true;
+        for (int i = 1; i <= cp.length; i++) {
+            if (cp[i - 1] == '*') {
+                matches[i][0] = matches[i - 1][0];
+            }
+        }
+
 
         for (int i = 1; i <= cp.length; i++) {
             for (int j = 1; j <= cs.length; j++) {
                 if (cp[i - 1] == '*') {
-                    matches[i][j] = matches[i - 1][j - 1] || matches[i][j - 1];
+                    matches[i][j] = matches[i - 1][j - 1] || matches[i][j - 1] || matches[i - 1][j];
                 } else if (cp[i - 1] == '?' || cp[i - 1] == cs[j - 1]) {
                     matches[i][j] = matches[i - 1][j - 1];
                 }
