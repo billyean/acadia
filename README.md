@@ -108,6 +108,7 @@
 | Interleave(Facebook)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)||||||
 | Count cross for reorder array                    ||[Solution](python/cross_count.py)|||||
 | Minimum Time Difference                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/MinimumTimeDifference.java)||||||
+| Remove K Digits                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/RemoveKDigits.java)||||||
 
 ### Permutation
 
