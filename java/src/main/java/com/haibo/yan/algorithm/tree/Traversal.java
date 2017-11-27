@@ -14,7 +14,7 @@ public class Traversal {
 
             while (!stack.isEmpty()){
                 BinaryTreeNode node = stack.pop();
-                result.add(node.value);
+                result.add(node.val);
 
                 if (node.right != null) {
                     stack.push(node.right);
@@ -43,7 +43,7 @@ public class Traversal {
                     cur = cur.left;
                 } else {
                     cur = stack.pop();
-                    result.add(cur.value);
+                    result.add(cur.val);
                     // After pop up, access right tree.
                     cur = cur.right;
                 }
@@ -75,7 +75,7 @@ public class Traversal {
                     } else if (cur.right != null) {
                         stack.push(cur.right);
                     } else {
-                        result.add(cur.value);
+                        result.add(cur.val);
                         stack.pop();
                     }
                 } else if (cur.left == prev)   {
@@ -85,12 +85,12 @@ public class Traversal {
                         stack.push(cur.right);
                     } else {
                         stack.pop();
-                        result.add(cur.value);
+                        result.add(cur.val);
                     }
                 } else {
                     // Once pop, if popped node is right child, just pop top node
                     stack.pop();
-                    result.add(cur.value);
+                    result.add(cur.val);
                 }
                 prev = cur;
             }

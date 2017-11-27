@@ -58,7 +58,7 @@ public class ZigzagLevelOrder {
             List<Integer> current = new ArrayList<>();
             List<BinaryTreeNode> nextLevel = new ArrayList<>();
             for (BinaryTreeNode node : nodes) {
-                current.add(node.value);
+                current.add(node.val);
                 if (node.left != null) {
                     nextLevel.add(node.left);
                 }

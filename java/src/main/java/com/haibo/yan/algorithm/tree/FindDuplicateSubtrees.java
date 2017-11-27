@@ -57,7 +57,7 @@ public class FindDuplicateSubtrees {
             return "#";
         }
 
-        String deserial = postOrder(duplicates, map, root.left) + postOrder(duplicates, map, root.right) + root.value + "!";
+        String deserial = postOrder(duplicates, map, root.left) + postOrder(duplicates, map, root.right) + root.val + "!";
         System.out.println(deserial);
         if (map.containsKey(deserial)) {
             if (map.get(deserial) == 1) {

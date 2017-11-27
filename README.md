@@ -94,8 +94,9 @@
 | Binary Tree Zigzag Level Order Traversal         |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)||||||
 | Find Duplicate Subtrees                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)||||||
 | Longest Path(Facebook)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestPath.java)||||||
-| Balanced Binrary Tree                            ||[Solution](python/balanced_binary_tree.py)|||||
+| Balanced Binrary Tree                            ||[Solution](python/tree/balanced_binary_tree.py)|||||
 | Add One Row to Tree                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)||||||
+|Construct String from Binary Tree                 ||[Solution](python/tree/tree2str.py)|||||
 
 ### String
 
@@ -114,7 +115,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation.py)|||||
+| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Python](python/permutation/permutation.py)|||||
 
 ### Dynamic Programming
 

@@ -4,14 +4,14 @@ package com.haibo.yan.algorithm.tree;
  * Binary tree for hold int val.
  */
 public class BinaryTreeNode {
-    int value;
+    int val;
 
     BinaryTreeNode left;
 
     BinaryTreeNode right;
 
-    public BinaryTreeNode(int value) {
-        this.value = value;
+    public BinaryTreeNode(int val) {
+        this.val = val;
     }
 
     @Override
@@ -22,7 +22,7 @@ public class BinaryTreeNode {
 
         BinaryTreeNode other = (BinaryTreeNode)o;
 
-        if (this.value != other.value) {
+        if (this.val != other.val) {
             return false;
         }
 
@@ -73,7 +73,7 @@ public class BinaryTreeNode {
         if (root == null) {
             builder.append("#");
         } else {
-            builder.append(root.value).append("!");
+            builder.append(root.val).append("!");
             recursiveSerialize(root.left, builder);
             recursiveSerialize(root.right, builder);
         }
@@ -88,9 +88,9 @@ public class BinaryTreeNode {
     public static BinaryTreeNode deleteNode (BinaryTreeNode root, int key) {
         BinaryTreeNode parent = null, node = root;
 
-        while(node != null && node.value != key) {
+        while(node != null && node.val != key) {
             parent = node;
-            node = node.value > key ? node.left : node.right;
+            node = node.val > key ? node.left : node.right;
         }
 
         BinaryTreeNode newNode = null;
@@ -171,7 +171,7 @@ public class BinaryTreeNode {
      */
     private static BinaryTreeNode deleteNode (BinaryTreeNode parent, BinaryTreeNode node, int key) {
         if (node != null) {
-            if (node.value == key) {
+            if (node.val == key) {
                 BinaryTreeNode left = node.left;
                 BinaryTreeNode right = node.left;
                 BinaryTreeNode newNode;
@@ -195,7 +195,7 @@ public class BinaryTreeNode {
                         parent.right = newNode;
                     }
                 }
-            } else if (node.value > key) {
+            } else if (node.val > key) {
                 deleteNode(node, node.left, key);
             } else {
                 deleteNode(node, node.right, key);
