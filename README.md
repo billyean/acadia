@@ -31,6 +31,7 @@
 | Next Greater Element                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/NextGreaterElement.java)||||||
 | Search for a Range                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SearchRange.java)||||||
 | 1-bit and 2-bit Characters                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/OneBit.java)||||||
+| Count of Smaller Numbers After Self              ||[Solution](python/list/count_of_smaller_numbers_after_self.py)||||||
 
 ### Matrix
 
