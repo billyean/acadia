@@ -27,7 +27,3 @@ class Combination:
             indices[pi] += 1
 
         return combination
-
-if __name__ == '__main__':
-    combination = Combination()
-    print(combination.combination([["Catfish", "Salmon"], ["Beef", "Pork", "Chicken", "Duck"], ["Lettuce", "Cabbage", "Carrot"]]))
