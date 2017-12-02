@@ -19,6 +19,7 @@ package com.haibo.yan.algorithm.permutation;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static com.haibo.yan.algorithm.Utilities.reverse;
@@ -129,5 +130,44 @@ public class Permutation {
         }
 
         return true;
+    }
+
+    /**
+     * Bento combination by categories
+     * Fish:
+     * Meat:
+     * Vegetable:
+     * Soup:
+     *
+     * @param categories
+     * @return
+     */
+    public List<List<String>> allChoices(List<String[]> categories) {
+        List<List<String>> choices = new ArrayList<>();
+        int[] indices = new int[categories.size()];
+        allChoices(categories, choices, indices);
+        return choices;
+    }
+
+    private void allChoices(List<String[]> categories, List<List<String>> choices, int[] indices) {
+        List<String> combination = new ArrayList<>();
+        for (int i = 0; i < indices.length; i++) {
+
+            combination.add(categories.get(i)[indices[i]]);
+        }
+        choices.add(combination);
+
+        int lastIndex = indices.length - 1;
+        while (lastIndex >= 0 && indices[lastIndex] == categories.get(lastIndex).length - 1) {
+            indices[lastIndex--] = 0;
+        }
+
+        if (lastIndex >= 0) {
+            indices[lastIndex]++;
+        }
+
+        if (IntStream.of(indices).filter(i -> i != 0).findAny().isPresent()) {
+            allChoices(categories, choices, indices);
+        }
     }
 }

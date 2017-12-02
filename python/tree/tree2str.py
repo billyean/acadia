@@ -37,7 +37,7 @@ output.
 """
 
 
-class Solution:
+class TreeStr:
     def tree2str(self, t):
         """
         :type t: TreeNode

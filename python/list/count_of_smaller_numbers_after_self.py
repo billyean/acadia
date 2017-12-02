@@ -59,12 +59,3 @@ class CountSmaller:
 
         print(merged)
         return self.merge_sort(merged, 2 * s)
-
-
-
-if __name__ == '__main__':
-    solution = CountSmaller()
-
-    print(solution.countSmaller([5, 2, 6, 1]))
-
-    print(solution.countSmaller([0, 1, 2]))
