@@ -12,6 +12,8 @@
         </option>
         <option name="resolveSbtClassifiers" value="true" />
         <option name="sbtVersion" value="1.0.4" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
       </SbtProjectSettings>
     </option>
     <option name="maximumHeapSize" value="2048" />
