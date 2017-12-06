@@ -116,7 +116,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Solution](python/permutation/permutation.py)||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)|
+| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Solution](python/permutation/permutation.py)||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala Print)|
 
 ### Dynamic Programming
 
@@ -136,7 +136,7 @@
 | Predict Winner                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)||||||
 | 2 Keys Keyboard                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)||||||
 | Edit Distance                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)||||||
-| Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PrintHouse.java)||||||
+| Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PaintHouse.java)||||||
 | Wiggle Subsequence                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)||||||
 | Maximum Length of Repeated Subarray              |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)||||||
 
