@@ -171,7 +171,7 @@
 | Binary Heap                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)||||||
 | Magic Dictionary                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)||||||
 | Map Sum Pairs                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MapSum.java)||||||
-| Find Median from Data Stream                     |||[Solution](c++/algorithm/algorithm/MedianFinder.cpp)||||
+| Find Median from Data Stream                     |||[Solution](c++/algorithm/algorithm/datastructure/MedianFinder.cpp)||||
 
 ### Backtracking
 

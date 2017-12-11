@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "MedianFinder.h"
+#include "datastructure/MedianFinder.h"
 
 int main(int argc, const char * argv[]) {
 //    // insert code here...
