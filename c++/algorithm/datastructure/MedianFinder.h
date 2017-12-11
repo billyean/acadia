@@ -2,9 +2,6 @@
 // Created by Haibo Yan on 12/10/17.
 //
 
-#ifndef ALGORITHM_MEDIANFINDER_H
-#define ALGORITHM_MEDIANFINDER_H
-
 #include <algorithm>
 #include <queue>
 
@@ -23,6 +20,3 @@ public:
 
     double findMedian();
 };
-
-
-#endif //ALGORITHM_MEDIANFINDER_H
