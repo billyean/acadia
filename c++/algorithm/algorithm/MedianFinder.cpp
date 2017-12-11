@@ -30,7 +30,18 @@ void MedianFinder::addNum(int num) {
     if (small.size() == 0) {
         small.push(num);
     } else if (large.size() == 0) {
-        large.push(num);
+        if (small.size() != 0) {
+            auto const s = small.top();
+            if (num > s) {
+                small.pop();
+                large.push(s);
+                small.push(num);
+            } else {
+                large.push(num);
+            }
+        } else {
+            large.push(num);
+        }
     } else {
         auto const s = small.top();
         auto const l = large.top();
