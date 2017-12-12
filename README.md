@@ -172,7 +172,7 @@
 | Magic Dictionary                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)||||||
 | Map Sum Pairs                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/MapSum.java)||||||
 | Find Median from Data Stream                     |||[Solution](c++/algorithm/datastructure/MedianFinder.cpp)||||
-
+| Fenwick Tree                                     |||[Solution](c++/algorithm/datastructure/FenwickTree.cpp)||||
 ### Backtracking
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
