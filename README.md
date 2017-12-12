@@ -75,7 +75,7 @@
 | Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)||||||
 | Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)||||||
 | Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)||||||
-
+| Arranging Coins                                  |||[Solution](c++/algorithm/math/ArrangeCoins.cpp)||||
 ### Bit Operation
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
