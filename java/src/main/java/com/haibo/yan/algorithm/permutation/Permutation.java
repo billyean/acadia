@@ -28,7 +28,7 @@ import static java.util.stream.Collectors.joining;
 
 public class Permutation {
     /**
-     * Insertion solution, insert next element to existed permutation
+     * Insertion solution, insert next element to existed permutation. This solution won't exclude duplication.
      * @param array
      * @param <T>
      * @return

@@ -1,6 +1,5 @@
 # Algorithm/System Design Practice
 
-
 ### Miscellaneous
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
@@ -76,6 +75,7 @@
 | Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)||||||
 | Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)||||||
 | Arranging Coins                                  |||[Solution](c++/algorithm/math/ArrangeCoins.cpp)||||
+
 ### Bit Operation
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
@@ -111,6 +111,7 @@
 | Count cross for reorder array                    ||[Solution](python/cross_count.py)|||||
 | Minimum Time Difference                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/MinimumTimeDifference.java)||||||
 | Remove K Digits                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/RemoveKDigits.java)||||||
+| Minimum Window Substring                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/MinimumWindowSubstring.java)||||||
 
 ### Permutation
 
@@ -288,6 +289,13 @@ Deal with Sharing Problem
 - [Search Engine](/system/searchengine)
 - [Messenger](/system/messenger)
 - [Dropbox](/system/dropbox)
+
+# SQL
+
+|`Question                                        `|` My SQL              `|`Oracle               `|`SQL Server           `|
+|--------------------------------------------------|-----------------------|-----------------------|-----------------------|
+| Rank Scores                                      |[Solution](sql/mysql/rank_scores.sql)|||
+| Combine Two Tables                               |[Solution](sql/mysql/combine_two_tables.sql)|||
 
 
  

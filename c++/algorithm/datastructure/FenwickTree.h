@@ -10,7 +10,7 @@ using namespace std;
 class FenwickTree {
 
 public:
-    FenwickTree(vector<int> nums);
+    FenwickTree(vector<int>& nums);
 
     void setNum(int index, int num);
 

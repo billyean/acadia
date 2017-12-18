@@ -6,8 +6,7 @@
 
 using namespace std;
 
-FenwickTree::FenwickTree(vector<int> nums) {
-    _sum.resize(nums.size());
+FenwickTree::FenwickTree(vector<int>& nums) : _sum(nums.size()) {
     for (auto index = 0; index < nums.size(); index++) {
         setNum(index, nums[index]);
     }
