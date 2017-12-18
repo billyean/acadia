@@ -39,6 +39,7 @@
 | Minimum steps to G(Facebook)                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
 | Rotate Image                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/RotateImage.java)||||||
 | Spiral Matrix                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)||||||
+| Number of Islands                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/NumberOfIslands.java)||||||
 
 ### Linked List
 

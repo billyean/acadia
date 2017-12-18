@@ -4,3 +4,4 @@ scala/target/**
 scala/project/target/**
 python/venv/**
 c++/cmake-build-debug/**
+.DS_Store
