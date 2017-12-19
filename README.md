@@ -118,7 +118,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Solution](python/permutation/permutation.py)||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala Print)|
+| Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Solution](python/permutation/permutation.py)||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)|
 
 ### Dynamic Programming
 
