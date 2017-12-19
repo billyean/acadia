@@ -36,6 +36,6 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
     include_directories("${gtest_SOURCE_DIR}/include")
 endif()
 
-add_executable(algorithm algorithm/datastructure/MedianFinder.h algorithm/datastructure/MedianFinder.cpp algorithm_tests/datastructure/MedianFinderTest.cpp algorithm/datastructure/FenwickTree.cpp algorithm/datastructure/FenwickTree.h algorithm_tests/datastructure/FenwickTreeTest.cpp)
+add_executable(algorithm algorithm/datastructure/MedianFinder.h algorithm/datastructure/MedianFinder.cpp algorithm_tests/datastructure/MedianFinderTest.cpp algorithm/datastructure/FenwickTree.cpp algorithm/datastructure/FenwickTree.h algorithm_tests/datastructure/FenwickTreeTest.cpp algorithm/math/ArrangeCoins.cpp algorithm_tests/math/ArrangeCoinsTest.cpp algorithm/math/ArrangeCoins.h)
 target_link_libraries(algorithm gtest_main)
 add_test(NAME algorithm_test COMMAND algorithm)
