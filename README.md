@@ -113,6 +113,7 @@
 | Minimum Time Difference                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/MinimumTimeDifference.java)||||||
 | Remove K Digits                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/RemoveKDigits.java)||||||
 | Minimum Window Substring                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/MinimumWindowSubstring.java)||||||
+| Z Sort                                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ZSort.java)||||||
 
 ### Permutation
 
