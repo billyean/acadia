@@ -2,11 +2,12 @@
 
 ### Miscellaneous
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Binary Watch                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
-| Roman Digits                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)||||||
-| Valid Anagram                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)||||||
+|`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
+|-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+| Binary Watch                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
+| Roman Digits                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)||||||
+| Valid Anagram                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)||||||
+| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[Solution](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)||||||
 
 ### Array
 
