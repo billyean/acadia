@@ -19,6 +19,8 @@
 package com.haibo.yan.algorithm.array;
 
 
+import com.haibo.yan.algorithm.Interval;
+
 import java.util.*;
 
 /**

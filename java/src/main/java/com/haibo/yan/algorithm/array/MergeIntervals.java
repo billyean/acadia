@@ -16,6 +16,8 @@
 
 package com.haibo.yan.algorithm.array;
 
+import com.haibo.yan.algorithm.Interval;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -33,8 +35,6 @@ import java.util.List;
 
 
 public class MergeIntervals {
-
-
     public List<Interval> merge(List<Interval> intervals) {
         Comparator<Interval> comparator = Comparator.<Interval, Integer>comparing(i -> i.start).thenComparing(j -> j.end);
         Collections.sort(intervals, comparator);

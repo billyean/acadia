@@ -36,7 +36,7 @@
             <id>default-compile</id>
             <configuration>
               <!-- compile everything to ensure module-info contains right entries -->
-              <release>9</release>
+              <!--<release>9</release>-->
             </configuration>
           </execution>
           <execution>
@@ -55,10 +55,12 @@
         <!-- defaults for compile and testCompile -->
         <configuration>
           <!-- Only required when JAVA_HOME isn't at least Java 9 and when haven't configured the maven-toolchains-plugin -->
-          <jdkToolchain>
-            <version>9</version>
-          </jdkToolchain>
-          <release>9</release>
+          <!--<jdkToolchain>-->
+            <!--<version>9</version>-->
+          <!--</jdkToolchain>-->
+          <source>1.8</source>
+          <target>1.8</target>
+          <!--<release>8</release>-->
         </configuration>
       </plugin>
     </plugins>

@@ -16,21 +16,22 @@
  *
  */
 
-package com.haibo.yan.algorithm.array;
+package com.haibo.yan.algorithm.datastructure;
 
-public class Interval {
-    int start;
-    int end;
-    Interval() { start = 0; end = 0; }
-    Interval(int s, int e) { start = s; end = e; }
+import org.junit.Test;
 
-    public boolean equals(Object o) {
-        Interval other = (Interval)o;
-        return start == other.start && end == other.end;
-    }
+import static org.testng.Assert.assertFalse;
+import static org.testng.AssertJUnit.assertTrue;
 
-    @Override
-    public String toString() {
-        return "[" + start + "," + end + "]";
+public class TestRangeModule {
+    @Test
+    public void test() {
+        RangeModule rm = new RangeModule();
+
+        rm.addRange(10, 20);
+        rm.removeRange(14, 16);
+        assertTrue(rm.queryRange(10, 14));
+        assertFalse(rm.queryRange(13, 15));
+        assertTrue(rm.queryRange(10, 14));
     }
 }

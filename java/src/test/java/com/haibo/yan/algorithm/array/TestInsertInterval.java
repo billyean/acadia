@@ -18,6 +18,7 @@
 
 package com.haibo.yan.algorithm.array;
 
+import com.haibo.yan.algorithm.Interval;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
