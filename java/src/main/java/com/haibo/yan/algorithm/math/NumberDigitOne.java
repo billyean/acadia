@@ -53,7 +53,7 @@ public class NumberDigitOne {
     private List<Map<Integer, Integer>> digitsOne(int len) {
         List<Map<Integer, Integer>> ones = new ArrayList<>();
 
-        ones.add(new HashMap<>(){
+        ones.add(new HashMap<Integer, Integer>(){
             {put(1, 1);}
         });
 

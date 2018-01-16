@@ -74,15 +74,4 @@ public class Avgset {
         result.add(right);
         return result;
     }
-
-    public static void main(String[] args) {
-        ArrayList al = new ArrayList<>(){
-            { add(47); add(14); add(30); add(19); add(30); add(4); add(32); add(32); add(15); add(2); add(6); add(24);}
-        };
-        ArrayList<ArrayList<Integer>> pars = new Avgset().avgset(al);
-
-        for (ArrayList<Integer> par : pars) {
-            System.out.println(par.stream().map(String::valueOf).collect(Collectors.joining(",", "[", "]")));
-        }
-    }
 }

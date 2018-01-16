@@ -37,7 +37,7 @@ import java.util.HashMap;
  */
 public class ContinuousSubarraySum {
     public boolean checkSubarraySum(int[] nums, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>(){
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(){
             {put(0, -1);}
         };
 

@@ -44,7 +44,7 @@ public class Diagnal {
     }
 
     public static void main(String[] args) {
-        ArrayList<ArrayList<Integer>> l = new ArrayList<>() {
+        ArrayList<ArrayList<Integer>> l = new ArrayList<ArrayList<Integer>>() {
             {
                 add(new ArrayList(Arrays.asList(1, 2, 3)));
                 add(new ArrayList(Arrays.asList(4, 5, 6)));

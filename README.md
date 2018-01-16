@@ -180,6 +180,7 @@
 | Find Median from Data Stream                     |||[Solution](c++/algorithm/datastructure/MedianFinder.cpp)||||
 | Fenwick Tree                                     |||[Solution](c++/algorithm/datastructure/FenwickTree.cpp)||||
 | Range Module                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/RangeModule.java)||||||
+| All One                                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/AllOne.java)||||||
 
 ### Backtracking
 
