@@ -16,12 +16,59 @@
 
 package com.haibo.yan.algorithm.graph;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class MST {
-    public List<Vertex<Integer>> kruskal(Graph<Integer> graph) {
-        List<Vertex<Integer>> mst = new ArrayList<>();
+    /**
+     * PRIM algorithm to calculate
+     * @param graph
+     * @return
+     */
+    public Set<WeightEdge<Integer>> prim(WeightUndirectGraph<Integer> graph) {
+        Set<WeightEdge<Integer>> mst = new HashSet<>();
+
+        HashMap<Integer, Integer> weights = new HashMap<>();
+
+        HashMap<Integer, WeightEdge<Integer>> mstMap = new HashMap<>();
+
+        Comparator<Vertex<Integer>> cmp
+                = Comparator.comparing((Vertex<Integer> v) -> weights.containsKey(v.t) ? weights.get(v.t) : Integer.MAX_VALUE);
+
+        PriorityQueue<Vertex<Integer>> minHeap = new PriorityQueue<>(cmp);
+
+        Set<Vertex<Integer>> vertices = graph.allVertices();
+
+        for (Vertex<Integer> vertex : vertices) {
+            minHeap.add(vertex);
+        }
+
+        Vertex<Integer> first = vertices.iterator().next();
+
+        weights.put(first.t, 0);
+
+        int visited = 1;
+
+        while (visited < vertices.size()) {
+            Vertex<Integer> min = minHeap.poll();
+            List<WeightEdge<Integer>> edges = graph.getAllEdges(min);
+
+            for (WeightEdge<Integer> edge : edges) {
+                Vertex<Integer> adjacent = edge.from == min ? edge.to : edge.from;
+                if (!weights.containsKey(adjacent.t) || edge.getWeight() < weights.get(adjacent.t)) {
+                    minHeap.remove(adjacent);
+                    weights.put(adjacent.t, edge.getWeight()) ;
+                    minHeap.add(adjacent);
+                    mstMap.put(adjacent.value(), edge);
+                }
+            }
+            visited++;
+        }
+
+        return new HashSet<>(mstMap.values());
+    }
+
+    public Collection<Edge<Integer>> krusal(WeightUndirectGraph<Integer> graph) {
+        List<Edge<Integer>> mst = new ArrayList<>();
         return mst;
     }
 }

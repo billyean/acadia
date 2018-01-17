@@ -159,6 +159,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
 | Topology Sort(Apple)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)||||||
 | Dijkstra Algorithm                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)||||||
+| Minimum Spanning Tree(Prim, Krusal)              |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/MST.java)||||||
 
 ### Geometry
 
