@@ -22,13 +22,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class UndirectGraph<T> extends Graph {
+public class UndirectGraph<T, E extends Edge<T>> extends Graph<T, E> {
     public UndirectGraph(Set<Vertex<T>> vertices) {
         super(vertices);
     }
 
     @Override
-    public void addEdge(Edge edge) {
+    public void addEdge(E edge) {
         edges.add(edge);
 
         Vertex<T> from = edge.from;
@@ -42,11 +42,11 @@ public class UndirectGraph<T> extends Graph {
         verticesToAdjacents.put(to, tadjacents);
 
 
-        List<Edge<T>> fedges = (List<Edge<T>>)verticesToEdges.getOrDefault(from, new ArrayList<>());
+        List<E> fedges = (List<E>)verticesToEdges.getOrDefault(from, new ArrayList<>());
         fedges.add(edge);
         verticesToEdges.put(from, fedges);
 
-        List<Edge<T>> tedges = (List<Edge<T>>)verticesToEdges.getOrDefault(to, new ArrayList<>());
+        List<E> tedges = (List<E>)verticesToEdges.getOrDefault(to, new ArrayList<>());
         tedges.add(edge);
         verticesToEdges.put(to, tedges);
     }

@@ -21,12 +21,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-public abstract class Graph<T> {
+public abstract class Graph<T, E extends Edge<T>> {
     protected HashMap<Vertex<T>, List<Vertex<T>>> verticesToAdjacents = new HashMap<>();
 
-    protected HashMap<Vertex<T>, List<Edge<T>>> verticesToEdges = new HashMap<>();
+    protected HashMap<Vertex<T>, List<E>> verticesToEdges = new HashMap<>();
 
-    protected List<Edge<T>> edges;
+    protected List<E> edges;
 
     public Graph(Set<Vertex<T>> vertices) {
         this.verticesToAdjacents = new HashMap<>();
@@ -39,7 +39,7 @@ public abstract class Graph<T> {
         return verticesToAdjacents.get(vertex);
     }
 
-    public List<Edge<T>> getAllEdges(Vertex<T> vertex) {
+    public List<E> getAllEdges(Vertex<T> vertex) {
         return verticesToEdges.get(vertex);
     }
 
@@ -47,5 +47,5 @@ public abstract class Graph<T> {
         return verticesToAdjacents.keySet();
     }
 
-    public abstract void addEdge(Edge<T> edge);
+    public abstract void addEdge(E edge);
 }

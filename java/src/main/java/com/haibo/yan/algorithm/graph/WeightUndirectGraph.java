@@ -21,7 +21,9 @@ package com.haibo.yan.algorithm.graph;
 import java.util.List;
 import java.util.Set;
 
-public class WeightUndirectGraph<T> extends UndirectGraph<T>{
+import static java.util.stream.Collectors.toList;
+
+public class WeightUndirectGraph<T> extends UndirectGraph<T, WeightEdge<T>>{
     public WeightUndirectGraph(Set<Vertex<T>> vertices) {
         super(vertices);
     }
@@ -32,5 +34,9 @@ public class WeightUndirectGraph<T> extends UndirectGraph<T>{
 
     public List<WeightEdge<T>> getAllWeightEdges(Vertex<T> vertex) {
         return (List<WeightEdge<T>>)verticesToEdges.get(vertex);
+    }
+
+    public List<WeightEdge<T>> allWeightEdges() {
+        return verticesToEdges.values().stream().flatMap(l -> l.stream()).collect(toList());
     }
 }

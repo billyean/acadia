@@ -20,8 +20,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BellmanFord {
-    public static <T> Map<T, T> shortestPath(Graph<T> graph, Vertex<T> start) {
-        HashMap<T, T> shortestPath = new HashMap<>();
-        return shortestPath;
-    }
+//    public static <T> Map<T, T> shortestPath(Graph<T> graph, Vertex<T> start) {
+//        HashMap<T, T> shortestPath = new HashMap<>();
+//        return shortestPath;
+//    }
 }

@@ -67,8 +67,38 @@ public class MST {
         return new HashSet<>(mstMap.values());
     }
 
-    public Collection<Edge<Integer>> krusal(WeightUndirectGraph<Integer> graph) {
-        List<Edge<Integer>> mst = new ArrayList<>();
+    public Set<WeightEdge<Integer>> krusal(WeightUndirectGraph<Integer> graph) {
+        Set<WeightEdge<Integer>> mst = new HashSet<>();
+
+        Set<Vertex<Integer>> vertices = graph.allVertices();
+
+        HashMap<Integer, Vertex<Integer>> iMap = new HashMap<>();
+
+        for (Vertex<Integer> v : vertices) {
+            iMap.put(v.t, v);
+        }
+
+        UnionFind uf = new UnionFind(vertices.size());
+
+        List<WeightEdge<Integer>> edges = graph.allWeightEdges();
+        edges.sort(Comparator.comparing(WeightEdge::getWeight));
+
+        int union = 0;
+
+        for (WeightEdge<Integer> edge : edges) {
+            if (union >= vertices.size() - 1) {
+                break;
+            }
+            // Vertex is starting from 1 but Union-find works perfectly with zero based array.
+            Vertex<Integer> f = edge.from, t = edge.to;
+            int f1 = f.t - 1, t1 = t.t - 1;
+            if (uf.findRoot(f1) != uf.findRoot(t1)) {
+                uf.union(f1, t1);
+                union++;
+                mst.add(edge);
+            }
+        }
+
         return mst;
     }
 }
