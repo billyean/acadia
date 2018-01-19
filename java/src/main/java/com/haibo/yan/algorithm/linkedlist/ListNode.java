@@ -54,4 +54,22 @@ public class ListNode<T> {
         }
         ps.println();
     }
+
+    public static <E> ListNode<E> reverse(ListNode<E> head) {
+        if (head == null)
+            return head;
+
+        ListNode<E> prev = new ListNode(0, head);
+
+        ListNode<E> insert = head.next;
+
+        while (insert != null) {
+            ListNode<E> next = insert.next;
+            insert.next = prev.next;
+            prev.next = insert;
+            insert = next;
+        }
+
+        return prev.next;
+    }
 }

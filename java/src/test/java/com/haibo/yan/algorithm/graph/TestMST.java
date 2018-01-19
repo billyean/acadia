@@ -75,7 +75,6 @@ public class TestMST {
 
     @Test
     public void testPrim() {
-        System.out.println("Prim ...");
         MST mst = new MST();
         Set<WeightEdge<Integer>> minCut = mst.prim(graph);
 
@@ -84,7 +83,6 @@ public class TestMST {
 
     @Test
     public void testKrusal() {
-        System.out.println("Krusal ...");
         MST mst = new MST();
         Set<WeightEdge<Integer>> minCut = mst.krusal(graph);
 
