@@ -307,4 +307,3 @@ Deal with Sharing Problem
 | Combine Two Tables                               |[Solution](sql/mysql/combine_two_tables.sql)|||
 
 
- 
