@@ -64,21 +64,22 @@
 
 ### Math
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Add One(Apple)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)||||||
-| Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)||||||
-| Reverse Integer                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)||||||
-| One's Number                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)||||||
-| Add Two Numbers                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)||||||
-| ATOI                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)||||||
-| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)||||||
-| Ugly Number                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)||||||
-| Count Numbers with Unique Digits                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)||||||
-| Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)||||||
-| Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)||||||
-| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)||||||
-| Arranging Coins                                  |||[Solution](c++/algorithm/math/ArrangeCoins.cpp)||||
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`      Go      `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|----------------|
+| Add One(Apple)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)|||||||
+| Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)|||||||
+| Reverse Integer                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)|||||||
+| One's Number                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)|||||||
+| Add Two Numbers                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)|||||||
+| ATOI                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)|||||||
+| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[Solution](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)|||||||
+| Ugly Number                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)|||||||
+| Count Numbers with Unique Digits                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)|||||||
+| Prime Sum(Facebook)                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)|||||||
+| Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)|||||||
+| Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)|||||||
+| Arranging Coins                                  |||[Solution](c++/algorithm/math/ArrangeCoins.cpp)|||||
+| Perfect Number                                   ||||||[Solution](go/src/number/perfect.go|
 
 ### Bit Operation
 
