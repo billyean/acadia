@@ -2,19 +2,19 @@
 
 ### Miscellaneous
 
-|`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Binary Watch                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)||||||
-| Roman Digits                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)||||||
-| Valid Anagram                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)||||||
-| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[Solution](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)||||||
+|`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+| Binary Watch                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)|||||||
+| Roman Digits                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)|||||||
+| Valid Anagram                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)|||||||
+| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[Solution](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)|||||||
 
 ### Array
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)||||||
-| Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||||||
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+| Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|||||||
+| Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)|||||||
 | Bibrary Search on rotate array                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Rotate Array                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)||||||
 | Reverse Vowels of a String                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
@@ -37,8 +37,8 @@
 
 ### Matrix
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Minimum steps to G(Facebook)                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
 | Rotate Image                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/RotateImage.java)||||||
 | Spiral Matrix                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)||||||
@@ -46,8 +46,8 @@
 
 ### Linked List
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Circle                                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)||||||
 | Remove reverse kth element                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
 | One diff only(Facebook)                          |[Solution](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
@@ -58,14 +58,14 @@
 
 ### Stack
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
-| Min Stack(Netflix)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||||||
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+| Min Stack(Netflix)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)|||||||
 
 ### Math
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`      Go      `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|----------------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Add One(Apple)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)|||||||
 | Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)|||||||
 | Reverse Integer                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)|||||||
@@ -83,16 +83,16 @@
 
 ### Bit Operation
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Power Of Four                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)||||||
 | Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)||||||
 | Swap Two Integer                                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)||||||
 
 ### Tree
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binrary Tree Serialization(Apple)                |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)||||||
 | Binrary Tree Traversal                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)||||||
 | Minimum Height Trees                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)||||||
@@ -106,8 +106,8 @@
 
 ### String
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Knuth–Morris–Pratt                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)||||||
 | Longest Substring Without Repeating Characters   |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)||||||
 | Isomorphic Strings                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)||||||
@@ -122,16 +122,16 @@
 
 ### Permutation
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Permutation(Apple)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[Solution](python/permutation/permutation.py)||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)|
 
 ### Dynamic Programming
 
 <blink>__Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem__</blink>
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||
 | Coin Change                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)||||||
 | Knapsack                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)||||||
@@ -151,30 +151,30 @@
 
 ### Binary Search
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Search in rotated order array(Salesforce/Linkedin) |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Lookup Latest Good Version(Facebook)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)||||||
 
 ### Graph
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Topology Sort(Apple)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/TopologySort.java)||||||
 | Dijkstra Algorithm                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/Dijkstra.java)||||||
 | Minimum Spanning Tree(Prim, Krusal)              |[Solution](java/src/main/java/com/haibo/yan/algorithm/graph/MST.java)||||||
 
 ### Geometry
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Valid Triangle Number                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/ValidTriangleNumber.java)||||||
 | Max Points on a Line                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/geometry/MaxPointsOnLine.java)||||||
 
 ### Data Structure
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Trie                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/Trie.java)||||||
 | LRU(Salesforce/Amazon)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)||||||
 | LFU                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)||||||
@@ -188,14 +188,14 @@
 
 ### Backtracking
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Generate Parentheses                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)||||||
 
 
 ### Design
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|
-|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | [PackageManager](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) |[Solution](java/src/main/java/com/haibo/yan/design/packagemanager/)||||||
 
 # Advanced algorithm
