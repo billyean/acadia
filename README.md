@@ -79,7 +79,7 @@
 | Big Integer(Facebook)                            |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)|||||||
 | Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)|||||||
 | Arranging Coins                                  |||[Solution](c++/algorithm/math/ArrangeCoins.cpp)|||||
-| Perfect Number                                   ||||||[Solution](go/src/number/perfect.go|
+| Perfect Number                                   |||||||[Solution](go/src/number/perfect.go)|
 
 ### Bit Operation
 
