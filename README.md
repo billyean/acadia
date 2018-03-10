@@ -146,6 +146,7 @@
 | Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PaintHouse.java)||||||
 | Wiggle Subsequence                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)||||||
 | Maximum Length of Repeated Subarray              |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)||||||
+| Marbles in Three Baskets                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)||||||
 
 ### Binary Search
 
