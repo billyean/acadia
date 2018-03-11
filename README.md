@@ -308,7 +308,12 @@ Deal with Sharing Problem
 
 |`Question                                        `|` My SQL              `|`Oracle               `|`SQL Server           `|
 |--------------------------------------------------|-----------------------|-----------------------|-----------------------|
-| Rank Scores                                      |[Solution](sql/mysql/rank_scores.sql)|||
 | Combine Two Tables                               |[Solution](sql/mysql/combine_two_tables.sql)|||
+| Second Highest Salary                            |[Solution](sql/mysql/second_highest_salary.sql)|||
+| Rank Scores                                      |[Solution](sql/mysql/rank_scores.sql)|||
+| Employees Earning More Than Their Managers       |[Solution](sql/mysql/employees_earning_more_than_their_managers.sql)|||
+| Duplicate Emails                                 |[Solution](sql/mysql/duplicate_emails.sql)|||
+| Customers Who Never Order                        |[Solution](sql/mysql/customers_who_never _order.sql)|||
+| Rising Temperature                               |[Solution](sql/mysql/rasing_temperature.sql)|||
 
 
