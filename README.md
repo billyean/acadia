@@ -80,6 +80,8 @@
 | Single Number                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)|||||||
 | Arranging Coins                                  |||[Solution](c++/algorithm/math/ArrangeCoins.cpp)|||||
 | Perfect Number                                   |||||||[Solution](go/src/number/perfect.go)|
+| Prime Number of Set Bits in Binary Representation|||||||[Solution](go/src/number/bits_prime_count.go)|
+
 
 ### Bit Operation
 
