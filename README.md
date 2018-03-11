@@ -313,7 +313,7 @@ Deal with Sharing Problem
 | Rank Scores                                      |[Solution](sql/mysql/rank_scores.sql)|||
 | Employees Earning More Than Their Managers       |[Solution](sql/mysql/employees_earning_more_than_their_managers.sql)|||
 | Duplicate Emails                                 |[Solution](sql/mysql/duplicate_emails.sql)|||
-| Customers Who Never Order                        |[Solution](sql/mysql/customers_who_never _order.sql)|||
+| Customers Who Never Order                        |[Solution](sql/mysql/customers_who_never_order.sql)|||
 | Rising Temperature                               |[Solution](sql/mysql/rasing_temperature.sql)|||
 
 
