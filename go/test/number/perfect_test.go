@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCount(t *testing.T) {
-	if !number.CheckPerfectNumber(24) {
-		t.Errorf("24 should be a perfect number.")
+func TestPerfectNumber(t *testing.T) {
+	if !number.CheckPerfectNumber(28) {
+		t.Errorf("28 should be a perfect number.")
 	}
 
 	if !number.CheckPerfectNumber(6) {

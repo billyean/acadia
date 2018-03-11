@@ -1,7 +1,9 @@
-java/target/**
 java/.idea/**
+java/target/**
 scala/target/**
 scala/project/target/**
+go/.idea/**
+go/pkg/**
 python/venv/**
 c++/cmake-build-debug/**
 .DS_Store
