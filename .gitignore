@@ -8,4 +8,5 @@ go/pkg/**
 python/.idea/**
 python/venv/**
 c++/cmake-build-debug/**
+c++/.idea/**
 .DS_Store
