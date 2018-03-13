@@ -16,7 +16,7 @@
 | Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|[Solution](python/array/zigzag.py)||[Solution](swift/array/Zigzag.swift)||||
 | Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)|||||||
 | Bibrary Search on rotate array                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
-| Rotate Array                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)||||||
+| Rotate Array                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)|[Solution](python/array/rotate.py)|||||
 | Reverse Vowels of a String                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
 | Print Pattern                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
 | Sliding Windows                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)||||||
