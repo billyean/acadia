@@ -60,7 +60,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Min Stack(Netflix)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)|||||||
+| Min Stack(Netflix)                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||[Solution](c++/algorithm/stack/MinStack.cpp)|||||
 
 ### Math
 
