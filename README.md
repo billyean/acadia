@@ -13,8 +13,8 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|[Solution](python/array/zigzag.py)||[Solution](swift/array/Zigzag.swift)||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)||
-| Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)|||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)|[Solution](go/src/array/zigzag.go)|
+| Zigzag Conversion                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|[Solution](python/array/zigzag.py)||[Solution](swift/array/Zigzag.swift)||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)|[Solution](go/src/array/zigzag.go)|
+| Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)|||||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
 | Bibrary Search on rotate array                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Rotate Array                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)|[Solution](python/array/rotate.py)|||||
 | Reverse Vowels of a String                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
