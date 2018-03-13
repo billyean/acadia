@@ -16,7 +16,7 @@ public:
 
     MedianFinder();
 
-    void addNum(int num);
+    void addNum(int);
 
     double findMedian();
 };

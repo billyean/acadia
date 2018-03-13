@@ -12,7 +12,7 @@ using namespace std;
 
 class Zigzag {
 public:
-    string convert(string s, int numRows);
+    string convert(string, int);
 };
 
 

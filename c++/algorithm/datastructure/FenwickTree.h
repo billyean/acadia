@@ -10,11 +10,11 @@ using namespace std;
 class FenwickTree {
 
 public:
-    FenwickTree(vector<int>& nums);
+    FenwickTree(vector<int>&);
 
-    void setNum(int index, int num);
+    void setNum(int, int);
 
-    int rangeSum(int lower, int upper);
+    int rangeSum(int, int);
 
 private:
     vector<int> _sum;
