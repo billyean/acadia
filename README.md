@@ -17,7 +17,7 @@
 | Remove duplicates int from array                 |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||[Solution](c++/algorithm/array/RemoveDuplicate.cpp)|||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
 | Bibrary Search on rotate array                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Rotate Array                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)|[Solution](python/array/rotate.py)|||||
-| Reverse Vowels of a String                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)||||||
+| Reverse Vowels of a String                       |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)|[Solution](python/str/reverse_vowels.py)|||||
 | Print Pattern                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
 | Sliding Windows                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)||||||
 | Move Zero To The End                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)||||||
