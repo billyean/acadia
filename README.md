@@ -112,7 +112,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Knuth–Morris–Pratt                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)|[Solution](python/str/kmp.py)|||||[Solution](go/src/str/kmp.go)|
 | Longest Substring Without Repeating Characters   |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)|||||||
-| Isomorphic Strings                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)|||||||
+| Isomorphic Strings                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)|[Solution](python/str/isomorphic.py)||||||
 | Reverse Words                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)|||||||
 | Interleave(Facebook)                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)|||||||
 | Count cross for reorder array                    ||[Solution](python/cross_count.py)||||||
