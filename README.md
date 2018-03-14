@@ -134,7 +134,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||
+| Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)|||||[Solution](go/src/dp/fibonacci.go)|
 | Coin Change                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)||||||
 | Knapsack                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)||||||
 | Longest Common Subsequence(Linkedin)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)||||||
