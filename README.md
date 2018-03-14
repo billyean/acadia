@@ -104,13 +104,13 @@
 | Longest Path(Facebook)                           |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/LongestPath.java)||||||
 | Balanced Binrary Tree                            ||[Solution](python/tree/balanced_binary_tree.py)|||||
 | Add One Row to Tree                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)||||||
-|Construct String from Binary Tree                 ||[Solution](python/tree/tree2str.py)|||||
+| Construct String from Binary Tree                ||[Solution](python/tree/tree2str.py)|||||
 
 ### String
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Knuth–Morris–Pratt                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)||||||[Solution](go/src/str/kmp.go)|
+| Knuth–Morris–Pratt                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)|(python/str/kmp.py)|||||[Solution](go/src/str/kmp.go)|
 | Longest Substring Without Repeating Characters   |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)|||||||
 | Isomorphic Strings                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)|||||||
 | Reverse Words                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)|||||||
