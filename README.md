@@ -39,45 +39,45 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Minimum steps to G(Facebook)                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)||||||
-| Rotate Image                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/RotateImage.java)||||||
-| Spiral Matrix                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)||||||
-| Number of Islands                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/NumberOfIslands.java)||||||
+| Minimum steps to G(Facebook)                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestClosestG.java)||||||
+| Rotate Image                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/RotateImage.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestRotateImage.java)||||||
+| Spiral Matrix                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestSpiralMatrix.java)||||||
+| Number of Islands                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/NumberOfIslands.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestNumberOfIslands.java)||||||
 
 ### Linked List
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Circle                                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)||||||
-| Remove reverse kth element                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)||||||
-| One diff only(Facebook)                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)||||||
-| Swap Pairs                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)||||||
-| Reorder List                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)||||||
-| Odd Even Linked List                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)||||||
-| Reverse Nodes in k-Group                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReverseKGroup.java)||||||
+| Circle                                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestCircle.java)||||||
+| Remove reverse kth element                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestRemoveK.java)||||||
+| One diff only(Facebook)                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)<br>[`Test`]||||||
+| Swap Pairs                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestSwapPairs.java)||||||
+| Reorder List                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)||||||
+| Odd Even Linked List                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestOddEvenLinkedList.java)||||||
+| Reverse Nodes in k-Group                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReverseKGroup.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReverseKGroup.java)||||||
 
 ### Stack
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Min Stack(Netflix)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)||[`Solution`](c++/algorithm/stack/MinStack.cpp)<br>[`Test`](c++/algorithm_tests/stack/MinStackTest.cpp)|||||
+| Min Stack(Netflix)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/stack/TestMinStack.java)||[`Solution`](c++/algorithm/stack/MinStack.cpp)<br>[`Test`](c++/algorithm_tests/stack/MinStackTest.cpp)|||||
 
 ### Math
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Add One(Apple)                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)|[`Solution`](python/maths/add_one.py)<br>[`Test`](python/test/math/test_add_one.py)||||||
-| Sort by one(GE)                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)|[`Solution`](python/test/maths/test_sort_int.py)<br>[`Test`](python/test/math/test_sort_int.py)||||||
-| Reverse Integer                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)|||||||
+| Add One(Apple)                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestAddOne.java)|[`Solution`](python/maths/add_one.py)<br>[`Test`](python/test/math/test_add_one.py)||||||
+| Sort by one(GE)                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestSortByOne.java)|[`Solution`](python/test/maths/test_sort_int.py)<br>[`Test`](python/test/math/test_sort_int.py)||||||
+| Reverse Integer                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestReverseInteger.java)|||||||
 | One's Number                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)|||||||
-| Add Two Numbers                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)|||||||
-| ATOI                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)|||||||
-| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)|||||||
-| Ugly Number                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)|||||||
-| Count Numbers with Unique Digits                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)|||||||
-| Prime Sum(Facebook)                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)|||||||
-| Big Integer(Facebook)                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)|||||||
-| Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)|||||||
+| Add Two Numbers                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestAddTwoNumbers.java)|||||||
+| ATOI                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)<br>[`Test`]|||||||
+| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)<br>[`Test`]|||||||
+| Ugly Number                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestUglyNumber.java)|||||||
+| Count Numbers with Unique Digits                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)<br>[`Test`]|||||||
+| Prime Sum(Facebook)                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)<br>[`Test`]|||||||
+| Big Integer(Facebook)                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestMyBigInt.java)|||||||
+| Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestSingleNumber.java)|||||||
 | Arranging Coins                                  |||[`Solution`](c++/algorithm/math/ArrangeCoins.cpp)<br>[`Test`](c++/algorithm_tests/math/ArrangeCoinsTest.cpp)|||||
 | Perfect Number                                   |||||||[`Solution`](go/src/number/perfect.go)<br>[`Test`](go/test/number/perfect_test.go)|
 | Prime Number of Set Bits in Binary Representation|||||||[`Solution`](go/src/number/bits_prime_count.go)<br>[`Test`](go/test/number/bits_prime_count_test.go)|
