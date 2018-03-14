@@ -6,8 +6,8 @@
 |-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Watch                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)|[`Solution`](python/misc/binary_watch.py)<br>[`Test`](python/test/misc/test_binary_watch.py)||||||
 | Roman Digits                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/Roman.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestRoman.java)|[`Solution`](python/misc/rome_digits.py)||||||
-| Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/ TestValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)||||||
-| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/ TestStockBuyAndSell.java)|||||||
+| Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)||||||
+| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestStockBuyAndSell.java)|||||||
 
 ### Array
 
