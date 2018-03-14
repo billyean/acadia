@@ -13,8 +13,8 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Zigzag Conversion                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|[`Solution`](python/array/zigzag.py)<br>[`Test`](python/test/parray/test_zigzag.py)|[`Solution`](c++/algorithm/array/Zigzag.cpp)|[`Solution`](swift/array/Zigzag.swift)||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)|[`Solution`](go/src/array/zigzag.go)|
-| Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)|||[Solution](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
+| Zigzag Conversion                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|[`Solution`](python/array/zigzag.py)<br>[`Test`](python/test/parray/test_zigzag.py)|[`Solution`](c++/algorithm/array/Zigzag.cpp)|[`Solution`](swift/array/Zigzag.swift)||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)|[`Solution`](go/src/array/zigzag.go)<br>[`Test`](go/test/array/zigzag_test.go)|
+| Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
 | Binary Search on rotate array                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
 | Rotate Array                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)|[`Solution`](python/array/rotate.py)<br>[`Test`](python/test/parray/test_rotate.py)|||||
 | Reverse Vowels of a String                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)|[`Solution`](python/str/reverse_vowels.py)<br>[`Test`](python/test/str/test_reverse_vowels.py)|||||
@@ -79,8 +79,8 @@
 | Big Integer(Facebook)                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)|||||||
 | Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)|||||||
 | Arranging Coins                                  |||[`Solution`](c++/algorithm/math/ArrangeCoins.cpp)|||||
-| Perfect Number                                   |||||||[`Solution`](go/src/number/perfect.go)|
-| Prime Number of Set Bits in Binary Representation|||||||[`Solution`](go/src/number/bits_prime_count.go)|
+| Perfect Number                                   |||||||[`Solution`](go/src/number/perfect.go)<br>[`Test`](go/test/number/perfect_test.go)|
+| Prime Number of Set Bits in Binary Representation|||||||[`Solution`](go/src/number/bits_prime_count.go)<br>[`Test`](go/test/number/bits_prime_count_test.go)|
 
 
 ### Bit Operation
@@ -110,9 +110,9 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Knuth–Morris–Pratt                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)|[`Solution`](python/str/kmp.py)<br>[`Test`](python/test/list/test_KMP.py)|||||[`Solution`](go/src/str/kmp.go)|
+| Knuth–Morris–Pratt                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/KMP.java)|[`Solution`](python/str/kmp.py)<br>[`Test`](python/test/list/test_KMP.py)|||||[`Solution`](go/src/str/kmp.go)<br>[`Test`](go/test/str/kmp_test.go)|
 | Longest Substring Without Repeating Characters   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/NoRepeatingLongestSubstring.java)|||||||
-| Isomorphic Strings                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)|[Solution](python/str/isomorphic.py)<br>[`Test`](python/test/list/test_isomorphic.py)||||||
+| Isomorphic Strings                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)|[`Solution`](python/str/isomorphic.py)<br>[`Test`](python/test/list/test_isomorphic.py)||||||
 | Reverse Words                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)|||||||
 | Interleave(Facebook)                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)|||||||
 | Count cross for reorder array                    ||[`Solution`](python/cross_count.py)||||||
@@ -134,7 +134,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Fibonacci                                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||[`Solution`](go/src/dp/fibonacci.go)|
+| Fibonacci                                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||[`Solution`](go/src/dp/fibonacci.go)<br>[`Test`](go/test/dp/fibonacci_test.go)|
 | Coin Change                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)|||||||
 | Knapsack                                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)|||||||
 | Longest Common Subsequence(Linkedin)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)|||||||
