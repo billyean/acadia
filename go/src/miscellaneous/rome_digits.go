@@ -1,13 +1,13 @@
 package miscellaneous
 
-type vboundary struct {
-	up int
-	low int
-	ru string
-	rl string
-}
-
 func Int2Rome(num int) string {
+	type vboundary struct {
+		up int
+		low int
+		ru string
+		rl string
+	}
+
 	boundary := []vboundary{
 		vboundary{1000, 900, "M", "C"},
 		vboundary{ 500, 400, "D", "C"},
