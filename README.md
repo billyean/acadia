@@ -4,7 +4,7 @@
 
 |`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Binary Watch                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)<br>~~Test~~|[`Solution`](python/misc/binary_watch.py)<br>[`Test`](python/test/misc/test_binary_watch.py)||||||
+| Binary Watch                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)<br>~~Test~~|[`Solution`](python/misc/binary_watch.py)<br>[`Test`](python/test/misc/test_binary_watch.py)|||||[`Solution`](go/src/miscellaneous/binary_watch.go)<br>[`Test`](go/test/miscellaneous/binary_watch_test.go)|
 | Roman Digits                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/Roman.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestRoman.java)|[`Solution`](python/misc/rome_digits.py)<br>~~Test~~||||||
 | Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)<br>~~Test~~||||||
 | Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestStockBuyAndSell.java)|||||||
@@ -50,7 +50,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Circle                                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestCircle.java)||||||
 | Remove reverse kth element                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestRemoveK.java)||||||
-| One diff only(Facebook)                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)<br>[`Test`]||||||
+| One diff only(Facebook)                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)<br>~~Test~~||||||
 | Swap Pairs                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestSwapPairs.java)||||||
 | Reorder List                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)||||||
 | Odd Even Linked List                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestOddEvenLinkedList.java)||||||
@@ -71,11 +71,11 @@
 | Reverse Integer                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestReverseInteger.java)|||||||
 | One's Number                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)|||||||
 | Add Two Numbers                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestAddTwoNumbers.java)|||||||
-| ATOI                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)<br>[`Test`]|||||||
-| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)<br>[`Test`]|||||||
+| ATOI                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)<br>~~Test~~|||||||
+| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)<br>~~Test~~|||||||
 | Ugly Number                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestUglyNumber.java)|||||||
-| Count Numbers with Unique Digits                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)<br>[`Test`]|||||||
-| Prime Sum(Facebook)                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)<br>[`Test`]|||||||
+| Count Numbers with Unique Digits                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)<br>~~Test~~|||||||
+| Prime Sum(Facebook)                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)<br>~~Test~~|||||||
 | Big Integer(Facebook)                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestMyBigInt.java)|||||||
 | Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestSingleNumber.java)|||||||
 | Arranging Coins                                  |||[`Solution`](c++/algorithm/math/ArrangeCoins.cpp)<br>[`Test`](c++/algorithm_tests/math/ArrangeCoinsTest.cpp)|||||
