@@ -1,5 +1,5 @@
 from unittest import TestCase
-from array.rotate import Rotate
+from parray.rotate import Rotate
 
 
 class TestRotate(TestCase):

@@ -1,5 +1,5 @@
 from unittest import TestCase
-from array.zigzag import Zigzag
+from parray.zigzag import Zigzag
 
 
 class TestZigzag(TestCase):
