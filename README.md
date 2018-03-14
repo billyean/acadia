@@ -67,7 +67,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Add One(Apple)                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)|[Solution](python/maths/add_one.py)||||||
-| Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)|||||||
+| Sort by one(GE)                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)|[Solution](python/test/maths/test_sort_int.py)||||||
 | Reverse Integer                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)|||||||
 | One's Number                                     |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)|||||||
 | Add Two Numbers                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)|||||||
