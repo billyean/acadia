@@ -134,23 +134,23 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)|||||[Solution](go/src/dp/fibonacci.go)|
-| Coin Change                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)||||||
-| Knapsack                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)||||||
-| Longest Common Subsequence(Linkedin)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)||||||
-| Subset to Sum                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)||||||
-| Maximal Square                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)||||||
-| Longest Increasing Subsequence                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)||||||
-| Largest Rectangle in Histogram                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)||||||
-| Wildcard Matching                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)||||||
-| Predict Winner                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)||||||
-| 2 Keys Keyboard                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)||||||
-| Edit Distance                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)||||||
-| Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PaintHouse.java)||||||
-| Wiggle Subsequence                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)||||||
-| Maximum Length of Repeated Subarray              |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)||||||
-| Marbles in Three Baskets                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)||||||
-
+| Fibonacci                                        |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)||||||[Solution](go/src/dp/fibonacci.go)|
+| Coin Change                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)|||||||
+| Knapsack                                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)|||||||
+| Longest Common Subsequence(Linkedin)             |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)|||||||
+| Subset to Sum                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)|||||||
+| Maximal Square                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)|||||||
+| Longest Increasing Subsequence                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)|||||||
+| Largest Rectangle in Histogram                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/LargestRectangleInHistogram.java)|||||||
+| Wildcard Matching                                |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WildcardMatching.java)|||||||
+| Predict Winner                                   |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PredictWinner.java)|||||||
+| 2 Keys Keyboard                                  |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)|||||||
+| Edit Distance                                    |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)|||||||
+| Print House                                      |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/PaintHouse.java)|||||||
+| Wiggle Subsequence                               |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)|||||||
+| Maximum Length of Repeated Subarray              |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)|||||||
+| Marbles in Three Baskets                         |[Solution](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)|||||||
+|
 ### Binary Search
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
