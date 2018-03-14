@@ -4,7 +4,7 @@
 
 |`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Binary Watch                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)|||||||
+| Binary Watch                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)|[Solution](python/misc/binary_watch.py)||||||
 | Roman Digits                                              |[Solution](java/src/main/java/com/haibo/yan/algorithm/Roman.java)|||||||
 | Valid Anagram                                             |[Solution](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)|||||||
 | Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[Solution](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)|||||||
