@@ -13,8 +13,8 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Zigzag Conversion                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestZigzag.java)|[`Solution`](python/array/zigzag.py)<br>[`Test`](python/test/parray/test_zigzag.py)|[`Solution`](c++/algorithm/array/Zigzag.cpp)<br>[`Test`](c++/algorithm_tests/array/ZigzagTest.cpp)|[`Solution`](swift/array/Zigzag.swift)||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)|[`Solution`](go/src/array/zigzag.go)<br>[`Test`](go/test/array/zigzag_test.go)|
-| Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)<br>[`Test`](c++/algorithm_tests/array/RemoveDuplicateTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
+| Zigzag Conversion                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestZigzag.java)|[`Solution`](python/array/zigzag.py)<br>[`Test`](python/test/parray/test_zigzag.py)|[`Solution`](c++/algorithm/array/Zigzag.cpp)<br>[`Test`](c++/algorithm_tests/array/ZigzagTest.cpp)|[`Solution`](swift/array/Zigzag.swift)||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/ZigzagTest.scala)|[`Solution`](go/src/array/zigzag.go)<br>[`Test`](go/test/array/zigzag_test.go)|
+| Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)<br>[`Test`](c++/algorithm_tests/array/RemoveDuplicateTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicatesTest.scala)||
 | Binary Search on rotate array                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRotateArray.java)||||||
 | Rotate Array                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRotateArray.java)|[`Solution`](python/array/rotate.py)<br>[`Test`](python/test/parray/test_rotate.py)|||||
 | Reverse Vowels of a String                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)|[`Solution`](python/str/reverse_vowels.py)<br>[`Test`](python/test/str/test_reverse_vowels.py)|||||
@@ -33,7 +33,7 @@
 | 1-bit and 2-bit Characters                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/OneBit.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestOneBit.java)||||||
 | Count of Smaller Numbers After Self              ||[`Solution`](python/list/count_of_smaller_numbers_after_self.py)<br>[`Test`](python/test/list/test_countSmaller.py)||||||
 | Insert Interval                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/InsertInterval.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestInsertInterval.java)|[`Solution`](python/parray/insert_interval.py)<br>[`Test`](python/test/parray/test_insert_interval.py)|||||
-| Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)|
+| Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/WordSearchTest.scala)|
 
 ### Matrix
 
@@ -126,7 +126,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Permutation(Apple)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[`Solution`](python/permutation/permutation.py)||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)|
+| Permutation(Apple)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)|[`Solution`](python/permutation/permutation.py)||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/permutation/PermuteTest.scala)|
 
 ### Dynamic Programming
 
