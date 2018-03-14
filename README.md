@@ -5,34 +5,34 @@
 |`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Watch                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)|[`Solution`](python/misc/binary_watch.py)<br>[`Test`](python/test/misc/test_binary_watch.py)||||||
-| Roman Digits                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/Roman.java)|[`Solution`](python/misc/rome_digits.py)||||||
-| Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)||||||
-| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)|||||||
+| Roman Digits                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/Roman.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestRoman.java)|[`Solution`](python/misc/rome_digits.py)||||||
+| Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/ TestValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)||||||
+| Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/ TestStockBuyAndSell.java)|||||||
 
 ### Array
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Zigzag Conversion                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)|[`Solution`](python/array/zigzag.py)<br>[`Test`](python/test/parray/test_zigzag.py)|[`Solution`](c++/algorithm/array/Zigzag.cpp)<br>[`Test`](c++/algorithm_tests/array/ZigzagTest.cpp)|[`Solution`](swift/array/Zigzag.swift)||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)|[`Solution`](go/src/array/zigzag.go)<br>[`Test`](go/test/array/zigzag_test.go)|
-| Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)<br>[`Test`](c++/algorithm_tests/array/RemoveDuplicateTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
-| Binary Search on rotate array                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)||||||
-| Rotate Array                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)|[`Solution`](python/array/rotate.py)<br>[`Test`](python/test/parray/test_rotate.py)|||||
+| Zigzag Conversion                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Zigzag.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestZigzag.java)|[`Solution`](python/array/zigzag.py)<br>[`Test`](python/test/parray/test_zigzag.py)|[`Solution`](c++/algorithm/array/Zigzag.cpp)<br>[`Test`](c++/algorithm_tests/array/ZigzagTest.cpp)|[`Solution`](swift/array/Zigzag.swift)||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Zigzag.scala)|[`Solution`](go/src/array/zigzag.go)<br>[`Test`](go/test/array/zigzag_test.go)|
+| Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)<br>[`Test`](c++/algorithm_tests/array/RemoveDuplicateTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)||
+| Binary Search on rotate array                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRotateArray.java)||||||
+| Rotate Array                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRotateArray.java)|[`Solution`](python/array/rotate.py)<br>[`Test`](python/test/parray/test_rotate.py)|||||
 | Reverse Vowels of a String                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)|[`Solution`](python/str/reverse_vowels.py)<br>[`Test`](python/test/str/test_reverse_vowels.py)|||||
-| Print Pattern                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)||||||
-| Sliding Windows                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)||||||
-| Move Zero To The End                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)||||||
-| Minimum Size Subarray Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)||||||
-| Continuous Subarray Sum                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)||||||
-| Subarray Product Less Than K                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)||||||
-| Longest Palindrome Length                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)||||||
-| Merge Intervals                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)||||||
-| Wiggle Sort                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)||||||
+| Print Pattern                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestPrintPattern.java)||||||
+| Sliding Windows                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestSlidingWindow.java)||||||
+| Move Zero To The End                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestMoveZeroes.java)||||||
+| Minimum Size Subarray Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MinSubArrayLen.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestMinSubArrayLen.java)||||||
+| Continuous Subarray Sum                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ContinuousSubarraySum.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestContinuousSubarraySum.java)||||||
+| Subarray Product Less Than K                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumSubarrayProductLessThanK.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestNumSubarrayProductLessThanK.java)||||||
+| Longest Palindrome Length                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestPalindrome.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestLongestPalindrome.java)||||||
+| Merge Intervals                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MergeIntervals.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestMergeIntervals.java)||||||
+| Wiggle Sort                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/WiggleSort.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestWiggleSort.java)||||||
 | Brick Wall                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BrickWall.java)||||||
-| Next Greater Element                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NextGreaterElement.java)||||||
-| Search for a Range                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SearchRange.java)||||||
-| 1-bit and 2-bit Characters                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/OneBit.java)||||||
+| Next Greater Element                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NextGreaterElement.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestNextGreaterElement.java)||||||
+| Search for a Range                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SearchRange.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestSearchRange.java)||||||
+| 1-bit and 2-bit Characters                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/OneBit.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestOneBit.java)||||||
 | Count of Smaller Numbers After Self              ||[`Solution`](python/list/count_of_smaller_numbers_after_self.py)<br>[`Test`](python/test/list/test_countSmaller.py)||||||
-| Insert Interval                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/InsertInterval.java)|[`Solution`](python/parray/insert_interval.py)<br>[`Test`](python/test/parray/test_insert_interval.py)|||||
+| Insert Interval                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/InsertInterval.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestInsertInterval.java)|[`Solution`](python/parray/insert_interval.py)<br>[`Test`](python/test/parray/test_insert_interval.py)|||||
 | Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)|
 
 ### Matrix
