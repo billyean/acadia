@@ -4,7 +4,7 @@
 
 |`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |-----------------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Binary Watch                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)<br>~~Test~~|[`Solution`](python/misc/binary_watch.py)<br>[`Test`](python/test/misc/test_binary_watch.py)|[`Solution`](c++/algorithm/misc/BinaryWatch.cpp)<br>[`Test`](c++/algorithm_tests/misc/BinaryWatchTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/misc/BinaryWatch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/misc/BinaryWatchTest.scala)|[`Solution`](go/src/miscellaneous/binary_watch.go)<br>[`Test`](go/test/miscellaneous/binary_watch_test.go)|
+| Binary Watch                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/easy/BinaryWatch.java)<br>~~`Test`~~|[`Solution`](python/misc/binary_watch.py)<br>[`Test`](python/test/misc/test_binary_watch.py)|[`Solution`](c++/algorithm/misc/BinaryWatch.cpp)<br>[`Test`](c++/algorithm_tests/misc/BinaryWatchTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/misc/BinaryWatch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/misc/BinaryWatchTest.scala)|[`Solution`](go/src/miscellaneous/binary_watch.go)<br>[`Test`](go/test/miscellaneous/binary_watch_test.go)|
 | Roman Digits                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/Roman.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestRoman.java)|[`Solution`](python/misc/rome_digit.py)<br>[`Test`](python/test/misc/test_rome_digits.py)|||||[`Solution`](go/src/miscellaneous/rome_digits.go)<br>[`Test`](go/test/miscellaneous/rome_digits_test.go)|
 | Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)<br>[`Test`](python/test/misc/test_binary_watch.py)|||||[`Solution`](go/src/miscellaneous/anagram.go)<br>[`Test`](go/test/miscellaneous/anagram_test.go)|
 | Best Time to Buy and Sell Stock(I,II,III,IV,Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestStockBuyAndSell.java)|||||||
@@ -17,7 +17,7 @@
 | Remove duplicates int from array                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveDuplicates.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRemoveDuplicates.java)||[`Solution`](c++/algorithm/array/RemoveDuplicate.cpp)<br>[`Test`](c++/algorithm_tests/array/RemoveDuplicateTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicates.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/RemoveDuplicatesTest.scala)||
 | Binary Search on rotate array                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRotateArray.java)||||||
 | Rotate Array                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RotateArray.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestRotateArray.java)|[`Solution`](python/array/rotate.py)<br>[`Test`](python/test/parray/test_rotate.py)|||||
-| Reverse Vowels of a String                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)|[`Solution`](python/str/reverse_vowels.py)<br>[`Test`](python/test/str/test_reverse_vowels.py)|||||
+| Reverse Vowels of a String                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReverseVowels.java)<br>~~`Test`~~|[`Solution`](python/str/reverse_vowels.py)<br>[`Test`](python/test/str/test_reverse_vowels.py)|||||
 | Print Pattern                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PrintPattern.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestPrintPattern.java)||||||
 | Sliding Windows                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SlidingWindow.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestSlidingWindow.java)||||||
 | Move Zero To The End                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MoveZeroes.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestMoveZeroes.java)||||||
@@ -50,7 +50,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Circle                                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/Circle.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestCircle.java)||||||
 | Remove reverse kth element                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/RemoveK.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestRemoveK.java)||||||
-| One diff only(Facebook)                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)<br>~~Test~~||||||
+| One diff only(Facebook)                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OneDiff.java)<br>~~`Test`~~||||||
 | Swap Pairs                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/SwapPairs.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestSwapPairs.java)||||||
 | Reorder List                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)||||||
 | Odd Even Linked List                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestOddEvenLinkedList.java)||||||
@@ -71,11 +71,11 @@
 | Reverse Integer                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestReverseInteger.java)|||||||
 | One's Number                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)|||||||
 | Add Two Numbers                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddTwoNumbers.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestAddTwoNumbers.java)|||||||
-| ATOI                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)<br>~~Test~~|||||||
-| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)<br>~~Test~~|||||||
+| ATOI                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ATOI.java)<br>~~`Test`~~|||||||
+| Sum(Two Sum, Three Sum, Three Sum Closest, 4 Sum)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/Sum.java)<br>~~`Test`~~|||||||
 | Ugly Number                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/UglyNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestUglyNumber.java)|||||||
-| Count Numbers with Unique Digits                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)<br>~~Test~~|||||||
-| Prime Sum(Facebook)                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)<br>~~Test~~|||||||
+| Count Numbers with Unique Digits                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/CountNumbersWithUniqueDigits.java)<br>~~`Test`~~|||||||
+| Prime Sum(Facebook)                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/PrimeSum.java)<br>~~`Test`~~|||||||
 | Big Integer(Facebook)                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestMyBigInt.java)|||||||
 | Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestSingleNumber.java)|||||||
 | Arranging Coins                                  |||[`Solution`](c++/algorithm/math/ArrangeCoins.cpp)<br>[`Test`](c++/algorithm_tests/math/ArrangeCoinsTest.cpp)|||||
@@ -102,9 +102,9 @@
 | Binary Tree Zigzag Level Order Traversal         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/)||||||
 | Find Duplicate Subtrees                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestFindDuplicateSubtrees.java)||||||
 | Longest Path(Facebook)                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LongestPath.java)<br>~~`Test`~~||||||
-| Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)|||||
+| Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)<br>~~`Test`~~|||||
 | Add One Row to Tree                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)<br>~~`Test`~~||||||
-| Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)|||||
+| Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)<br>~~`Test`~~|||||
 
 ### String
 
@@ -115,7 +115,7 @@
 | Isomorphic Strings                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestIsomorphic.java)|[`Solution`](python/str/isomorphic.py)<br>[`Test`](python/test/list/test_isomorphic.py)||||||
 | Reverse Words                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestReverseWords.java)|||||||
 | Interleave(Facebook)                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)<br>~~`Test`~~|||||||
-| Count cross for reorder array                    ||[`Solution`](python/cross_count.py)||||||
+| Count cross for reorder array                    ||[`Solution`](python/cross_count.py)<br>~~`Test`~~||||||
 | Minimum Time Difference                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/MinimumTimeDifference.java)<br>~~`Test`~~|||||||
 | Remove K Digits                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/RemoveKDigits.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestRemoveKDigits.java)|||||||
 | Minimum Window Substring                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/MinimumWindowSubstring.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestMinimumWindowSubstring.java)|||||||
@@ -126,7 +126,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Permutation(Apple)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/permutation/TestPermutation.java)|[`Solution`](python/permutation/permutation.py)||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/permutation/PermuteTest.scala)|
+| Permutation(Apple)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/permutation/TestPermutation.java)|[`Solution`](python/permutation/permutation.py)<br>~~`Test`~~||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/permutation/PermuteTest.scala)|
 
 ### Dynamic Programming
 
@@ -156,7 +156,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Search in rotated order array(Salesforce/Linkedin) |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/binarysearch/TestRotateSearch.java)||||||
-| Lookup Latest Good Version(Facebook)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)<br>~~`Test~~||||||
+| Lookup Latest Good Version(Facebook)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)<br>~~`Test`~~||||||
 
 ### Graph
 
@@ -183,8 +183,8 @@
 | Binary Heap                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestBinaryHeap.java)||||||
 | Magic Dictionary                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestMagicDictionary.java)||||||
 | Map Sum Pairs                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/MapSum.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestMapSum.java)||||||
-| Find Median from Data Stream                     |||[`Solution`](c++/algorithm/datastructure/MedianFinder.cpp)||||
-| Fenwick Tree                                     |||[`Solution`](c++/algorithm/datastructure/FenwickTree.cpp)||||
+| Find Median from Data Stream                     |||[`Solution`](c++/algorithm/datastructure/MedianFinder.cpp)<br>~~`Test`~~||||
+| Fenwick Tree                                     |||[`Solution`](c++/algorithm/datastructure/FenwickTree.cpp)<br>~~`Test`~~||||
 | Range Module                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/RangeModule.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestRangeModule.java)||||||
 | All One                                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/AllOne.java)<br>~~`Test`~~||||||
 
