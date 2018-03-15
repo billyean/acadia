@@ -66,7 +66,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Add One(Apple)                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestAddOne.java)|[`Solution`](python/maths/add_one.py)<br>[`Test`](python/test/math/test_add_one.py)||||||
+| Add One(Apple)                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/AddOne.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestAddOne.java)|[`Solution`](python/maths/add_one.py)<br>[`Test`](python/test/math/test_add_one.py)|||[`Solution`](javascript/js/math/add-one.js)<br>[`Test`](javascript/test/math/test-add-one.js)|||
 | Sort by one(GE)                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SortByOne.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestSortByOne.java)|[`Solution`](python/test/maths/test_sort_int.py)<br>[`Test`](python/test/math/test_sort_int.py)||||||
 | Reverse Integer                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/ReverseInteger.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestReverseInteger.java)|||||||
 | One's Number                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/OneNumbers.java)|||||||
