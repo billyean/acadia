@@ -33,7 +33,7 @@
 | 1-bit and 2-bit Characters                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/OneBit.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestOneBit.java)||||||
 | Count of Smaller Numbers After Self              ||[`Solution`](python/list/count_of_smaller_numbers_after_self.py)<br>[`Test`](python/test/list/test_countSmaller.py)||||||
 | Insert Interval                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/InsertInterval.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestInsertInterval.java)|[`Solution`](python/parray/insert_interval.py)<br>[`Test`](python/test/parray/test_insert_interval.py)|||||
-| Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/WordSearchTest.scala)|
+| Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/WordSearchTest.scala)||
 | Intersection of Arrays                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/IntersectionOfArray.scala)<br>~~`Test`~~|[`Solution`](python/parray/intersection.py)<br>[`Test`](python/test/parray/test_intersection.py)|||||
 
 ### Matrix
@@ -80,7 +80,7 @@
 | Big Integer(Facebook)                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/MyBigInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestMyBigInt.java)|||||||
 | Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SingleNumber.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/TestSingleNumber.java)|||||||
 | Arranging Coins                                  |||[`Solution`](c++/algorithm/math/ArrangeCoins.cpp)<br>[`Test`](c++/algorithm_tests/math/ArrangeCoinsTest.cpp)|||||
-| Perfect Number                                   |||||||[`Solution`](go/src/number/perfect.go)<br>[`Test`](go/test/number/perfect_test.go)|
+| Perfect Number                                   ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/number/PerfectNumber.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/number/PerfectNumberTest.scala)|[`Solution`](go/src/number/perfect.go)<br>[`Test`](go/test/number/perfect_test.go)|
 | Prime Number of Set Bits in Binary Representation|||||||[`Solution`](go/src/number/bits_prime_count.go)<br>[`Test`](go/test/number/bits_prime_count_test.go)|
 
 
