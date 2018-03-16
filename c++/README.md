@@ -17,4 +17,4 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /u
 ```
 
 # Unit Test
-I am using Google test as test framework.
+I am using [Google test](https://github.com/google/googletest) as test framework.

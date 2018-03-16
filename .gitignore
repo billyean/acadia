@@ -9,4 +9,6 @@ python/.idea/**
 python/venv/**
 c++/cmake-build-debug/**
 c++/.idea/**
+javascript/.idea/**
+javascript/node_modules/**
 .DS_Store
