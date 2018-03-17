@@ -34,7 +34,7 @@
 | Count of Smaller Numbers After Self              ||[`Solution`](python/list/count_of_smaller_numbers_after_self.py)<br>[`Test`](python/test/list/test_countSmaller.py)||||||
 | Insert Interval                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/InsertInterval.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestInsertInterval.java)|[`Solution`](python/parray/insert_interval.py)<br>[`Test`](python/test/parray/test_insert_interval.py)|||||
 | Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/WordSearchTest.scala)||
-| Intersection of Arrays                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/IntersectionOfArray.scala)<br>~~`Test`~~|[`Solution`](python/parray/intersection.py)<br>[`Test`](python/test/parray/test_intersection.py)|||||
+| Intersection of Arrays                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/IntersectionOfArray.scala)<br>~~`Test`~~|[`Solution`](python/parray/intersection.py)<br>[`Test`](python/test/parray/test_intersection.py)|||(scala/src/main/scala/com/haiboyan/scala/algorithm/array/Intersection.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/IntersectionTest.scala)||
 
 ### Matrix
 
