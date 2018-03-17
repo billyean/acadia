@@ -116,12 +116,12 @@
 | Isomorphic Strings                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Isomorphic.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestIsomorphic.java)|[`Solution`](python/str/isomorphic.py)<br>[`Test`](python/test/list/test_isomorphic.py)||||||
 | Reverse Words                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/ReverseWords.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestReverseWords.java)|||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/string/ReverseWord.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/string/ReverseWordTest.scala)||
 | Interleave(Facebook)                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Interleave.java)<br>~~`Test`~~|||||||
-| Count cross for reorder array                    ||[`Solution`](python/cross_count.py)<br>~~`Test`~~||||||
+| Count cross for reorder array                    ||[`Solution`](python/list/cross_count.py)<br>~~`Test`~~||||||
 | Minimum Time Difference                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/MinimumTimeDifference.java)<br>~~`Test`~~|||||||
 | Remove K Digits                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/RemoveKDigits.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestRemoveKDigits.java)|||||||
 | Minimum Window Substring                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/MinimumWindowSubstring.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestMinimumWindowSubstring.java)|||||||
 | Z Sort                                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/ZSort.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestZSort.java)|||||||
-| Remove Duplicate Letters                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/RemoveLetters.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestRemoveLetters.java)|||||||
+| Remove Duplicate Letters                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/RemoveLetters.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestRemoveLetters.java)||[`Solution`](c++/algorithm/str/RemoveLetters.cpp)<br>[`Test`](c++/algorithm_tests/str/RemoveLettersTest.cpp)|||||
 
 ### Permutation
 
