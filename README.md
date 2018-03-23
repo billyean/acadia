@@ -88,7 +88,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Power Of Four                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)<br>~~`Test`~~||||||
+| Power Of Four                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)<br>~~`Test`~~|||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/math/BitUtilities.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/math/BitUtilitiesTest.scala)||
 | Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)<br>~~`Test`~~||||||
 | Swap Two Integer                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/bitop/TestSwapTwoInt.java)||||||
 

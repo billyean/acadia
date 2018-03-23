@@ -2,7 +2,7 @@ package com.haiboyan.scala.algorithm.matrix
 
 import org.scalatest.{FunSuite, Matchers}
 
-class Image2DTest extends FunSuite with Matchers{
+class Image2DTest extends FunSuite with Matchers {
   test("Rotate 3*3 matrix") {
     val matrix = List(List(1, 2, 3), List(4, 5, 6), List(7, 8, 9))
 
