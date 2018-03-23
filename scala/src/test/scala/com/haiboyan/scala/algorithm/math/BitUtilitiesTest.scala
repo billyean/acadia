@@ -17,4 +17,28 @@ class BitUtilitiesTest extends FunSuite with Matchers {
       }
     }
   }
+
+  test("6 appears once in [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5]") {
+    assert(BitUtilities.findDanglingInTwos(List(1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5)) == 6)
+  }
+
+  test("6 appears once in twos in [6]") {
+    assert(BitUtilities.findDanglingInTwos(List(6)) == 6)
+  }
+
+  test("6 appears once in [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 5, 4, 3, 2, 1]") {
+    assert(BitUtilities.findDanglingInThrees(List(1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 5, 4, 3, 2, 1)) == 6)
+  }
+
+  test("6 appears once in threes in [6]") {
+    assert(BitUtilities.findDanglingInThrees(List(6)) == 6)
+  }
+
+  test("6 appears once in [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 2, 3, 4, 5, 5, 4, 3, 2, 1]") {
+    assert(BitUtilities.findDanglingInFours(List(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 2, 3, 4, 5, 5, 4, 3, 2, 1)) == 6)
+  }
+
+  test("6 appears once in fours in [6]") {
+    assert(BitUtilities.findDanglingInFours(List(6)) == 6)
+  }
 }
