@@ -195,6 +195,11 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Generate Parentheses                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/backtracking/TestGenerateParenthesis.java)||||||
 
+### Range
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+|Smallest Range                                    |||[`Solution`](c++/algorithm/range/SmallRange.cpp)<br>[`Test`(c++/algorithm_tests/range/SmallRangeTest.cpp)|||||
 
 ### Design
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
