@@ -43,7 +43,7 @@
 | Minimum steps to G(Facebook)                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestClosestG.java)|||||||
 | Rotate Image                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/RotateImage.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestRotateImage.java)|||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/matrix/Image2D.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/matrix/Image2DTest.scala)||
 | Spiral Matrix                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestSpiralMatrix.java)|||||||
-| Number of Islands                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/NumberOfIslands.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestNumberOfIslands.java)||[`Solution`](c++/algorithm/matrix/Islands.cpp)<br>[`Test`(c++/algorithm_tests/matrix/IslandsTest.cpp)|||||
+| Number of Islands                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/NumberOfIslands.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestNumberOfIslands.java)||[`Solution`](c++/algorithm/matrix/Islands.cpp)<br>[`Test`](c++/algorithm_tests/matrix/IslandsTest.cpp)|||||
 
 ### Linked List
 
