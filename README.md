@@ -182,12 +182,12 @@
 | LRU(Salesforce/Amazon)                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/LRU.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestLRU.java)||||||
 | LFU                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/LFU.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestLFU.java)||||||
 | Binary Heap                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/BinaryHeap.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestBinaryHeap.java)||||||
-| Magic Dictionary                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestMagicDictionary.java)||||||
+| Magic Dictionary                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/MagicDictionary.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestMagicDictionary.java)||[`Solution`](c++/algorithm/datastructure/MagicDictionary.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/MagicDictionaryTest.cpp)|||||
 | Map Sum Pairs                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/MapSum.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestMapSum.java)||||||
-| Find Median from Data Stream                     |||[`Solution`](c++/algorithm/datastructure/MedianFinder.cpp)<br>~~`Test`~~||||
-| Fenwick Tree                                     |||[`Solution`](c++/algorithm/datastructure/FenwickTree.cpp)<br>~~`Test`~~||||
-| Range Module                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/RangeModule.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestRangeModule.java)||||||
-| All One                                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/AllOne.java)<br>~~`Test`~~||||||
+| Find Median from Data Stream                     |||[`Solution`](c++/algorithm/datastructure/MedianFinder.cpp)<br>~~`Test`~~|||||
+| Fenwick Tree                                     |||[`Solution`](c++/algorithm/datastructure/FenwickTree.cpp)<br>~~`Test`~~|||||
+| Range Module                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/RangeModule.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestRangeModule.java)|||||||
+| All One                                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/AllOne.java)<br>~~`Test`~~|||||||
 
 ### Backtracking
 
@@ -199,7 +199,7 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-|Smallest Range                                    |||[`Solution`](c++/algorithm/range/SmallRange.cpp)<br>[`Test`(c++/algorithm_tests/range/SmallRangeTest.cpp)|||||
+|Smallest Range                                    |||[`Solution`](c++/algorithm/range/SmallRange.cpp)<br>[`Test`](c++/algorithm_tests/range/SmallRangeTest.cpp)|||||
 
 ### Design
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
