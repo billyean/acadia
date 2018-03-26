@@ -13,8 +13,8 @@ class BinaryWatch {
     
     init() {
         cache = [:]
-        for h in 0...11 {
-            for m in 0...59 {
+        for h in 0..<12 {
+            for m in 0..<60 {
                 let b = self.bits(h, m)
                 let s = self.time(h, m)
                 
