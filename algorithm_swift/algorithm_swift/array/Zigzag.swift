@@ -1,8 +1,8 @@
 //
 //  Zigzag.swift
-//  Algorithm
+//  algorithm_swift
 //
-//  Created by Haibo Yan on 3/12/18.
+//  Created by Haibo Yan on 3/25/18.
 //  Copyright © 2018 Haibo Yan. All rights reserved.
 //
 
@@ -21,12 +21,12 @@ public class Zigzag {
             let span2 = 2 * i
             
             var add = true
-
+            
             var b = i
             
             while b < s.count {
                 zs += cs[b]
-            
+                
                 switch (span1, span2, add) {
                 case (0, _, _):
                     b += span2
