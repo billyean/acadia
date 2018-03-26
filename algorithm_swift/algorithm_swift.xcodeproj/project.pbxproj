@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F4628F1206953D500F0894A /* RomeDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4628F0206953D500F0894A /* RomeDigits.swift */; };
 		1F4628F320695BB200F0894A /* RomeDigitsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4628F220695BB200F0894A /* RomeDigitsTest.swift */; };
+		1F4628F5206968E900F0894A /* StockSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4628F4206968E900F0894A /* StockSell.swift */; };
+		1F4628F72069952C00F0894A /* StockSellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4628F62069952C00F0894A /* StockSellTest.swift */; };
 		1F99ABC22068B125004421B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F99ABC12068B125004421B0 /* AppDelegate.swift */; };
 		1F99ABC42068B125004421B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F99ABC32068B125004421B0 /* ViewController.swift */; };
 		1F99ABC72068B125004421B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F99ABC52068B125004421B0 /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		1F4628F0206953D500F0894A /* RomeDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeDigits.swift; sourceTree = "<group>"; };
 		1F4628F220695BB200F0894A /* RomeDigitsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeDigitsTest.swift; sourceTree = "<group>"; };
+		1F4628F4206968E900F0894A /* StockSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSell.swift; sourceTree = "<group>"; };
+		1F4628F62069952C00F0894A /* StockSellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSellTest.swift; sourceTree = "<group>"; };
 		1F99ABBE2068B125004421B0 /* algorithm_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithm_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F99ABC12068B125004421B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F99ABC32068B125004421B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 			children = (
 				1F99ABE82068B3E5004421B0 /* BinaryWatch.swift */,
 				1F4628F0206953D500F0894A /* RomeDigits.swift */,
+				1F4628F4206968E900F0894A /* StockSell.swift */,
 			);
 			path = misc;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				1F99ABEB2068BD73004421B0 /* BinaryWatchTest.swift */,
 				1F4628F220695BB200F0894A /* RomeDigitsTest.swift */,
+				1F4628F62069952C00F0894A /* StockSellTest.swift */,
 			);
 			path = misc;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4628F5206968E900F0894A /* StockSell.swift in Sources */,
 				1F99ABE92068B3E5004421B0 /* BinaryWatch.swift in Sources */,
 				1F99ABE32068B18B004421B0 /* Zigzag.swift in Sources */,
 				1F99ABC42068B125004421B0 /* ViewController.swift in Sources */,
@@ -261,6 +268,7 @@
 			files = (
 				1F99ABE62068B2BB004421B0 /* ZigzagTest.swift in Sources */,
 				1F4628F320695BB200F0894A /* RomeDigitsTest.swift in Sources */,
+				1F4628F72069952C00F0894A /* StockSellTest.swift in Sources */,
 				1F99ABEC2068BD73004421B0 /* BinaryWatchTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
