@@ -97,15 +97,15 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binrary Tree Serialization(Apple)                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestBinaryTreeListNodeSerialization.java)||||||
-| Binrary Tree Traversal                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestTraversal.java)||||||
-| Minimum Height Trees                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)<br>~~`Test`~~||||||
-| Longest Consecutive Path                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)<br>~~`Test`~~||||||
-| Binary Tree Zigzag Level Order Traversal         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/)||||||
-| Find Duplicate Subtrees                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestFindDuplicateSubtrees.java)||||||
-| Longest Path(Facebook)                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LongestPath.java)<br>~~`Test`~~||||||
-| Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)<br>~~`Test`~~|||||
-| Add One Row to Tree                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)<br>~~`Test`~~||||||
-| Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)<br>~~`Test`~~|||||
+| Binrary Tree Traversal                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestTraversal.java)|||[`Solution`](algorithm_swift/algorithm_swift/tree/BinaryTree.swift)<br>~~`Test`~~)||||
+| Minimum Height Trees                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)<br>~~`Test`~~|||||||
+| Longest Consecutive Path                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)<br>~~`Test`~~|||||||
+| Binary Tree Zigzag Level Order Traversal         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/)|||||||
+| Find Duplicate Subtrees                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/FindDuplicateSubtrees.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestFindDuplicateSubtrees.java)|||||||
+| Longest Path(Facebook)                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LongestPath.java)<br>~~`Test`~~|||||||
+| Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)<br>~~`Test`~~||||||
+| Add One Row to Tree                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)<br>~~`Test`~~|||||||
+| Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)<br>~~`Test`~~||||||
 
 ### String
 
