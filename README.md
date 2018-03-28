@@ -152,6 +152,7 @@
 | Wiggle Subsequence                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestWiggleSubsequence.java)|||||||
 | Maximum Length of Repeated Subarray              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMaxLenRepeatedSubarray.java)|||||||
 | Marbles in Three Baskets                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMarblesThreeBaskets.java)|||||||
+| Split Array With Same Average                    |||[`Solution`](c++/algorithm/dp/SplitArrayWIthSameAverage.cpp)<br>[`Test`](c++/algorithm_tests/dp/SplitArrayWIthSameAverageTest.cpp)|||||
 
 ### Binary Search
 
