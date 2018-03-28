@@ -89,9 +89,9 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Power Of Four                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)<br>~~`Test`~~|||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/math/BitUtilities.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/math/BitUtilitiesTest.scala)||
-| Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)<br>~~`Test`~~|||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/math/BitUtilities.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/math/BitUtilitiesTest.scala)||
-| Swap Two Integer                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/bitop/TestSwapTwoInt.java)|~~Python use tuple~~||~~Swift use tuple~~||~~Scala use tuple~~||
+| Power Of Four                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/PowerOfFour.java)<br>~~`Test`~~||[`Solution`](c++/algorithm/bitop/BitUtilities.cpp)<br>[`Test`](c++/algorithm_tests/bitop/BitUtilitiesTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/math/BitUtilities.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/math/BitUtilitiesTest.scala)||
+| Single Number                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SingleNumber.java)<br>~~`Test`~~||[`Solution`](c++/algorithm/bitop/SingleNumber.cpp)<br>[`Test`](c++/algorithm_tests/bitop/SingleNumberTest.cpp)|||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/math/BitUtilities.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/math/BitUtilitiesTest.scala)||
+| Swap Two Integer                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/bitop/SwapTwoInt.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/math/bitop/TestSwapTwoInt.java)|~~Python use tuple~~|[`Solution`](c++/algorithm/bitop/BitUtilities.cpp)<br>[`Test`](c++/algorithm_tests/bitop/BitUtilitiesTest.cpp)|~~Swift use tuple~~||~~Scala use tuple~~||
 
 ### Tree
 
