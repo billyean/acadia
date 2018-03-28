@@ -62,6 +62,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Min Stack(Netflix)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/stack/TestMinStack.java)|[`Solution`](python/datastructure/min_stack.py)<br>[`Test`](python/test/datastructure/test_min_stack.py)|[`Solution`](c++/algorithm/stack/MinStack.cpp)<br>[`Test`](c++/algorithm_tests/stack/MinStackTest.cpp)|||||
+| Wiggle Subsequence                               |||[`Solution`](c++/algorithm/dp/SubSequence.cpp)<br>[`Test`](c++/algorithm_tests/dp/SubSequenceTest.cpp)|||||
 
 ### Math
 
@@ -138,7 +139,7 @@
 | Fibonacci                                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/Fibonacci.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestFibonacci.java)|[`Solution`](python/dp/fibonacci.py)<br>[`Test`](python/test/dp/test_fibonacci.py)|[`Solution`](c++/algorithm/dp/Fibonacci.cpp)<br>[`Test`](c++/algorithm_tests/dp/FibonacciTest.cpp)||||[`Solution`](go/src/dp/fibonacci.go)<br>[`Test`](go/test/dp/fibonacci_test.go)|
 | Coin Change                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/CoinChange.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestCoinChange.java)||[`Solution`](c++/algorithm/dp/Coin.cpp)<br>[`Test`](c++/algorithm_tests/dp/CoinTest.cpp)|||||
 | Knapsack                                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/Knapsack.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestKnapsack.java)||[`Solution`](c++/algorithm/dp/Knapsack.cpp)<br>[`Test`](c++/algorithm_tests/dp/KnapsackTest.cpp)|||||
-| Longest Common Subsequence(Linkedin)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestLongestCommonSubsequence.java)|||||||
+| Longest Common Subsequence(Linkedin)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/LongestCommonSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestLongestCommonSubsequence.java)||[`Solution`](c++/algorithm/dp/SubSequence.cpp)<br>[`Test`](c++/algorithm_tests/dp/SubSequenceTest.cpp)|||||
 | Subset to Sum                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/SubsetSum.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestSubsetSum.java)|||||||
 | Maximal Square                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MaximalSquare.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMaximalSquare.java)|||||||
 | Longest Increasing Subsequence                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/LongestIncreasingSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestLongestIncreasingSubsequence.java)|||||||
