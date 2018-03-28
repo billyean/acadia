@@ -62,7 +62,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Min Stack(Netflix)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/stack/TestMinStack.java)|[`Solution`](python/datastructure/min_stack.py)<br>[`Test`](python/test/datastructure/test_min_stack.py)|[`Solution`](c++/algorithm/stack/MinStack.cpp)<br>[`Test`](c++/algorithm_tests/stack/MinStackTest.cpp)|||||
-| Wiggle Subsequence                               |||[`Solution`](c++/algorithm/dp/SubSequence.cpp)<br>[`Test`](c++/algorithm_tests/dp/SubSequenceTest.cpp)|||||
+| Wiggle Subsequence                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestWiggleSubsequence.java)||[`Solution`](c++/algorithm/dp/SubSequence.cpp)<br>[`Test`](c++/algorithm_tests/dp/SubSequenceTest.cpp)|||||
 
 ### Math
 
@@ -149,7 +149,6 @@
 | 2 Keys Keyboard                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/TwoKeysKeyboard.java)<br>~~`Test`~~|||||||
 | Edit Distance                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/EditDistance.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestEditDistance.java)|||||||
 | Print House                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/PaintHouse.java)<br>~~`Test`~~|||||||
-| Wiggle Subsequence                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestWiggleSubsequence.java)|||||||
 | Maximum Length of Repeated Subarray              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MaxLenRepeatedSubarray.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMaxLenRepeatedSubarray.java)|||||||
 | Marbles in Three Baskets                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMarblesThreeBaskets.java)|||||||
 | Split Array With Same Average                    |||[`Solution`](c++/algorithm/dp/SplitArrayWIthSameAverage.cpp)<br>[`Test`](c++/algorithm_tests/dp/SplitArrayWIthSameAverageTest.cpp)|||||
