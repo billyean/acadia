@@ -62,6 +62,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Min Stack(Netflix)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/stack/TestMinStack.java)|[`Solution`](python/datastructure/min_stack.py)<br>[`Test`](python/test/datastructure/test_min_stack.py)|[`Solution`](c++/algorithm/stack/MinStack.cpp)<br>[`Test`](c++/algorithm_tests/stack/MinStackTest.cpp)|||||
 | Wiggle Subsequence                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestWiggleSubsequence.java)||[`Solution`](c++/algorithm/dp/SubSequence.cpp)<br>[`Test`](c++/algorithm_tests/dp/SubSequenceTest.cpp)|||||
+| Max Chunks To Make Sorted                        |||[`Solution`](c++/algorithm/array/MaxChunks.cpp)<br>[`Test`](c++/algorithm_tests/array/MaxChunksTest.cpp)|||||
 
 ### Math
 
