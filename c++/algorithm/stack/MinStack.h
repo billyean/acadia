@@ -32,7 +32,7 @@ public:
 
     int get_min();
 private:
-    Element *_top;
+    Element *_top = NULL;
 };
 
 
