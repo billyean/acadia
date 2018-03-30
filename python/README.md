@@ -1,3 +1,6 @@
-# Caveat
+# Python Version
 
-* Python's unit test method name has to start with test
+All code run successfully under Python 3.6.3.
+
+# Caveat
+* Python's unit test method name must start with test
