@@ -1,5 +1,15 @@
 # Algorithm/System Design Practice
 
+## Supported Language
+
+* [Java](./java)
+* [Python](./python)
+* [C++](./c++)
+* [Swift](./algorithm_swift)
+* [Javascript](./javascript)
+* [Scala](./scala)
+* [Go](./go)
+
 ### Miscellaneous
 
 |`Problem                                              List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|

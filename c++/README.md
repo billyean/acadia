@@ -1,6 +1,6 @@
 # Using it in IDE
 
-This is a CMake project that it can be easily import into a CMake supported IDE like CLion.
+This is a CMake project that it can be easily import into a CMake supported IDE like CLion. Code has been successfully verified in GCC 6 and CLang 9.0.0.
 
 # C++ Version
 
@@ -17,4 +17,4 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /u
 ```
 
 # Unit Test
-I am using [Google test](https://github.com/google/googletest) as test framework.
+I am using [Google test](https://github.com/google/googletest) as test framework. Since I use some gmock macro that you have to run gmock_main target if you want to run all the tests. gtest_main will only run partial of tests.
