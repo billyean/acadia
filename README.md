@@ -166,9 +166,9 @@
 
 ### Binary Search
 
-|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|`Problem                                                 List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-| Binary Search in rotated order array(Salesforce/Linkedin) |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/binarysearch/TestRotateSearch.java)||[`Solution`](c++/algorithm/array/BinarySearch.cpp)<br>[`Test`](c++/algorithm_tests/array/BinarySearchTest.cpp)||||[`Solution`](go/src/array/rotate.go)<br>[`Test`](go/test/array/rotate_test.go)|
+| Binary Search in rotated order array             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/binarysearch/TestRotateSearch.java)||[`Solution`](c++/algorithm/array/BinarySearch.cpp)<br>[`Test`](c++/algorithm_tests/array/BinarySearchTest.cpp)||||[`Solution`](go/src/array/rotate.go)<br>[`Test`](go/test/array/rotate_test.go)|
 | Lookup Latest Good Version(Facebook)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)<br>~~`Test`~~||||||
 
 ### Graph
@@ -218,6 +218,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | [PackageManager](java/src/main/java/com/haibo/yan/design/packagemanager/SystemDependencies.pdf) |[`Solution`](java/src/main/java/com/haibo/yan/design/packagemanager/)||||||
+| [Amazon 1](https://github.com/billyean/algo_system_design/blob/master/amazon_1.png) [Amazon 2](https://github.com/billyean/algo_system_design/blob/master/amazon_2.png) |[`Solution`](java/src/main/java/com/haibo/yan/design/amazon/Amazon.java)<br>[`Test`](java/src/test/java/com/haibo/yan/design/amazon/AmazonTest.java)||[`Solution`](c++/algorithm/str/Amazon.cpp)<br>[`Test`](c++/algorithm_tests/str/AmazonTest.cpp)||||
 
 # Advanced algorithm
 
