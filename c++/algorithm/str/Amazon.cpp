@@ -18,7 +18,7 @@ vector<string> Amazon::retrieveMostFrequentlyUsedWords(string literatureText, ve
     for (auto iw = wordsToExclude.begin(); iw != wordsToExclude.end(); iw++) {
         string w = (*iw);
         transform(w.begin(), w.end(), w.begin(), ::tolower);
-        exclude.insert(w);x
+        exclude.insert(w);
     }
 
     map<string, int> words;
