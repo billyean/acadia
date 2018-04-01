@@ -18,3 +18,23 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /u
 
 # Unit Test
 I am using [Google test](https://github.com/google/googletest) as test framework. Since I use some gmock macro that you have to run gmock_main target if you want to run all the tests. gtest_main will only run partial of tests.
+
+# Caveat
+
+* C++ 11's regex_match must be exact matched, which you can't match partial of content.
+```c++
+    string s = "abc123 123 145";
+    bool b1 = regex_match("[a-zA-Z]+[0-9]+ [0-9]+"); // here b1 is 0
+    bool b2 = regex_match("[a-zA-Z]+[0-9]+ [0-9]+.*"); // here b2 is 1
+```
+* Look for multiple match of regular expression, you need use regex_search
+```c++
+    regex r("^([A-Za-z]+)([0-9]+) (.+)");
+    regex_search(s1, matches, r);
+    for (auto m : matches) {
+        // handle m here.
+    }
+``` 
+* In some compiler(like CLang), C++ won't initiate pointer to NULL, better initiate member with default value.
+* map in STL is ordered.
+* Syntax of tuple in C++ is a little bit weird. you have to use get<n>(here n is tuple position) to get nth value.
