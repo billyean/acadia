@@ -11,13 +11,17 @@ using namespace std;
 
 class StockBuySell {
 public:
-    static int maxProfitI(vector<int>);
+    static int maxProfitI(vector<int>&);
 
-    static int maxProfitII(vector<int>);
+    static int maxProfitII(vector<int>&);
 
-    static int maxProfitIII(vector<int>);
+    static int maxProfitIII(vector<int>&);
 
-    static int maxProfitIV(vector<int>);
+    static int maxProfitIV(vector<int>&, int);
+
+    static int maxProfitWithCooldown(vector<int>&);
+
+    static int maxProfitWithTransactionFee(vector<int>&, int);
 };
 
 
