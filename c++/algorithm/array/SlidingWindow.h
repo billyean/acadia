@@ -12,9 +12,9 @@ using namespace std;
 
 class SlidingWindow {
 public:
-    static vector<int> max(vector<int>, int);
+    static vector<int> maxWindows(vector<int>&, int);
 
-    static vector<double> median(vector<int>, int);
+    static vector<double> median(vector<int>&, int);
 
     static string min_ordered(string, string);
 

@@ -65,7 +65,7 @@ int StockBuySell::maxProfitIV(vector<int>& prices, int k) {
     int maxProfit = 0;
 
     if (prices.size() > 1) {
-        int kmin = min(k, prices.size());
+        int kmin = min(k, (int)prices.size());
         int dp[kmin + 1][prices.size()];
 
         for (int i = 0; i < prices.size(); i++) {
