@@ -10,6 +10,7 @@ func TestSlidingWindows1(t *testing.T) {
 	test_data := []int{1, 3, -1, -3, 5, 3, 6, 7}
 	expected := []int{3, 3, 5, 5, 6, 7}
 	actual := array.MaxSlidingWindow(test_data, 3)
+
 	if  !reflect.DeepEqual(actual, expected) {
 		t.Errorf("MaxSlidingWindow(%s, 3) expects %s but got %s.", actual)
 	}

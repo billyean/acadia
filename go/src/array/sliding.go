@@ -1,15 +1,15 @@
 package array
 
 func MaxSlidingWindow(nums []int, k int) []int {
-	var max []int
+	var max = make([]int, 0)
 	if len(nums) == 0 {
 		return max
 	}
 
 	var stack []int
-	len := math.Min(len(nums), k)
-	for i := 0; i < len; i++ {
-		if len(stack) > 0 && i - stack[0] > k {
+
+	for i := 0; i < len(nums); i++ {
+		if len(stack) > 0 && i - stack[0] > k - 1 {
 			stack = stack[1:]
 		}
 		v := nums[i]
@@ -17,8 +17,18 @@ func MaxSlidingWindow(nums []int, k int) []int {
 			stack =stack[0:len(stack) - 1]
 		}
 		stack = append(stack, i)
-		max = append(max, nums[0])
+		if i >= k - 1 {
+			max = append(max, nums[stack[0]])
+		}
 	}
 
 	return max
+}
+
+func min(a int, b int) int{
+	if a < b {
+		return a
+	} else {
+		return b
+	}
 }
