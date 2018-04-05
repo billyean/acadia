@@ -31,3 +31,23 @@ vector<int> SlidingWindow::maxWindows(vector<int>& nums, int k) {
 
     return windows;
 }
+
+string SlidingWindow::min_ordered(string s, string t) {
+    int dp[s.size()][t.size()];
+
+    for (int i = 0; i < s.size(); i++) {
+        dp[i][0] = s[i] == t[0] ? 1 : 0;
+    }
+
+    for (int i = 0; i < t.size(); i++) {
+        dp[0][i] = t[i] == s[0] ? 1 : 0;
+    }
+
+    for (int i = 1; i < s.size(); i++) {
+        for (int j = 1; j < t.size(); j++) {
+            if (s[i] == t[j]) {
+                dp[i][j] = dp[i-1][j-1] + 1;
+            }
+        }
+    }
+}
