@@ -9,6 +9,7 @@ for _, c := range s {
 }
 ```
 * Go doesn't have tuple like Python and Scala, but it's easy to implement with struct.
+* Be cautious don't name local variable same name as package name, function name
 
 # Simplicity
 
