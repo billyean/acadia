@@ -1,6 +1,8 @@
 package util
 
-func ToString1(nums []int) string {
+import "strconv"
+
+func SliceToString1(nums []int) string {
 	if nums == nil {
 		return "nil"
 	}
@@ -8,14 +10,14 @@ func ToString1(nums []int) string {
 	sep := ""
 	for _, v := range nums {
 		str += sep
-		str += string(v)
+		str += strconv.Itoa(v)
 		sep = ","
 	}
 	str += "]"
 	return str
 }
 
-func ToString2(nums [][]int) string {
+func SliceToString2(nums [][]int) string {
 	if nums == nil {
 		return "nil"
 	}
@@ -23,7 +25,7 @@ func ToString2(nums [][]int) string {
 	sep := ""
 	for _, v := range nums {
 		str += sep
-		str += ToString1(v)
+		str += SliceToString1(v)
 		sep = ","
 	}
 	str += " ]"
