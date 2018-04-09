@@ -40,7 +40,7 @@ int Max2D::square(vector<vector<char>>& board) {
     for (int i = 1; i < r; i++) {
         for (int j = 1; j < c; j++) {
             if (board[i][j] == '0') {
-                dp[i][j] == 0;
+                dp[i][j] = 0;
             } else {
                 dp[i][j] = min(min(dp[i - 1][j], dp[i][j - 1]), dp[i - 1][j - 1]) + 1;
             }
