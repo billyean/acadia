@@ -19,12 +19,15 @@
 #define ALGORITHM_SEQUENCE_H
 
 #include <vector>
+#include <string>
 
 using namespace std;
 
 class Sequence {
 public:
     static int longestConsecutive(vector<int>&);
+
+    static int distinct(string, string);
 };
 
 

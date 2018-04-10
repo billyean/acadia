@@ -24,3 +24,9 @@ TEST(SequenceTest, longestConsecutive0) {
     ASSERT_EQ(Sequence::longestConsecutive(nums), 4);
 }
 
+TEST(SequenceTest, distinct_0) { ;
+    string s = "rabbbit";
+    string t = "rabbit";
+    ASSERT_EQ(Sequence::distinct(s, t), 3);
+}
+
