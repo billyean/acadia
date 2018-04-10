@@ -21,6 +21,7 @@
 
 #include "LargestNumber.h"
 #include <algorithm>
+#include <numeric>
 
 // 91910 91 9191910
 // 9191991 91 919199191
@@ -33,5 +34,5 @@ string LargestNumber::largest(vector<string>& nums) {
     for (auto it = nums.begin(); it != nums.end(); it++) {
         ln += *it;
     }
-    return ln;
+    return accumulate(nums.begin(), nums.end(), string());
 }
