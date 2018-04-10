@@ -45,6 +45,7 @@
 | Word Search                                      ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/WordSearch.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/WordSearchTest.scala)||
 | Intersection of Arrays                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/IntersectionOfArray.scala)<br>~~`Test`~~|[`Solution`](python/parray/intersection.py)<br>[`Test`](python/test/parray/test_intersection.py)||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/array/Intersection.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/array/IntersectionTest.scala)||
 | Longest Consecutive Sequence                     |||[`Solution`](c++/algorithm/array/Sequence.cpp)<br>[`Test`](c++/algorithm_tests/array/SequenceTest.cpp)|||||
+| Largest Number                                   |||[`Solution`](c++/algorithm/array/LargestNumbder.cpp)<br>[`Test`](c++/algorithm_tests/array/LargestNumbderTest.cpp)|||||
 
 ### Matrix
 
