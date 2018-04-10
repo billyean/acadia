@@ -201,6 +201,7 @@
 | Range Module                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/RangeModule.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/datastructure/TestRangeModule.java)|||||||
 | All One                                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/AllOne.java)<br>~~`Test`~~|||||||
 | Insert Delete GetRandom O(1)                     |||[`Solution`](c++/algorithm/datastructure/RandomizedSet.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/RandomizedSetTest.cpp)|||||
+| Red-Black Tree                                   |||[`Solution`](c++/algorithm/datastructure/RBTree.h)<br>~~`Test`~~|||||
 
 ### Backtracking
 

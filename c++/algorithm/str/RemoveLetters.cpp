@@ -27,7 +27,7 @@ string RemoveLetters::remove(string word) {
     bool in_queue[256];
 
     // I was surprised that C++ is not initialized the array with default value.
-    // At least in my ubuntu 16.04, it doesn't initiate in_queue
+    // At least in my ubuntu 16.04, it doesn't_ initiate in_queue
     for (int i = 0 ; i < 256; i++) {
         cn[i] = 0;
         in_queue[i] = false;
