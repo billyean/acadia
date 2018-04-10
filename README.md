@@ -47,6 +47,7 @@
 | Longest Consecutive Sequence                     |||[`Solution`](c++/algorithm/array/Sequence.cpp)<br>[`Test`](c++/algorithm_tests/array/SequenceTest.cpp)|||||
 | Largest Number                                   |||[`Solution`](c++/algorithm/array/LargestNumbder.cpp)<br>[`Test`](c++/algorithm_tests/array/LargestNumbderTest.cpp)|||||
 | Candies                                          |||[`Solution`](c++/algorithm/array/Candies.cpp)<br>[`Test`](c++/algorithm_tests/array/CandiesTest.cpp)|||||
+| Water                                            |||[`Solution`](c++/algorithm/array/Water.cpp)<br>[`Test`](c++/algorithm_tests/array/WaterTest.cpp)|||||
 
 ### Matrix
 
