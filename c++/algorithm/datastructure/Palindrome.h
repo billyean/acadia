@@ -19,12 +19,23 @@
 #ifndef ALGORITHM_PALINDROME_H
 #define ALGORITHM_PALINDROME_H
 #include <string>
+#include <vector>
 
 using namespace std;
 
 class Palindrome {
 public:
    static string nearestPalindromic(string);
+
+    static bool palindrome_number2(int);
+
+    static bool isPalindrome(string);
+
+    static int longestPalindrome(string);
+
+    static vector<vector<int>> palindromePairs(vector<string>&);
+private:
+    static bool palindrome(string, int, int);
 };
 
 
