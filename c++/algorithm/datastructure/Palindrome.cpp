@@ -29,6 +29,36 @@ string Palindrome::nearestPalindromic(string n) {
     return "";
 }
 
+// (1000 - 3) * 997 = 9970 -  = 9000 -9 =
+int Palindrome::largestPalindrome(int n) {
+
+}
+
+bool Palindrome::palindrome_number1(int x) {
+    if (x < 0) {
+        return false;
+    }
+    int div = 1;
+
+    while (x / div >= 10) {
+        div *= 10;
+    }
+
+    while (x != 0) {
+        int d = x % 10;
+        int h = x / div;
+
+        if (d != h) {
+            return false;
+        }
+        x %= div;
+        x /= 10;
+        div /= 100;
+    }
+
+    return true;
+}
+
 bool Palindrome::palindrome_number2(int n) {
     // Write your code here
     int i = n, r = 0;
@@ -219,4 +249,26 @@ bool Palindrome::palindrome(string str, int s, int l) {
     }
 
     return true;
+}
+
+
+bool Palindrome::isPalindrome(LinkedListNode<int>* head) {
+    left_ = head;
+    return isPalindromeHelper(head);
+}
+
+bool Palindrome::isPalindromeHelper(LinkedListNode<int>* right) {
+    if (right == NULL) {
+        return true;
+    }
+
+    bool rp = isPalindromeHelper(right->next_);
+    if (!rp) {
+        return false;
+    }
+
+    bool r = left_->t_ == right->t_;
+    left_ = left_->next_;
+
+    return r;
 }
