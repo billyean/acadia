@@ -25,6 +25,12 @@ using namespace std;
 class Palindrome {
 public:
    static string nearestPalindromic(string);
+
+   static bool palindromeNumber(int);
+
+   static bool valid(const string&);
+
+   int longestSubstr(const string&);
 };
 
 
