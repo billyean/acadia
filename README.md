@@ -112,7 +112,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binrary Tree Serialization(Apple)                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/BinaryTreeNode.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestBinaryTreeListNodeSerialization.java)||||||
-| Binrary Tree Traversal                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestTraversal.java)|||[`Solution`](algorithm_swift/algorithm_swift/tree/BinaryTree.swift)<br>~~`Test`~~)||||
+| Binrary Tree Traversal                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/Traversal.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/TestTraversal.java)||[`Solution`](c++/algorithm/datastructure/Tree.h)<br>~~[`Test`]~~|[`Solution`](algorithm_swift/algorithm_swift/tree/BinaryTree.swift)<br>~~`Test`~~)||||
 | Minimum Height Trees                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/MinimumHeightTrees.java)<br>~~`Test`~~|||||||
 | Longest Consecutive Path                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LongestConsecutivePath.java)<br>~~`Test`~~|||||||
 | Binary Tree Zigzag Level Order Traversal         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/ZigzagLevelOrder.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/tree/)|||||||
@@ -207,6 +207,7 @@
 | All One                                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/AllOne.java)<br>~~`Test`~~|||||||
 | Insert Delete GetRandom O(1)                     |||[`Solution`](c++/algorithm/datastructure/RandomizedSet.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/RandomizedSetTest.cpp)|||||
 | Red-Black Tree                                   |||[`Solution`](c++/algorithm/datastructure/RBTree.h)<br>~~`Test`~~|||||
+| Palindrome                                       |||[`Solution`](c++/algorithm/datastructure/Palindrome.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/PalindromeTest.cpp)|||||
 
 ### Backtracking
 

@@ -18,19 +18,38 @@
 
 #ifndef ALGORITHM_PALINDROME_H
 #define ALGORITHM_PALINDROME_H
+
+#include "LinkedList.h"
 #include <string>
+#include <vector>
 
 using namespace std;
 
 class Palindrome {
 public:
-   static string nearestPalindromic(string);
+    static string nearestPalindromic(string);
 
-   static bool palindromeNumber(int);
+    static bool valid(const string&);
 
-   static bool valid(const string&);
+    static bool palindrome_number1(int);
 
-   int longestSubstr(const string&);
+    static bool palindrome_number2(int);
+
+    static bool isPalindrome(string);
+
+    static int longestPalindrome(string);
+
+    static vector<vector<int>> palindromePairs(vector<string>&);
+
+    static int largestPalindrome(int);
+
+    bool isPalindrome(LinkedListNode<int>*);
+private:
+    static bool palindrome(string, int, int);
+
+    LinkedListNode<int>* left_;
+
+    bool isPalindromeHelper(LinkedListNode<int>*);
 };
 
 

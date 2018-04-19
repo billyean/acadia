@@ -23,8 +23,29 @@
 
 using namespace std;
 
-template <class T> class LinkedListNode {
+template <typename T> class LinkedListNode;
+
+template <typename T> class LinkedList {
 public:
+    LinkedList(LinkedListNode<T>* head): head_(head){}
+
+    bool circulated();
+
+    string serialized();
+
+    void removeKth(int);
+
+    static LinkedList<T> serialized(string);
+private:
+    LinkedListNode<T>* head_;
+};
+
+template <typename T> class LinkedListNode {
+public:
+    friend class LinkedList<T>;
+
+    friend class Palindrome;
+
     LinkedListNode(T& t, LinkedListNode<T>* next): t_(t), next_(next) {}
 
     LinkedListNode(T& t): t_(t), next_(NULL) {}
@@ -35,19 +56,39 @@ private:
 };
 
 
-template <class T> class LinkedList {
-public:
-    LinkedList(LinkedListNode<T>* head): head_(head){}
+template <typename T>
+bool LinkedList<T>::circulated() {
+    if (head_ == NULL || head_->next_ == NULL) {
+        return false;
+    }
 
-    bool circulated();
+    auto o = head_;
+    auto t = head_->next_;
 
-    string serialized();
+    while (t != NULL && t->next_ != NULL) {
+        if (o == t) {
+            return true;
+        }
+        o = o->next_;
+        t = t->next_->next_;
+    }
 
-    static LinkedList<T> serialized(string);
-private:
-    LinkedListNode<T>* head_;
-};
+    return false;
+}
 
+template <typename T>
+void LinkedList<T>::removeKth(int k) {
+    auto ak = head_;
+
+    while (ak != NULL) {
+        k--;
+        ak = ak->next_;
+    }
+
+    if (k == 0) {
+
+    }
+}
 
 
 
