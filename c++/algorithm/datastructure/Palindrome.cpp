@@ -67,10 +67,10 @@ bool Palindrome::valid(const string& str) {
     int l = 0, r = str.size() - 1;
 
     while (l < r) {
-        while (l < r && (str[l] < 'A' || str[l] > 'Z' && str[l] < 'a' || str[l] > 'z')) {
+        while (l < r && (str[l] < 'A' || (str[l] > 'Z' && str[l] < 'a') || str[l] > 'z')) {
             l++;
         }
-        while (l < r && (str[r] < 'A' || str[r] > 'Z' && str[r] < 'a' || str[r] > 'z')) {
+        while (l < r && (str[r] < 'A' || (str[r] > 'Z' && str[r] < 'a') || str[r] > 'z')) {
             r--;
         }
 
