@@ -39,3 +39,39 @@ class Combination:
             indices[pi] += 1
 
         return combination
+
+    def combine(self, n, k):
+        """ https://leetcode.com/problems/combinations
+        Given two integers n and k, return all possible combinations of k numbers out of 1 ... n
+        :type n: int
+        :type k: int
+        :rtype: List[List[int]]
+        """
+        list = []
+        for i in range(n):
+            list.append(i + 1)
+
+        return self.combineList(list, k)
+
+    def combineList(self, list, k):
+
+        if len(list) < k:
+            return []
+
+        if k == 0:
+            return [[]]
+
+        if len(list) == k:
+            return [list]
+
+        c = list[0]
+
+        combinations = []
+
+        for l in self.combineList(list[1:], k - 1):
+            combinations.append([c] + l)
+
+        for l in self.combineList(list[1:], k):
+            combinations.append(l)
+
+        return combinations

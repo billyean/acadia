@@ -33,6 +33,8 @@ public:
     int fewest(int);
 
     int combinations(int);
+
+    static int maxcoins(vector<int>&);
 private:
     vector<int>& coins_;
 };
