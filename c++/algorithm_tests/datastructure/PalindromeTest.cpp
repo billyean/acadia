@@ -13,11 +13,35 @@
 //limitations under the License.
 
 //
-// Created by haibo on 4/11/18.
+// Created by Haibo Yan on 4/10/18.
 //
 
 #include "gtest/gtest.h"
 #include "../../algorithm/datastructure/Palindrome.h"
+
+TEST(PalindromeTest, number_positive_0) {
+    ASSERT_TRUE(Palindrome::palindrome_number1(101));
+}
+
+TEST(PalindromeTest, number_positive_1) {
+    ASSERT_TRUE(Palindrome::palindrome_number1(1001));
+}
+
+TEST(PalindromeTest, number_negative_0) {
+    ASSERT_FALSE(Palindrome::palindrome_number1(100));
+}
+
+TEST(PalindromeTest, number_negative_1) {
+    ASSERT_FALSE(Palindrome::palindrome_number1(10011));
+}
+
+TEST(PalindromeTest, valid_positive) {
+    ASSERT_TRUE(Palindrome::valid("Red rum, sir, is murder"));
+}
+
+TEST(PalindromeTest, valid_negative) {
+    ASSERT_FALSE(Palindrome::valid("Programcreek is awesome"));
+}
 
 # define ASSERT_EQ_WITOUT_ORDER(expression1, expression2)  if (true) {\
     auto _actual = expression1; \
@@ -82,8 +106,3 @@ TEST(PalindromeTest, palindromePairs5) {
     vector<vector<int>> expected = {{0, 1}, {1, 0}, {2, 1}, {2, 3}, {0, 3}, {3, 2}};
     ASSERT_EQ_WITOUT_ORDER(Palindrome::palindromePairs(words), expected);
 }
-
-
-
-
-

@@ -1,40 +1,31 @@
+//Copyright [2018] [Haibo Yan]
 //
-// Created by haibo on 4/19/18.
+//Licensed under the Apache License, Version 2.0 (the "License");
+//you may not use this file except in compliance with the License.
+//You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+//Unless required by applicable law or agreed to in writing, software
+//distributed under the License is distributed on an "AS IS" BASIS,
+//WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//See the License for the specific language governing permissions and
+//limitations under the License.
+//
+// Created by Haibo Yan on 4/20/18.
 //
 
-#ifndef ALGORITHM_TREE_H
-#define ALGORITHM_TREE_H
-#include <vector>
-#include <stack>
-#include <algorithm>
-
-using namespace std;
+#include "TreeTraversal.h"
 
 template <class T>
-class Tree {
-public:
-    Tree(T& t, Tree<T>* left, Tree<T>* right): t_(t), left_(left), right_(right) {}
-
-    static vector<T> preOrder(Tree<T>*);
-
-    static vector<T> inOrder(Tree<T>*);
-
-    static vector<T> postOrder(Tree<T>*);
-private:
-    Tree<T>* left_;
-    Tree<T>* right_;
-    T& t_;
-};
-
-template <class T>
-vector<T> Tree::preOrder(Tree<T>* root) {
+vector<T> TreeTraversal::preOrder(TreeNode<T>* root) {
     vector<T> ordered;
-    stack<Tree<T>*> nodes;
+    stack<TreeNode<T>*> nodes;
     if (root != NULL) {
         nodes.push(root);
 
         while (!nodes.empty()) {
-            Tree<T>* top = nodes.top();
+            TreeNode<T>* top = nodes.top();
             ordered.push_back(top->t_);
             nodes.pop();
             if (top->right_ != NULL) {
@@ -50,12 +41,12 @@ vector<T> Tree::preOrder(Tree<T>* root) {
 }
 
 template <class T>
-vector<T> Tree::inOrder(Tree<T>* root) {
+vector<T> TreeTraversal::inOrder(TreeNode<T>* root) {
     vector<T> ordered;
 
     if (root != NULL) {
-        Tree<T>* current = root;
-        stack<Tree<T>*> nodes;
+        TreeNode<T>* current = root;
+        stack<TreeNode<T>*> nodes;
 
         while (!nodes.empty() || current != NULL) {
             if (current != NULL) {
@@ -64,7 +55,7 @@ vector<T> Tree::inOrder(Tree<T>* root) {
                 }
                 current = current->left_;
             } else {
-                Tree<T>* top = nodes.top();
+                TreeNode<T>* top = nodes.top();
                 nodes.pop();
                 ordered.push_back(top->t_);
                 current = current->right_;
@@ -75,19 +66,17 @@ vector<T> Tree::inOrder(Tree<T>* root) {
     return ordered;
 }
 
-
-
 template <class T>
-vector<T> Tree::postOrder(Tree<T>* root) {
+vector<T> TreeTraversal::postOrder(TreeNode<T>* root) {
     vector<T> ordered;
 
     if (root != NULL) {
-        Tree<T>* prev = NULL;
-        stack<Tree<T>*> nodes;
+        TreeNode<T>* prev = NULL;
+        stack<TreeNode<T>*> nodes;
         nodes.push(root);
 
         while (!nodes.empty()) {
-            Tree<T>* current = nodes.top();
+            TreeNode<T>* current = nodes.top();
             if (prev == NULL || current == prev->left_ || current == prev->right_) {
                 if (current->left_ != NULL) {
                     nodes.push(current->left_);
@@ -111,4 +100,3 @@ vector<T> Tree::postOrder(Tree<T>* root) {
 
     return ordered;
 }
-#endif //ALGORITHM_TREE_H

@@ -29,9 +29,10 @@ string Palindrome::nearestPalindromic(string n) {
     return "";
 }
 
+
 // (1000 - 3) * 997 = 9970 -  = 9000 -9 =
 int Palindrome::largestPalindrome(int n) {
-
+    return 1;
 }
 
 bool Palindrome::palindrome_number1(int x) {
@@ -54,6 +55,37 @@ bool Palindrome::palindrome_number1(int x) {
         x %= div;
         x /= 10;
         div /= 100;
+    }
+
+    return true;
+}
+
+bool Palindrome::valid(const string& str) {
+    if (str.size() < 2) {
+        return true;
+    }
+    int l = 0, r = str.size() - 1;
+
+    while (l < r) {
+        while (l < r && (str[l] < 'A' || (str[l] > 'Z' && str[l] < 'a') || str[l] > 'z')) {
+            l++;
+        }
+        while (l < r && (str[r] < 'A' || (str[r] > 'Z' && str[r] < 'a') || str[r] > 'z')) {
+            r--;
+        }
+
+        if (l == r) {
+            break;
+        }
+        char cl = str[l];
+        char cr = str[r];
+        int ls = cl <= 'Z' ? cl - 'A' : cl - 'a';
+        int rs = cr <= 'Z' ? cr - 'A' : cr - 'a';
+        if (ls != rs) {
+            return false;
+        }
+        l++;
+        r--;
     }
 
     return true;
@@ -250,7 +282,6 @@ bool Palindrome::palindrome(string str, int s, int l) {
 
     return true;
 }
-
 
 bool Palindrome::isPalindrome(LinkedListNode<int>* head) {
     left_ = head;

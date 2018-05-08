@@ -6,6 +6,8 @@
 #include <climits>
 #include <algorithm>
 
+using namespace std;
+
 int RaceCar::racecar(int target) {
     if (target < 2) {
         return target;

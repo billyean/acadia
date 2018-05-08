@@ -27,7 +27,9 @@ using namespace std;
 
 class Palindrome {
 public:
-   static string nearestPalindromic(string);
+    static string nearestPalindromic(string);
+
+    static bool valid(const string&);
 
     static bool palindrome_number1(int);
 
