@@ -44,12 +44,16 @@ public:
     static int largestPalindrome(int);
 
     bool isPalindrome(LinkedListNode<int>*);
+
+    static string shortestPalindrome(string);
 private:
     static bool palindrome(string, int, int);
 
     LinkedListNode<int>* left_;
 
     bool isPalindromeHelper(LinkedListNode<int>*);
+
+    vector<int> kmp_index(string);
 };
 
 

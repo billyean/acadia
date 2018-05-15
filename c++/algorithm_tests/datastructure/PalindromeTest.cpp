@@ -106,3 +106,9 @@ TEST(PalindromeTest, palindromePairs5) {
     vector<vector<int>> expected = {{0, 1}, {1, 0}, {2, 1}, {2, 3}, {0, 3}, {3, 2}};
     ASSERT_EQ_WITOUT_ORDER(Palindrome::palindromePairs(words), expected);
 }
+
+TEST(PalindromeTest, shortestPalindrome1) {
+    ASSERT_EQ(Palindrome::shortestPalindrome("cacacabc"), "cbacacacabc");
+    ASSERT_EQ(Palindrome::shortestPalindrome("ab"), "bab");
+    ASSERT_EQ(Palindrome::shortestPalindrome(""), "");
+}

@@ -25,8 +25,39 @@
 #include <numeric>
 #include <iostream>
 
+
+// 1990 -> 1991
+// 399991 -> 400004
+
 string Palindrome::nearestPalindromic(string n) {
-    return "";
+    long v = atol(n.c_str());
+
+    int m = (n.size() + 1) / 2;
+
+    string pmv = "";
+
+    for (int i = 0; i < m; i++) {
+        pmv += n[i];
+    }
+
+    for (int i = m - 1; i >= 0; i--) {
+        pmv += n[i];
+    }
+
+    long p1 = atol(pmv.c_str());
+    int j = m - 1;
+
+    while (j >= 0 && pmv[j] == '9') {
+        j--;
+    }
+
+
+    for (int i = 0; i < j; i++) {
+
+    }
+
+
+    return pmv;
 }
 
 
@@ -302,4 +333,44 @@ bool Palindrome::isPalindromeHelper(LinkedListNode<int>* right) {
     left_ = left_->next_;
 
     return r;
+}
+
+string Palindrome::shortestPalindrome(string s) {
+    int n = s.size();
+    string rev(s);
+    reverse(rev.begin(), rev.end());
+
+    string ds = s + "#" + rev;
+    vector<int> indices(ds.size(), 0);
+
+    int m = 0;
+    for (int i = 1; i < ds.size(); i++) {
+        while (m > 0 && ds[i] != ds[m]) {
+            m = indices[m];
+        }
+        if (ds[i] == ds[m]) {
+            m++;
+        }
+        indices[i] = m;
+    }
+
+    return rev.substr(0, n - indices[ds.size() - 1]) + s;
+}
+
+vector<int> Palindrome::kmp_index(string s) {
+    vector<int> indices;
+
+    indices.push_back(0);
+
+    int m = 0;
+
+    for (int i = 0; i < s.size(); i++) {
+        while (m > 0 && s[i] != s[m]) {
+            m = indices[m];
+        }
+        if (s[i] == s[m]) {
+            m++;
+        }
+        indices.push_back(m);
+    }
 }
