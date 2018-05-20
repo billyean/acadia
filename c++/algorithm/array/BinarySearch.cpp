@@ -19,6 +19,7 @@
 #include "BinarySearch.h"
 
 #include <iostream>
+#include <climits>
 
 using namespace std;
 
@@ -52,5 +53,42 @@ int BinarySearch::search(int *rotated, int k, int s, int e) {
 
         return m;
     }
+}
+
+double BinarySearch::median(vector<int>& v1, vector<int>& v2) {
+    int l = v1.size() + v2.size();
+
+    if ((l & 0x01) == 0) {
+        return (kth(v1, v2, l / 2, 0, 0) + kth(v1, v2, l / 2 + 1, 0, 0)) / 2.0;
+    } else {
+        return kth(v1, v2, l / 2, 0, 0) / 1.0;
+    }
+}
+
+int BinarySearch::kth(vector<int>& v1, vector<int>& v2, int k, int s1, int s2) {
+    if (s1 >= v1.size()) {
+        return v2[s2 + k - 1];
+    }
+
+    if (s2 >= v2.size()) {
+        return v1[s1 + k - 1];
+    }
+
+    if (k == 1) {
+        return min(v1[s1], v2[s2]);
+    }
+
+    int m1 = s1 + k / 2 - 1;
+    int m2 = s2 + k / 2 - 1;
+
+    int mid1 = m1 < v1.size() ? v1[m1] : INT_MAX;
+    int mid2 = m2 < v2.size() ? v2[m2] : INT_MAX;
+
+    if (mid1 < mid2) {
+        return kth(v1, v2, k - k / 2, m1 + 1, s2);
+    } else {
+        return kth(v1, v2, k - k / 2, s1, m2 + 1);
+    }
+
 }
 

@@ -11,28 +11,28 @@
 //WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 //See the License for the specific language governing permissions and
 //limitations under the License.
-
 //
-// Created by Haibo Yan on 3/19/18.
+// Created by haibo on 5/11/18.
 //
 
-#ifndef ALGORITHM_BINARYSEARCH_H
-#define ALGORITHM_BINARYSEARCH_H
-
+#ifndef ALGORITHM_MATRIX_H
+#define ALGORITHM_MATRIX_H
 #include <vector>
 
 using namespace std;
 
-class BinarySearch {
+class Matrix {
 public:
-    static int search(int *, int, int);
+    static void setZeroes(vector<vector<int>> &);
 
-    static double median(vector<int>&, vector<int>&);
-private:
-    static int search(int *, int, int, int);
+    static vector<int> spiralOrder(vector<vector<int>> &);
 
-    static int kth(vector<int>&, vector<int>&, int, int, int);
+    static vector<vector<int>> spinalMatrix(int);
+
+    static bool search1(vector<vector<int>> &, int);
+
+    static bool search2(vector<vector<int>> &, int);
 };
 
 
-#endif //ALGORITHM_BINARYSEARCH_H
+#endif //ALGORITHM_MATRIX_H
