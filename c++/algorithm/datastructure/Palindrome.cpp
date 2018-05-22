@@ -172,7 +172,7 @@ bool Palindrome::isPalindrome(string s) {
 //
 //Note:
 //Assume the length of given string will not exceed 1,010.
-int Palindrome::longestPalindrome(string s) {
+int Palindrome::longestPalindromeCanBuilt(string s) {
     int nums[52];
 
     for (int i = 0; i < 52; i++) {
@@ -373,4 +373,134 @@ vector<int> Palindrome::kmp_index(string s) {
         }
         indices.push_back(m);
     }
+
+    return indices;
+}
+
+/**
+ * "aabaaa"
+ * "a#a#b#a#a#a"
+ * [0 0 4 4]
+ * [4 0 1 4]
+ * [4 4 0 4]
+ * [4 4 4 0]
+ * @param s
+ * @return
+ */
+int Palindrome::minCut(string s) {
+    vector<vector<int>> cuts;
+
+    for (int i = 0; i < s.size(); i++) {
+        vector<int> r(s.size(), s.size());
+        r[i] = 0;
+        cuts.push_back(r);
+    }
+
+    string ds = "";
+    ds += s[0];
+    for (int i = 1; i < s.size(); i++) {
+        ds += '#';
+        ds += s[i];
+    }
+
+    vector<int> lens = palindromeLens(ds);
+
+    for (int i = 1; i < s.size(); i++) {
+        for (int j = 0; j < s.size() - i; j++) {
+            if (palindrome(s, j, i + 1)) {
+                cuts[j][i + j] = 0;
+            } else {
+                for (int k = 0; k < i; k++) {
+                    cuts[j][i + j] = min(cuts[j][i + j], cuts[j][j + k] +  cuts[j + k + 1][i + j] + 1);
+                }
+            }
+        }
+    }
+
+    return cuts[0][s.size() - 1];
+}
+
+string Palindrome::rearrange(string s) {
+    unsigned long l = s.size();
+    unsigned long h = l / 2;
+    int csi[256];
+
+    for (unsigned long i = 0; i < l; i++) {
+        int c = s[i] - '0';
+        csi[c]++;
+        if (csi[c] > h) {
+            return "";
+        }
+    }
+
+    int c = 0;
+    int i = 0, j = 255;
+    string fh, sh;
+    while (c < i) {
+        while (i < j && csi[i] == 0) {
+            i++;
+        }
+        if (i < j) {
+            fh += (char)i;
+            csi[i]--;
+        }
+        while (i < j && csi[j] == 0) {
+            j--;
+        }
+        if (i < j) {
+            sh += (char)j;
+            csi[j]--;
+        }
+    }
+
+    return fh + sh;
+}
+
+int Palindrome::longestPalindrome(string s) {
+    string ds = "";
+
+    ds += s[0];
+
+    for (int i = 1; i < s.size(); i++) {
+        ds += '#';
+        ds += s[i];
+    }
+
+    vector<int> lens = palindromeLens(ds);
+    auto m = max_element(lens.begin(), lens.end());
+    return (*m) >> 1;
+}
+
+vector<int> Palindrome::palindromeLens(string s) {
+    vector<int> lens(s.size(), 0);
+
+    for (int i = 0; i < s.size();) {
+        lens[i] = palindomeLen(s, i);
+        int b = lens[i] >> 1;
+
+        int il = i - b;
+        for (int j = 1; j <= b; j++) {
+
+            int jl = i - j - (lens[i - j] >> 1);
+            if (il < jl) {
+                lens[i + j] = lens[i - j];
+            } else {
+                lens[i + j] = 1 + 2 * (b - j);
+            }
+        }
+        i += b + 1;
+    }
+
+    return lens;
+}
+
+int Palindrome::palindomeLen(string s, int p) {
+    int i = p, j = p;
+
+    while (i >= 0 && j < s.size() && s[i] == s[j]) {
+        i--;
+        j++;
+    }
+
+    return j - i - 1;
 }

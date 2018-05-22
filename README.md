@@ -177,6 +177,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Search in rotated order array             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/RotateSearch.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/binarysearch/TestRotateSearch.java)||[`Solution`](c++/algorithm/array/BinarySearch.cpp)<br>[`Test`](c++/algorithm_tests/array/BinarySearchTest.cpp)||||[`Solution`](go/src/array/rotate.go)<br>[`Test`](go/test/array/rotate_test.go)|
 | Lookup Latest Good Version(Facebook)             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/binarysearch/LatestGoodVersion.java)<br>~~`Test`~~||||||
+| Random Color(Uber)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/RandomColor.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/RandomColorTest.java)||||||
 
 ### Graph
 

@@ -35,7 +35,9 @@ public:
 
     void removeKth(int);
 
-    static LinkedList<T> serialized(string);
+    T& kth(int);
+
+    static LinkedList<T> deserialized(string);
 private:
     LinkedListNode<T>* head_;
 };
@@ -90,6 +92,73 @@ void LinkedList<T>::removeKth(int k) {
     }
 }
 
+template <typename T>
+T& LinkedList<T>::kth(int k) {
+    auto ak = head_;
+
+    while (ak != NULL && k >= 0) {
+        k--;
+        ak = ak->next_;
+    }
+
+    return ak->t_;
+}
+
+
+template <typename T>
+string LinkedList<T>::serialized() {
+    string s;
+    LinkedListNode<T>* c = head_;
+
+    while (c != NULL) {
+        if (s != "") {
+            s += "#";
+        }
+        s += c->t_;
+        c = c->next_;
+    }
+
+    return s;
+}
+
+template<>
+LinkedList<int> LinkedList<int>::deserialized(string s) {
+    if (s == "") {
+        return NULL;
+    }
+
+    int cv = 0;
+    LinkedListNode<int>* dummy = new LinkedListNode<int>(cv);
+    LinkedListNode<int>* current = dummy;
+
+    size_t p = 0, ps;
+    string delimeter = "#";
+    while ((ps = s.find("#", p)) != string::npos) {
+        int v = 0;
+        for (size_t i = p; i != ps; i++) {
+            v *= 10;
+            v += s[i] - '0';
+        }
+        p = ps + 1;
+        LinkedListNode<int> *next = new LinkedListNode<int>(v);
+        current->next_ = next;
+        current = next;
+    }
+
+    if (ps < s.size()) {
+        int v = 0;
+        for (size_t i = p; i != ps; i++) {
+            v *= 10;
+            v += s[i] - '0';
+        }
+        LinkedListNode<int> *next = new LinkedListNode<int>(v);
+        current->next_ = next;
+        current = next;
+    }
+
+    LinkedList<int> list(dummy->next_);
+    return list;
+}
 
 
 #endif //ALGORITHM_LINKEDLIST_H

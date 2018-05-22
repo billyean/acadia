@@ -27,6 +27,8 @@ using namespace std;
 
 class Palindrome {
 public:
+    static int minCut(string);
+
     static string nearestPalindromic(string);
 
     static bool valid(const string&);
@@ -37,6 +39,8 @@ public:
 
     static bool isPalindrome(string);
 
+    static int longestPalindromeCanBuilt(string);
+
     static int longestPalindrome(string);
 
     static vector<vector<int>> palindromePairs(vector<string>&);
@@ -46,6 +50,8 @@ public:
     bool isPalindrome(LinkedListNode<int>*);
 
     static string shortestPalindrome(string);
+
+    static string rearrange(string);
 private:
     static bool palindrome(string, int, int);
 
@@ -54,6 +60,10 @@ private:
     bool isPalindromeHelper(LinkedListNode<int>*);
 
     vector<int> kmp_index(string);
+
+    static vector<int> palindromeLens(string);
+
+    static int palindomeLen(string, int);
 };
 
 

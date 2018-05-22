@@ -34,7 +34,7 @@ vector<int> SubSequence::longestCommon(vector<int> &other) {
     for (int i = 1; i <= nums.size(); i++) {
         for (int j = 1; j <= other.size(); j++) {
             dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
-            if (nums[i] = other[j]) {
+            if (nums[i] == other[j]) {
                 dp[i][j] = max(dp[i][j], dp[i - 1][j - 1] + 1);
             }
         }
@@ -61,6 +61,8 @@ vector<int> SubSequence::longestCommon(vector<int> &other) {
 }
 
 vector<int> SubSequence::longestIncreasing() {
+    vector<int> l;
+
 
 }
 

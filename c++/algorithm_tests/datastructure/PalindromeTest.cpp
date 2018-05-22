@@ -66,9 +66,9 @@ TEST(PalindromeTest, palindrome_number1) {
     ASSERT_TRUE(Palindrome::palindrome_number1(11));
 }
 
-TEST(PalindromeTest, longestPalindrome0) {
-    ASSERT_EQ(Palindrome::longestPalindrome("abccccdd"), 7);
-    ASSERT_EQ(Palindrome::longestPalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"), 983);
+TEST(PalindromeTest, longestPalindromeCanBuilt0) {
+    ASSERT_EQ(Palindrome::longestPalindromeCanBuilt("abccccdd"), 7);
+    ASSERT_EQ(Palindrome::longestPalindromeCanBuilt("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"), 983);
 }
 
 TEST(PalindromeTest, palindromePairs0) {
@@ -107,8 +107,28 @@ TEST(PalindromeTest, palindromePairs5) {
     ASSERT_EQ_WITOUT_ORDER(Palindrome::palindromePairs(words), expected);
 }
 
-TEST(PalindromeTest, shortestPalindrome1) {
-    ASSERT_EQ(Palindrome::shortestPalindrome("cacacabc"), "cbacacacabc");
-    ASSERT_EQ(Palindrome::shortestPalindrome("ab"), "bab");
-    ASSERT_EQ(Palindrome::shortestPalindrome(""), "");
+//TEST(PalindromeTest, shortestPalindrome1) {
+//    ASSERT_EQ(Palindrome::shortestPalindrome("cacacabc"), "cbacacacabc");
+//    ASSERT_EQ(Palindrome::shortestPalindrome("aaaaaaaaaaaaaaaaaaaaaaaaaa"), "aaaaaaaaaaaaaaaaaaaaaaaaaa");
+//    ASSERT_EQ(Palindrome::shortestPalindrome("ab"), "bab");
+//    ASSERT_EQ(Palindrome::shortestPalindrome(""), "");
+//}
+
+//TEST(PalindromeTest, rearrange1) {
+//    ASSERT_EQ(Palindrome::rearrange("test"), "estt");
+//    ASSERT_EQ(Palindrome::rearrange("aabbcc"), "aabcbc");
+//    ASSERT_EQ(Palindrome::rearrange("test"), "estt");
+//}
+
+TEST(PalindromeTest, longestPalindrome1) {
+    ASSERT_EQ(Palindrome::longestPalindrome("123"), 1);
+    ASSERT_EQ(Palindrome::longestPalindrome("abc1234321ab"), 7);
+}
+
+TEST(PalindromeTest, minCutTest) {
+//    ASSERT_EQ(Palindrome::minCut("aab"), 1);
+//    ASSERT_EQ(Palindrome::minCut("aabb"), 1);
+//    ASSERT_EQ(Palindrome::minCut("aa"), 0);
+//    ASSERT_EQ(Palindrome::minCut("aba"), 0);
+    ASSERT_EQ(Palindrome::minCut("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"), 1);
 }
