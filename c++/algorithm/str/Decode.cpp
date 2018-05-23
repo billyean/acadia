@@ -58,7 +58,7 @@ string Decode::decodeString(string s) {
             }
 
             i--;
-        } else if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z'){
+        } else if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')){
             cs += c;
         } else if (c == '[') {
             if (cs != "") {

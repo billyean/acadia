@@ -388,36 +388,58 @@ vector<int> Palindrome::kmp_index(string s) {
  * @return
  */
 int Palindrome::minCut(string s) {
-    vector<vector<int>> cuts;
+    // Version 1, not optimized
+//    vector<vector<int>> cuts;
+//
+//    for (int i = 0; i < s.size(); i++) {
+//        vector<int> r(s.size(), s.size());
+//        r[i] = 0;
+//        cuts.push_back(r);
+//    }
+//
+//    string ds = "";
+//    ds += s[0];
+//    for (int i = 1; i < s.size(); i++) {
+//        ds += '#';
+//        ds += s[i];
+//    }
+//
+//    vector<int> lens = palindromeLens(ds);
+//
+//    for (int i = 1; i < s.size(); i++) {
+//        for (int j = 0; j < s.size() - i; j++) {
+//            if (palindrome(s, j, i + 1)) {
+//                cuts[j][i + j] = 0;
+//            } else {
+//                for (int k = 0; k < i; k++) {
+//                    cuts[j][i + j] = min(cuts[j][i + j], cuts[j][j + k] +  cuts[j + k + 1][i + j] + 1);
+//                }
+//            }
+//        }
+//    }
+//
+//    return cuts[0][s.size() - 1];
 
-    for (int i = 0; i < s.size(); i++) {
-        vector<int> r(s.size(), s.size());
-        r[i] = 0;
-        cuts.push_back(r);
-    }
+    //Version 2
+    int n = s.size();
+    vector<int> cuts(n, 0);
+    bool isPa[n][n];
 
-    string ds = "";
-    ds += s[0];
-    for (int i = 1; i < s.size(); i++) {
-        ds += '#';
-        ds += s[i];
-    }
-
-    vector<int> lens = palindromeLens(ds);
-
-    for (int i = 1; i < s.size(); i++) {
-        for (int j = 0; j < s.size() - i; j++) {
-            if (palindrome(s, j, i + 1)) {
-                cuts[j][i + j] = 0;
-            } else {
-                for (int k = 0; k < i; k++) {
-                    cuts[j][i + j] = min(cuts[j][i + j], cuts[j][j + k] +  cuts[j + k + 1][i + j] + 1);
+    for (int i = 0; i < n; i++) {
+        cuts[i] = i;
+        for (int j = 0; j <= i; j++) {
+            if (s[i] == s[j] && (i - j <= 1 || isPa[j + 1][i - 1])) {
+                isPa[j][i] = true;
+                if (j > 0) {
+                    cuts[i] = min(cuts[i], cuts[j - 1] + 1);
+                } else {
+                    cuts[i] = 0;
                 }
             }
         }
     }
 
-    return cuts[0][s.size() - 1];
+    return cuts[n - 1];
 }
 
 string Palindrome::rearrange(string s) {

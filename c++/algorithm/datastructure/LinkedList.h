@@ -37,7 +37,9 @@ public:
 
     T& kth(int);
 
-    static LinkedList<T> deserialized(string);
+//    static LinkedList<int> deserialized(string);
+
+    LinkedList<T> merge(LinkedList<T>& );
 private:
     LinkedListNode<T>* head_;
 };
@@ -106,6 +108,12 @@ T& LinkedList<T>::kth(int k) {
 
 
 template <typename T>
+LinkedList<T> LinkedList<T>::merge(LinkedList<T> &other) {
+    return *this;
+}
+
+
+template <typename T>
 string LinkedList<T>::serialized() {
     string s;
     LinkedListNode<T>* c = head_;
@@ -120,45 +128,5 @@ string LinkedList<T>::serialized() {
 
     return s;
 }
-
-template<>
-LinkedList<int> LinkedList<int>::deserialized(string s) {
-    if (s == "") {
-        return NULL;
-    }
-
-    int cv = 0;
-    LinkedListNode<int>* dummy = new LinkedListNode<int>(cv);
-    LinkedListNode<int>* current = dummy;
-
-    size_t p = 0, ps;
-    string delimeter = "#";
-    while ((ps = s.find("#", p)) != string::npos) {
-        int v = 0;
-        for (size_t i = p; i != ps; i++) {
-            v *= 10;
-            v += s[i] - '0';
-        }
-        p = ps + 1;
-        LinkedListNode<int> *next = new LinkedListNode<int>(v);
-        current->next_ = next;
-        current = next;
-    }
-
-    if (ps < s.size()) {
-        int v = 0;
-        for (size_t i = p; i != ps; i++) {
-            v *= 10;
-            v += s[i] - '0';
-        }
-        LinkedListNode<int> *next = new LinkedListNode<int>(v);
-        current->next_ = next;
-        current = next;
-    }
-
-    LinkedList<int> list(dummy->next_);
-    return list;
-}
-
 
 #endif //ALGORITHM_LINKEDLIST_H

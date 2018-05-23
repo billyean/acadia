@@ -15,11 +15,19 @@
 // Created by Haibo Yan on 5/22/18.
 //
 
-#include "gtest/gtest.h"
-#include "../../algorithm/datastructure/LinkedList.h"
+#ifndef ALGORITHM_SUBSTRING_H
+#define ALGORITHM_SUBSTRING_H
 
-TEST(LinkedListTest, serialization) {
-    LinkedList<int> l = LinkedList<int>::deserialized("1#2#3#4");
-    ASSERT_EQ(l.kth(0), 1);
-}
+#include <string>
 
+using namespace std;
+
+class SubString {
+public:
+    static string longestNoRepeated(string);
+
+    static string longestCommon(string, string);
+};
+
+
+#endif //ALGORITHM_SUBSTRING_H

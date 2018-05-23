@@ -64,4 +64,6 @@ string SlidingWindow::min_ordered(string s, string t) {
             }
         }
     }
+
+    return s;
 }
