@@ -56,8 +56,11 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Minimum steps to G(Facebook)                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/ClosestG.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestClosestG.java)|||||||
 | Rotate Image                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/RotateImage.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestRotateImage.java)|||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/matrix/Image2D.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/matrix/Image2DTest.scala)||
-| Spiral Matrix                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestSpiralMatrix.java)|||||||
+| Spiral Matrix                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/SpiralMatrix.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestSpiralMatrix.java)||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
 | Number of Islands                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/matrix/NumberOfIslands.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/matrix/TestNumberOfIslands.java)||[`Solution`](c++/algorithm/matrix/Islands.cpp)<br>[`Test`](c++/algorithm_tests/matrix/IslandsTest.cpp)|||||
+| Set Zeroes                                       |||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
+| Search I                                         |||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
+| Search II                                        |||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
 
 ### Linked List
 
@@ -78,6 +81,7 @@
 | Min Stack(Netflix)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/stack/MinStack.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/stack/TestMinStack.java)|[`Solution`](python/datastructure/min_stack.py)<br>[`Test`](python/test/datastructure/test_min_stack.py)|[`Solution`](c++/algorithm/stack/MinStack.cpp)<br>[`Test`](c++/algorithm_tests/stack/MinStackTest.cpp)|||||
 | Wiggle Subsequence                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/WiggleSubsequence.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestWiggleSubsequence.java)||[`Solution`](c++/algorithm/dp/SubSequence.cpp)<br>[`Test`](c++/algorithm_tests/dp/SubSequenceTest.cpp)|||||
 | Max Chunks To Make Sorted                        |||[`Solution`](c++/algorithm/array/MaxChunks.cpp)<br>[`Test`](c++/algorithm_tests/array/MaxChunksTest.cpp)|||||
+| Calculator                                       |||[`Solution`](c++/algorithm/array/Calculator.cpp)<br>[`Test`](c++/algorithm_tests/array/CalculatorTest.cpp)|||||
 
 ### Math
 
