@@ -61,6 +61,7 @@
 | Set Zeroes                                       |||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
 | Search I                                         |||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
 | Search II                                        |||[`Solution`](c++/algorithm/matrix/Matrix.cpp)<br>[`Test`](c++/algorithm_tests/matrix/MatrixTest.cpp)|||||
+| Mine Sweeper                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/MineSweeper.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestMineSweeper.java)|||||||
 
 ### Linked List
 
@@ -144,6 +145,7 @@
 | Remove Duplicate Letters                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/RemoveLetters.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestRemoveLetters.java)||[`Solution`](c++/algorithm/str/RemoveLetters.cpp)<br>[`Test`](c++/algorithm_tests/str/RemoveLettersTest.cpp)|||||
 | Top K Frequent Words                             |||[`Solution`](c++/algorithm/str/TopKFrequentWords.cpp)<br>[`Test`](c++/algorithm_tests/str/TopKFrequentWordsTest.cpp)|||||
 | Decode String                                    |||[`Solution`](c++/algorithm/str/Decode.cpp)<br>[`Test`](c++/algorithm_tests/str/DecodeTest.cpp)|||||
+| Minimum Window Substring                         |||[`Solution`](c++/algorithm/str/SubString.cpp)<br>[`Test`](c++/algorithm_tests/str/SubStringTest.cpp)|||||
 
 ### Permutation
 

@@ -27,6 +27,8 @@ public:
     static string longestNoRepeated(string);
 
     static string longestCommon(string, string);
+
+    static string minWinddow(string, string);
 };
 
 

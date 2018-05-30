@@ -18,20 +18,23 @@
 #include "gtest/gtest.h"
 #include "../../algorithm/str/SubString.h"
 
-TEST(SubStringTest, longestNoRepeated) {
-    ASSERT_EQ(SubString::longestNoRepeated(""), "");
-    ASSERT_EQ(SubString::longestNoRepeated("ab"), "ab");
-    ASSERT_EQ(SubString::longestNoRepeated("abcabcbb"), "abc");
-    ASSERT_EQ(SubString::longestNoRepeated("bbbbb"), "b");
-    ASSERT_EQ(SubString::longestNoRepeated("pwwkew"), "wke");
-}
+//TEST(SubStringTest, longestNoRepeated) {
+//    ASSERT_EQ(SubString::longestNoRepeated(""), "");
+//    ASSERT_EQ(SubString::longestNoRepeated("ab"), "ab");
+//    ASSERT_EQ(SubString::longestNoRepeated("abcabcbb"), "abc");
+//    ASSERT_EQ(SubString::longestNoRepeated("bbbbb"), "b");
+//    ASSERT_EQ(SubString::longestNoRepeated("pwwkew"), "wke");
+//}
 
+//TEST(SubStringTest, longestCommons) {
+//    ASSERT_EQ(SubString::longestCommon("", "abc"), "");
+//    ASSERT_EQ(SubString::longestCommon("def", "abc"), "");
+//    ASSERT_EQ(SubString::longestCommon("123", "345"), "3");
+//    ASSERT_EQ(SubString::longestCommon("12345", "34567"), "345");
+//}
 
-
-TEST(SubStringTest, longestCommons) {
-    ASSERT_EQ(SubString::longestCommon("", "abc"), "");
-    ASSERT_EQ(SubString::longestCommon("def", "abc"), "");
-    ASSERT_EQ(SubString::longestCommon("123", "345"), "3");
-    ASSERT_EQ(SubString::longestCommon("12345", "34567"), "345");
+TEST(SubStringTest, minWindow) {
+    ASSERT_EQ(SubString::minWinddow("ADOBECODEBANC", "ABC"), "BANC");
+    ASSERT_EQ(SubString::minWinddow("this is a test string", "tist"), "t stri");
 }
 
