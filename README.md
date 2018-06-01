@@ -18,6 +18,7 @@
 | Roman Digits                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/Roman.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestRoman.java)|[`Solution`](python/misc/rome_digit.py)<br>[`Test`](python/test/misc/test_rome_digits.py)|[`Solution`](c++/algorithm/misc/RomeDigits.cpp)<br>[`Test`](c++/algorithm_tests/misc/RomeDigitsTest.cpp)|[`Solution`](algorithm_swift/algorithm_swift/misc/RomeDigits.swift)<br>[`Test`](algorithm_swift/algorithm_swiftTests/misc/RomeDigitsTest.swift)|[`Solution`](javascript/js/misc/roman.js)<br>[`Test`](javascript/test/misc/test-roman.js)||[`Solution`](go/src/miscellaneous/rome_digits.go)<br>[`Test`](go/test/miscellaneous/rome_digits_test.go)|
 | Valid Anagram                                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/ValidAnagram.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestValidAnagram.java)|[`Solution`](python/misc/valid_anagram.py)<br>[`Test`](python/test/misc/test_anagram.py)|[`Solution`](c++/algorithm/misc/Anagram.cpp)<br>~~`Test`~~|[`Solution`](algorithm_swift/algorithm_swift/misc/Anagram.swift)<br>[`Test`](algorithm_swift/algorithm_swiftTests/misc/AnagramTest.swift)|[`Solution`](javascript/js/misc/anagram.js)<br>[`Test`](javascript/test/misc/test-anagram.js)|[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/string/Anagram.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/string/AnagramTest.scala)|[`Solution`](go/src/miscellaneous/anagram.go)<br>[`Test`](go/test/miscellaneous/anagram_test.go)|
 | Best Time to Buy and Sell Stock(I, II, III, IV, Cooldown, Fee)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/StockBuyAndSell.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestStockBuyAndSell.java)||[`Solution`](c++/algorithm/misc/StockBuySell.cpp)<br>[`Test`](c++/algorithm_tests/misc/StockBuySellTest.cpp)|[`Solution`](algorithm_swift/algorithm_swift/misc/StockSell.swift)<br>[`Test`](algorithm_swift/algorithm_swiftTests/misc/StockSellTest.swift)||||
+| List Of List Iterator                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/LOLIterator.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestLOLIterator.java)||||||
 
 ### Array
 
@@ -223,6 +224,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Generate Parentheses                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/backtracking/TestGenerateParenthesis.java)||||||
+| Pattern Matching                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Matches.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestMatches.java)||||||
 
 ### Range
 
