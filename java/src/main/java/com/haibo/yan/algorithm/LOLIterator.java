@@ -38,7 +38,7 @@ public class LOLIterator {
             if (r < list.size()) {
                 if (c == list.get(r).size()) {
                     r++;
-                    c=0;
+                    c = 0;
                     return next();
                 } else {
                     T n = list.get(r).get(c);
@@ -51,7 +51,7 @@ public class LOLIterator {
         }
     }
 
-    public static <T> Iterator<T> listIterator(List<List<T>> list) {
+    public static <T> Iterator<T> listIterator(final List<List<T>> list) {
         return new ListOfListIterator(list);
     }
 }
