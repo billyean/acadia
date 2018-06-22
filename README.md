@@ -51,7 +51,7 @@
 | Candies                                          |||[`Solution`](c++/algorithm/array/Candies.cpp)<br>[`Test`](c++/algorithm_tests/array/CandiesTest.cpp)|||||
 | Water                                            |||[`Solution`](c++/algorithm/array/Water.cpp)<br>[`Test`](c++/algorithm_tests/array/WaterTest.cpp)|||||
 | Gas Station                                      |||[`Solution`](c++/algorithm/array/GasStation.cpp)<br>[`Test`](c++/algorithm_tests/array/GasStationTest.cpp)|||||
-
+| Implement queue with array                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ArrayQueue.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestArrayQueue.java)|||||||
 ### Matrix
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
