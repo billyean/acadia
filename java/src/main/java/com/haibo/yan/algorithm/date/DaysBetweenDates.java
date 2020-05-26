@@ -1,18 +1,15 @@
-package com.haibo.yan.algorithm;
+package com.haibo.yan.algorithm.date;
 
-
-
-public class Solution {
+public class DaysBetweenDates {
     public int daysBetweenDates(String date1, String date2) {
         if (date1.compareTo(date2) > 0) {
             String t = date1;
             date1 = date2;
             date2 = date1;
         }
+
         int[] md = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 30, 31, 31};
         int[] lmd = new int[]{31, 29, 31, 30, 31, 30, 31, 31, 30, 30, 31, 31};
-
-
 
         String[] ymd1 = date1.split("-");
         String[] ymd2 = date2.split("-");
@@ -23,20 +20,22 @@ public class Solution {
         int d1 = Integer.parseInt(ymd1[2]);
         int d2 = Integer.parseInt(ymd2[2]);
 
-        int t = 0;
+        int days = 0;
+
+
+
         for (int y = y1 + 1; y < y2; y++) {
             if(isLeep(y)) {
-                t += 366;
+                days += 366;
             } else {
-                t += 365;
+                days += 365;
             }
         }
 
+        days += day(isLeep(y2) ? lmd : md, m2, d2);
+        days -= day(isLeep(y1) ? lmd : md, m1, d1);
 
-        t += day(isLeep(y2) ? lmd : md, m2, d2);
-        t -= day(isLeep(y1) ? lmd : md, m1, d1);
-
-        return t;
+        return days;
     }
 
     private int day(int[] md, int m, int d) {
@@ -50,10 +49,5 @@ public class Solution {
 
     private boolean isLeep(int year) {
         return year % 400 == 0 || year % 100 != 0 && year % 4 == 0;
-    }
-
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().daysBetweenDates("2019-06-29", "2019-06-30"));
     }
 }

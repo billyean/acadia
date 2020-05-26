@@ -4,7 +4,10 @@ import com.haibo.yan.algorithm.linkedlist.ListNode;
 import org.testng.Assert;
 
 import java.io.PrintStream;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Objects;
 
 import static java.util.stream.Collectors.joining;
 import static org.testng.Assert.assertNull;
@@ -25,6 +28,25 @@ public class TestUtilities {
                     list1.get(i).stream().map(t -> t.toString()).collect(joining(",", "[", "]")),
                     list2.get(i).stream().map(t -> t.toString()).collect(joining(",", "[", "]"))));
         }
+    }
+
+    public static <T extends Comparable> void assertEqualsWithoutOrder(List<List<T>> list1, List<List<T>> list2) {
+        Assert.assertEquals(list1.size(), list2.size());
+        sort(list1);
+        sort(list2);
+        for (int i = 0; i < list1.size(); i++) {
+            Assert.assertEquals(list1.get(i), list2.get(i));
+        }
+    }
+
+    public static <T extends Comparable> void sort(List<List<T>> list) {
+        for(List<T> element: list) {
+            Comparator<T> c = (u1, u2) -> u1.compareTo(u2);
+            element.sort(c);
+        }
+        Comparator<List<T>> c = (u1, u2) -> u1.stream().map(Objects::toString).collect(joining(","))
+                .compareTo(u2.stream().map(Objects::toString).collect(joining(",")));
+        list.sort(c);
     }
 
     public static <T> void assertLinkedListValues(ListNode<T> head, List<T> expectedValues) {
