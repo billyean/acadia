@@ -160,7 +160,12 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Permutation(Apple)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/permutation/Permutation.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/permutation/TestPermutation.java)|[`Solution`](python/permutation/permutation.py)<br>~~`Test`~~||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/permutation/permute.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/permutation/PermuteTest.scala)|
 
-### Dynamic Programming
+### Greedy
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+| Permutation(Apple)                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/greedy/FindMinFibonacciNumbers.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/greedy/FindMinFibonacciNumbers.java)||||||
+
 
 <blink>__Hint: When it asking maximum, minmum, optimal, this could be a dynamic programming problem__</blink>
 
