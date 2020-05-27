@@ -21,6 +21,7 @@
 | List Of List Iterator                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/LOLIterator.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestLOLIterator.java)||||||
 | Iterable Iterator                                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/IterableIterator.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/TestIterableIterator.java)||||||
 | Pouring Water                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/WaterPouring.java)<br>~~`Test`~~||||||
+| RankTeams                                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/google/RankTeams.java)<br>~~`Test`~~||||||
 
 ### Array
 
@@ -151,6 +152,7 @@
 | Top K Frequent Words                             |||[`Solution`](c++/algorithm/str/TopKFrequentWords.cpp)<br>[`Test`](c++/algorithm_tests/str/TopKFrequentWordsTest.cpp)|||||
 | Decode String                                    |||[`Solution`](c++/algorithm/str/Decode.cpp)<br>[`Test`](c++/algorithm_tests/str/DecodeTest.cpp)|||||
 | Minimum Window Substring                         |||[`Solution`](c++/algorithm/str/SubString.cpp)<br>[`Test`](c++/algorithm_tests/str/SubStringTest.cpp)|||||
+| StringMatching                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/StringMatching.java)<br>~~`Test`~~|||||||
 
 ### Permutation
 
@@ -357,5 +359,3 @@ Deal with Sharing Problem
 | Duplicate Emails                                 |[`Solution`](sql/mysql/duplicate_emails.sql)|||
 | Customers Who Never Order                        |[`Solution`](sql/mysql/customers_who_never_order.sql)|||
 | Rising Temperature                               |[`Solution`](sql/mysql/rasing_temperature.sql)|||
-
-
