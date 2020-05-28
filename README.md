@@ -254,7 +254,8 @@
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
-|  Long Pressed Name                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/doublepointer/LongPressedName.java)<br>~~`Test`~~||||||
+| Long Pressed Name                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/doublepointer/LongPressedName.java)<br>~~`Test`~~||||||
+| Fruit Into Baskets                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/doublepointer/FruitIntoBaskets.java)<br>~~`Test`~~||||||
 
 ### Range
 
