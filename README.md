@@ -136,6 +136,7 @@
 | Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)<br>~~`Test`~~||||||
 | Add One Row to Tree                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)<br>~~`Test`~~|||||||
 | Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)<br>~~`Test`~~||||||
+|  Range Sum of BST                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/RangeSumOfBST.java)<br>~~`Test`~~|||||||
 
 ### String
 
