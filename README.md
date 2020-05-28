@@ -81,6 +81,7 @@
 | Reorder List                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReorderList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReorder.java)|||||||
 | Odd Even Linked List                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/OddEvenLinkedList.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestOddEvenLinkedList.java)|||||||
 | Reverse Nodes in k-Group                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/ReverseKGroup.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/linkedlist/TestReverseKGroup.java)|||||||
+| Print Immutable Linked List in Reverse           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/linkedlist/PrintImmutableLinkedList.java)<br>~~`Test`~~|||||||
 
 ### Stack
 
