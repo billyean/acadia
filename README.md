@@ -55,6 +55,7 @@
 | Gas Station                                      |||[`Solution`](c++/algorithm/array/GasStation.cpp)<br>[`Test`](c++/algorithm_tests/array/GasStationTest.cpp)||||||
 | Implement queue with array                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ArrayQueue.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/array/TestArrayQueue.java)||||||||
 | Most Population Year                             ||||||||[`Solution`](KTAlgs/src/yan/haibo/array/mostPopulationYear.kt)|
+| Replace Elements with Greatest Element on Right Side|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReplaceGreatestElementRight.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
