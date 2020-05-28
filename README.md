@@ -188,6 +188,7 @@
 | Marbles in Three Baskets                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMarblesThreeBaskets.java)|||||||
 | Split Array With Same Average                    |||[`Solution`](c++/algorithm/dp/SplitArrayWIthSameAverage.cpp)<br>[`Test`](c++/algorithm_tests/dp/SplitArrayWIthSameAverageTest.cpp)|||||
 | Distinct Subsequences Total                      |||[`Solution`](c++/algorithm/array/Sequence.cpp)<br>[`Test`](c++/algorithm_tests/array/SequenceTest.cpp)|||||
+｜Decode Ways II                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/NumDecoding.java)<br>~~`Test`~~|||||||
 
 ### Binary Search
 
