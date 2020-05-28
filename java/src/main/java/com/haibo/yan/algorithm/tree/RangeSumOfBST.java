@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * https://leetcode.com/problems/range-sum-of-bst/
  */
-public class git status {
+public class RangeSumOfBST {
     public int rangeSumBST(BinaryTreeNode root, int L, int R) {
         AtomicInteger i = new AtomicInteger(0);
         dfs(root, i, L, R);
