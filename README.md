@@ -242,6 +242,14 @@
 | Generate Parentheses                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/backtracking/GenerateParenthesis.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/backtracking/TestGenerateParenthesis.java)||||||
 | Pattern Matching                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/Matches.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/string/TestMatches.java)||||||
 
+
+### Hashtable
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+| Binary Subarrays With Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/BinarySubarraysWithSum.java)<br>~~`Test`~~||||||
+
+
 ### Range
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
