@@ -250,6 +250,12 @@
 | Binary Subarrays With Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/BinarySubarraysWithSum.java)<br>~~`Test`~~||||||
 
 
+### Double Pointer
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+|  Long Pressed Name                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/doublepointer/LongPressedName.java)<br>~~`Test`~~||||||
+
 ### Range
 
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
