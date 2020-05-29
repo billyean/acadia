@@ -192,7 +192,7 @@
 | Marbles in Three Baskets                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MarblesThreeBaskets.java)<br>[`Test`](java/src/test/java/com/haibo/yan/algorithm/dp/TestMarblesThreeBaskets.java)|||||||
 | Split Array With Same Average                    |||[`Solution`](c++/algorithm/dp/SplitArrayWIthSameAverage.cpp)<br>[`Test`](c++/algorithm_tests/dp/SplitArrayWIthSameAverageTest.cpp)|||||
 | Distinct Subsequences Total                      |||[`Solution`](c++/algorithm/array/Sequence.cpp)<br>[`Test`](c++/algorithm_tests/array/SequenceTest.cpp)|||||
-｜Decode Ways II                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/NumDecoding.java)<br>~~`Test`~~|||||||
+| Decode Ways II                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/DecodeWays.java)<br>~~`Test`~~|||||||
 
 ### Binary Search
 
@@ -262,6 +262,14 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 |Smallest Range                                    |||[`Solution`](c++/algorithm/range/SmallRange.cpp)<br>[`Test`](c++/algorithm_tests/range/SmallRangeTest.cpp)|||||
+
+
+### BFS/DFS
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+| Super Palindromes                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/bfs/SuperPalindromes.java)<br>~~`Test`~~||||||
+| WordLadder                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/bfs/WordLadder.java)<br>~~`Test`~~||||||
 
 ### Design
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
