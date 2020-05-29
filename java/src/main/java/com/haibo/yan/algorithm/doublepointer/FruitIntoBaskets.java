@@ -3,7 +3,7 @@ package com.haibo.yan.algorithm.doublepointer;
 import java.util.HashSet;
 
 /**
- * https://leetcode.com/problems/fruit-into-baskets/
+ *
  */
 public class FruitIntoBaskets {
     public int totalFruit(int[] tree) {
