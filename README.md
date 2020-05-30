@@ -238,6 +238,7 @@
 | Red-Black Tree                                   |||[`Solution`](c++/algorithm/datastructure/RBTree.h)<br>~~`Test`~~|||||
 | Palindrome                                       |||[`Solution`](c++/algorithm/datastructure/Palindrome.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/PalindromeTest.cpp)|||||
 | Product of the Last K Numbers                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/ProductOfNumbers.java)<br>~~`Test`~~||||||
+| Iterator for Combination                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/CombinationIterator.java)<br>~~`Test`~~||||||
 
 ### Backtracking
 
