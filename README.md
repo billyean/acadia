@@ -251,6 +251,11 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Subarrays With Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/BinarySubarraysWithSum.java)<br>~~`Test`~~||||||
 
+### Union and Find
+
+|`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
+|--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
+|  Friend Circles                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/quickunion/FriendCircles.java)<br>~~`Test`~~||||||
 
 ### Double Pointer
 

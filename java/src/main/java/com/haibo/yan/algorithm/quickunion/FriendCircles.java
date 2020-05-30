@@ -2,7 +2,10 @@ package com.haibo.yan.algorithm.quickunion;
 
 import java.util.*;
 
-public class Connections {
+/**
+ * https://leetcode.com/problems/friend-circles/
+ */
+public class FriendCircles {
     private class Node {
         Node p;
         int val;
@@ -28,12 +31,14 @@ public class Connections {
 
         void mergeNode(Node other) {
             if (!sameTree(other)) {
-                if (n >= other.n) {
-                    other.p = this;
-                    this.n += other.n;
+                Node r1 = this.root();
+                Node r2 = other.root();
+                if (r1.n >= r2.n) {
+                    r2.p = r1;
+                    r1.n += r2.n;
                 } else {
-                    this.p = other;
-                    other.n += n;
+                    r1.p = r2;
+                    r2.n += r1.n;
                 }
             }
         }
@@ -59,5 +64,4 @@ public class Connections {
         }
         return roots.size();
     }
-
 }
