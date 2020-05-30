@@ -136,7 +136,8 @@
 | Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)<br>~~`Test`~~||||||
 | Add One Row to Tree                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)<br>~~`Test`~~|||||||
 | Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)<br>~~`Test`~~||||||
-|  Range Sum of BST                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/RangeSumOfBST.java)<br>~~`Test`~~|||||||
+| Range Sum of BST                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/RangeSumOfBST.java)<br>~~`Test`~~|||||||
+| Path Sum III                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/PathSumIII.java)<br>~~`Test`~~|||||||
 
 ### String
 
@@ -234,6 +235,7 @@
 | Insert Delete GetRandom O(1)                     |||[`Solution`](c++/algorithm/datastructure/RandomizedSet.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/RandomizedSetTest.cpp)|||||
 | Red-Black Tree                                   |||[`Solution`](c++/algorithm/datastructure/RBTree.h)<br>~~`Test`~~|||||
 | Palindrome                                       |||[`Solution`](c++/algorithm/datastructure/Palindrome.cpp)<br>[`Test`](c++/algorithm_tests/datastructure/PalindromeTest.cpp)|||||
+| Product of the Last K Numbers                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/datastructure/ProductOfNumbers.java)<br>~~`Test`~~||||||
 
 ### Backtracking
 

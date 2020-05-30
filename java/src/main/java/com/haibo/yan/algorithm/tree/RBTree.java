@@ -22,7 +22,7 @@ package com.haibo.yan.algorithm.tree;
 
 import java.util.List;
 
-public   class RBTree<T extends Comparable> {
+public class RBTree<T extends Comparable> {
     enum Color {
         Red,
         Black
