@@ -139,6 +139,7 @@
 | Range Sum of BST                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/RangeSumOfBST.java)<br>~~`Test`~~|||||||
 | Path Sum III                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/PathSumIII.java)<br>~~`Test`~~|||||||
 | Find Largest Value in Each Tree Row              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LargestInRow.java)<br>~~`Test`~~|||||||
+| Deepest Leaves Sum                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/DeepestLeavesSum.java)<br>~~`Test`~~|||||||
 
 ### String
 
