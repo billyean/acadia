@@ -1,4 +1,4 @@
-package com.haibo.yan.algorithm.queue;
+package com.haibo.yan.algorithm.datastructure;
 
 import java.util.ArrayList;
 import java.util.List;
