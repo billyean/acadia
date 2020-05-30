@@ -112,7 +112,7 @@
 | Arranging Coins                                  |||[`Solution`](c++/algorithm/math/ArrangeCoins.cpp)<br>[`Test`](c++/algorithm_tests/math/ArrangeCoinsTest.cpp)|||||
 | Perfect Number                                   ||||||[`Solution`](scala/src/main/scala/com/haiboyan/scala/algorithm/number/PerfectNumber.scala)<br>[`Test`](scala/src/test/scala/com/haiboyan/scala/algorithm/number/PerfectNumberTest.scala)|[`Solution`](go/src/number/perfect.go)<br>[`Test`](go/test/number/perfect_test.go)|
 | Prime Number of Set Bits in Binary Representation|||||||[`Solution`](go/src/number/bits_prime_count.go)<br>[`Test`](go/test/number/bits_prime_count_test.go)|
-
+| Sequential Digits                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/math/SequentialDigits.java)<br>~~`Test`~~|||||||
 
 ### Bit Operation
 
@@ -136,8 +136,9 @@
 | Balanced Binrary Tree                            ||[`Solution`](python/tree/balanced_binary_tree.py)<br>~~`Test`~~||||||
 | Add One Row to Tree                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/AddOneRow2Tree.java)<br>~~`Test`~~|||||||
 | Construct String from Binary Tree                ||[`Solution`](python/tree/tree2str.py)<br>~~`Test`~~||||||
-| Range Sum of BST                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/RangeSumOfBST.java)<br>~~`Test`~~|||||||
-| Path Sum III                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/PathSumIII.java)<br>~~`Test`~~|||||||
+| Range Sum of BST                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/RangeSumOfBST.java)<br>~~`Test`~~|||||||
+| Path Sum III                                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/PathSumIII.java)<br>~~`Test`~~|||||||
+| Find Largest Value in Each Tree Row              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/tree/LargestInRow.java)<br>~~`Test`~~|||||||
 
 ### String
 
