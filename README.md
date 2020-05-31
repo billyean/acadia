@@ -159,7 +159,8 @@
 | Top K Frequent Words                             |||[`Solution`](c++/algorithm/str/TopKFrequentWords.cpp)<br>[`Test`](c++/algorithm_tests/str/TopKFrequentWordsTest.cpp)|||||
 | Decode String                                    |||[`Solution`](c++/algorithm/str/Decode.cpp)<br>[`Test`](c++/algorithm_tests/str/DecodeTest.cpp)|||||
 | Minimum Window Substring                         |||[`Solution`](c++/algorithm/str/SubString.cpp)<br>[`Test`](c++/algorithm_tests/str/SubStringTest.cpp)|||||
-| StringMatching                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/StringMatching.java)<br>~~`Test`~~|||||||
+| String Matching                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/StringMatching.java)<br>~~`Test`~~|||||||
+| Custom Sort String                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/CustomSortString.java)<br>~~`Test`~~|||||||
 
 ### Permutation
 
