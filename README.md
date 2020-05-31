@@ -254,6 +254,7 @@
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Subarrays With Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/BinarySubarraysWithSum.java)<br>~~`Test`~~||||||
+| Rabbits in Forest                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/RabbitsInForest.java)<br>~~`Test`~~||||||
 
 ### Union and Find
 
