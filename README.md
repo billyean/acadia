@@ -161,6 +161,7 @@
 | Minimum Window Substring                         |||[`Solution`](c++/algorithm/str/SubString.cpp)<br>[`Test`](c++/algorithm_tests/str/SubStringTest.cpp)|||||
 | String Matching                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/StringMatching.java)<br>~~`Test`~~|||||||
 | Custom Sort String                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/CustomSortString.java)<br>~~`Test`~~|||||||
+| Shortest Completing Word                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/ShortestCompletingWord.java)<br>~~`Test`~~|||||||
 
 ### Permutation
 
@@ -198,6 +199,7 @@
 | Distinct Subsequences Total                      |||[`Solution`](c++/algorithm/array/Sequence.cpp)<br>[`Test`](c++/algorithm_tests/array/SequenceTest.cpp)|||||
 | Decode Ways II                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/DecodeWays.java)<br>~~`Test`~~|||||||
 | Min Cost Climbing Stairs                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MinCostClimbingStairs.java)<br>~~`Test`~~|||||||
+
 ### Binary Search
 
 |`Problem                                                 List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
