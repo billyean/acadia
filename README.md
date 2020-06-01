@@ -200,6 +200,7 @@
 | Distinct Subsequences Total                      |||[`Solution`](c++/algorithm/array/Sequence.cpp)<br>[`Test`](c++/algorithm_tests/array/SequenceTest.cpp)|||||
 | Decode Ways II                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/DecodeWays.java)<br>~~`Test`~~|||||||
 | Min Cost Climbing Stairs                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/MinCostClimbingStairs.java)<br>~~`Test`~~|||||||
+| heapest Flights Within K Stops                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/dp/CheapestFlightsWithinKStops.java)<br>~~`Test`~~|||||||
 
 ### Binary Search
 
