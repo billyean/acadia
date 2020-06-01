@@ -285,6 +285,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Super Palindromes                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/bfs/SuperPalindromes.java)<br>~~`Test`~~||||||
 | WordLadder                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/bfs/WordLadder.java)<br>~~`Test`~~||||||
+| Open the Lock                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/bfs/OpenLock.java)<br>~~`Test`~~||||||
 
 ### Design
 |`Problem                                     List`|` Java        `|`Python`|`  C++  `|` Swift `|` JavaScript `|` Scala `|`    Go    `|
