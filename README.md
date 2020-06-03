@@ -61,6 +61,7 @@
 | Find Smallest Letter Greater Than Target         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FindSmallestLetterGreaterThanTarget.java)<br>~~`Test`~~||||||||
 | Maximum Width Ramp                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumWidthRamp.java)<br>~~`Test`~~||||||||
 | Pancake Sorting                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PancakeSorting.java)<br>~~`Test`~~||||||||
+| Subarray Sums Divisible by K                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubarraySumsDivisibleByK.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
