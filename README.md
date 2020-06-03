@@ -59,6 +59,7 @@
 | Reverse Only Letters                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReverseOnlyLetters.java)<br>~~`Test`~~||||||||
 | Pour Water                                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PourWater.java)<br>~~`Test`~~||||||||
 | Find Smallest Letter Greater Than Target         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FindSmallestLetterGreaterThanTarget.java)<br>~~`Test`~~||||||||
+|  Maximum Width Ramp                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumWidthRamp.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
