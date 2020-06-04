@@ -64,6 +64,7 @@
 | Subarray Sums Divisible by K                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubarraySumsDivisibleByK.java)<br>~~`Test`~~||||||||
 | Number of Students Doing Homework at a Given Time|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BusyStudent.java)<br>~~`Test`~~||||||||
 | Make Two Arrays Equal by Reversing Sub-arrays    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/IsSame.java)<br>~~`Test`~~||||||||
+| Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaxArea.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
