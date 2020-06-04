@@ -62,6 +62,7 @@
 | Maximum Width Ramp                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumWidthRamp.java)<br>~~`Test`~~||||||||
 | Pancake Sorting                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PancakeSorting.java)<br>~~`Test`~~||||||||
 | Subarray Sums Divisible by K                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubarraySumsDivisibleByK.java)<br>~~`Test`~~||||||||
+| Number of Students Doing Homework at a Given Time|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BusyStudent.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
