@@ -66,6 +66,12 @@
 | Make Two Arrays Equal by Reversing Sub-arrays    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/IsSame.java)<br>~~`Test`~~||||||||
 | Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaxArea.java)<br>~~`Test`~~||||||||
 ｜Diagonal Traverse                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/DiagonalTraverse.java)<br>~~`Test`~~||||||||
+｜Advance Shuffle                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/AdvantageShuffle.java)<br>~~`Test`~~||||||||
+｜Bubble Switcher                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BubbleSwitcher.java)<br>~~`Test`~~||||||||
+｜Invalid Transaction                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/InvalidTransactions.java)<br>~~`Test`~~||||||||
+｜Randomize Collection                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RandomizedCollection.java)<br>~~`Test`~~||||||||
+｜Reduce Array Size to Half                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReduceArraySize2Half.java)<br>~~`Test`~~||||||||
+｜Sum Subarray Minimums                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SumSubarrayMinimums.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
