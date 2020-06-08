@@ -73,6 +73,7 @@
 ｜Reduce Array Size to Half                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReduceArraySize2Half.java)<br>~~`Test`~~||||||||
 ｜Sum Subarray Minimums                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SumSubarrayMinimums.java)<br>~~`Test`~~||||||||
 ｜Find All Duplicates in an Array                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FindAllDuplicatesArray.java)<br>~~`Test`~~||||||||
+| Check If All 1's Are at Least Length K Places Away|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/KLengthApart.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
