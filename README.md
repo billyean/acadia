@@ -72,6 +72,7 @@
 ｜Randomize Collection                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RandomizedCollection.java)<br>~~`Test`~~||||||||
 ｜Reduce Array Size to Half                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ReduceArraySize2Half.java)<br>~~`Test`~~||||||||
 ｜Sum Subarray Minimums                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SumSubarrayMinimums.java)<br>~~`Test`~~||||||||
+｜Find All Duplicates in an Array                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FindAllDuplicatesArray.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
