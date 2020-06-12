@@ -75,6 +75,7 @@
 ｜Find All Duplicates in an Array                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FindAllDuplicatesArray.java)<br>~~`Test`~~||||||||
 | Check If All 1's Are at Least Length K Places Away|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/KLengthApart.java)<br>~~`Test`~~||||||||
 | Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumOfSubarrays.java)<br>~~`Test`~~||||||||
+｜ Unique Paths II                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/UniquePaths.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
