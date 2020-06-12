@@ -75,9 +75,10 @@
 ｜Find All Duplicates in an Array                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FindAllDuplicatesArray.java)<br>~~`Test`~~||||||||
 | Check If All 1's Are at Least Length K Places Away|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/KLengthApart.java)<br>~~`Test`~~||||||||
 | Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumOfSubarrays.java)<br>~~`Test`~~||||||||
-｜ Unique Paths II                                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/UniquePaths.java)<br>~~`Test`~~||||||||
-｜ Array of Doubled Pairs                          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ArrayOfDoubledPairs.java)<br>~~`Test`~~||||||||
-｜ Get Equal Substrings Within Budget              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/GetEqualSubstringsWithinBudget.java)<br>~~`Test`~~||||||||
+｜Unique Paths II                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/UniquePaths.java)<br>~~`Test`~~||||||||
+｜Array of Doubled Pairs                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ArrayOfDoubledPairs.java)<br>~~`Test`~~||||||||
+｜Get Equal Substrings Within Budget               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/GetEqualSubstringsWithinBudget.java)<br>~~`Test`~~||||||||
+| Maximum Points You Can Obtain from Cards         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumPointsObtainCards.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
