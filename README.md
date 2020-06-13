@@ -80,6 +80,7 @@
 ｜Get Equal Substrings Within Budget               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/GetEqualSubstringsWithinBudget.java)<br>~~`Test`~~||||||||
 | Maximum Points You Can Obtain from Cards         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumPointsObtainCards.java)<br>~~`Test`~~||||||||
 | Count Servers that Communicate                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CountServersCommunicate.java)<br>~~`Test`~~||||||||
+| Longest Turbulent Subarray                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestTurbulentSubarray.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
