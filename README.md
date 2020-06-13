@@ -81,7 +81,8 @@
 | Maximum Points You Can Obtain from Cards         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumPointsObtainCards.java)<br>~~`Test`~~||||||||
 | Count Servers that Communicate                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CountServersCommunicate.java)<br>~~`Test`~~||||||||
 | Longest Turbulent Subarray                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestTurbulentSubarray.java)<br>~~`Test`~~||||||||
-|  Queries on a Permutation With Key               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/QueriesPermutationWithKey.java)<br>~~`Test`~~||||||||
+| Queries on a Permutation With Key                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/QueriesPermutationWithKey.java)<br>~~`Test`~~||||||||
+| Count Number of Teams                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CountNumberOfTeams.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
