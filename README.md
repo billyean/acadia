@@ -86,6 +86,7 @@
 | Cinema Seat Allocation                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CinemaSeatAllocation.java)<br>~~`Test`~~||||||||
 | Friends Of Appropriate Ages                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FriendsOfAppropriateAges.java)<br>~~`Test`~~||||||||
 | Global and Local Inversions                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/GlobalLocalInversions.java)<br>~~`Test`~~||||||||
+| Sum of Mutated Array Closest to Target           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SumOfMutatedArrayClosestToTarget.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
