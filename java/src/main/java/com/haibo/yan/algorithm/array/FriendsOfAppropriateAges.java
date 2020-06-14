@@ -24,4 +24,3 @@ public class FriendsOfAppropriateAges {
         return !(b <= 0.5*a+7 || b > a || (b > 100 && a < 100));
     }
 }
-}
