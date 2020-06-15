@@ -90,6 +90,7 @@
 | Lonely Pixel I                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LonelyPixel.java)<br>~~`Test`~~||||||||
 | Construct Binary Tree from Inorder and Postorder Traversal|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ConstructBinaryTree.java)<br>~~`Test`~~||||||||
 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestContinuousSubarray.java)<br>~~`Test`~~||||||||
+|  Subarray Sum Equals K                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubarraySumEqualsK.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
