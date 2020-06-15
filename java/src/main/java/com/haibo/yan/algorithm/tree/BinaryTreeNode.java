@@ -6,9 +6,9 @@ package com.haibo.yan.algorithm.tree;
 public class BinaryTreeNode {
     int val;
 
-    BinaryTreeNode left;
+    public BinaryTreeNode left;
 
-    BinaryTreeNode right;
+    public BinaryTreeNode right;
 
     public BinaryTreeNode(int val) {
         this.val = val;
