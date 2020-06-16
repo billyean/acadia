@@ -95,7 +95,7 @@
 | Divide Array in Sets of K Consecutive Numbers    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/DivideArrayKConsecutiveNumbers.java)<br>~~`Test`~~||||||||
 | Grumpy Bookstore Owner                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/GrumpyBookstoreOwner.java)<br>~~`Test`~~||||||||
 | Corporate Flight Bookings                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CorporateFlightBookings.java)<br>~~`Test`~~||||||||
-| Divide Array in Sets of K Consecutive Numbers    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumCircularSubarray.java)<br>~~`Test`~~||||||||
+| Queens That Can Attack the King                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/QueensCanAttackKing.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
