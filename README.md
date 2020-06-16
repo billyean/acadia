@@ -93,7 +93,7 @@
 | Subarray Sum Equals K                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubarraySumEqualsK.java)<br>~~`Test`~~||||||||
 | Maximum Sum Circular Subarray                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumCircularSubarray.java)<br>~~`Test`~~||||||||
 | Divide Array in Sets of K Consecutive Numbers    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/DivideArrayKConsecutiveNumbers.java)<br>~~`Test`~~||||||||
-| Divide Array in Sets of K Consecutive Numbers    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumCircularSubarray.java)<br>~~`Test`~~||||||||
+| Grumpy Bookstore Owner                           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/GrumpyBookstoreOwner.java)<br>~~`Test`~~||||||||
 | Divide Array in Sets of K Consecutive Numbers    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumCircularSubarray.java)<br>~~`Test`~~||||||||
 | Divide Array in Sets of K Consecutive Numbers    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumCircularSubarray.java)<br>~~`Test`~~||||||||
 
