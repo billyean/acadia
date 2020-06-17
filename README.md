@@ -97,8 +97,9 @@
 | Corporate Flight Bookings                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CorporateFlightBookings.java)<br>~~`Test`~~||||||||
 | Queens That Can Attack the King                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/QueensCanAttackKing.java)<br>~~`Test`~~||||||||
 | Remove Sub-Folders from the Filesystem           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RemoveSubFolders.java)<br>~~`Test`~~||||||||
-｜Uncrossed Lines                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/UncrossedLines.java)<br>~~`Test`~~||||||||
+| Uncrossed Lines                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/UncrossedLines.java)<br>~~`Test`~~||||||||
 | Longest Line of Consecutive One in Matrix        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestLineConsecutiveOneInMatrix.java)<br>~~`Test`~~||||||||
+| Split Array with Equal Sum                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SplitArrayWithEqualSum.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
