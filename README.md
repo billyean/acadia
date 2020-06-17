@@ -101,6 +101,7 @@
 | Longest Line of Consecutive One in Matrix        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestLineConsecutiveOneInMatrix.java)<br>~~`Test`~~||||||||
 | Split Array with Equal Sum                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SplitArrayWithEqualSum.java)<br>~~`Test`~~||||||||
 | Teemo Attacking                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/TeemoAttacking.java)<br>~~`Test`~~||||||||
+| Number of Subarrays with Bounded Maximum         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumberOfSubarraysWithBoundedMaximum.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
