@@ -106,6 +106,7 @@
 | Leftmost Column with at Least a One              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LeftmostColumnWithAtLeastAOne.java)<br>~~`Test`~~||||||||
 | Previous Permutation With One Swap               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PreviousPermutationWithOneSwap.java)<br>~~`Test`~~||||||||
 | Decrease Elements To Make Array Zigzag           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/DecreaseElementsToMakeArrayZigzag.java)<br>~~`Test`~~||||||||
+| Count Square Submatrices with All Ones           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CountSquareSubmatriceswithAllOnes.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
