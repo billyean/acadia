@@ -107,6 +107,7 @@
 | Previous Permutation With One Swap               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/PreviousPermutationWithOneSwap.java)<br>~~`Test`~~||||||||
 | Decrease Elements To Make Array Zigzag           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/DecreaseElementsToMakeArrayZigzag.java)<br>~~`Test`~~||||||||
 | Count Square Submatrices with All Ones           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CountSquareSubmatriceswithAllOnes.java)<br>~~`Test`~~||||||||
+| Sort the Matrix Diagonally                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SortMatrixDiagonally.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
