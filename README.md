@@ -102,6 +102,7 @@
 | Split Array with Equal Sum                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SplitArrayWithEqualSum.java)<br>~~`Test`~~||||||||
 | Teemo Attacking                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/TeemoAttacking.java)<br>~~`Test`~~||||||||
 | Number of Subarrays with Bounded Maximum         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumberOfSubarraysWithBoundedMaximum.java)<br>~~`Test`~~||||||||
+| Minimum Increment to Make Array Unique           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MinimumIncrement2MakeArrayUnique.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
