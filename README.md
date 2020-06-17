@@ -100,6 +100,7 @@
 | Uncrossed Lines                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/UncrossedLines.java)<br>~~`Test`~~||||||||
 | Longest Line of Consecutive One in Matrix        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/LongestLineConsecutiveOneInMatrix.java)<br>~~`Test`~~||||||||
 | Split Array with Equal Sum                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SplitArrayWithEqualSum.java)<br>~~`Test`~~||||||||
+| Teemo Attacking                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/TeemoAttacking.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
