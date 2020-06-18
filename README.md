@@ -111,6 +111,7 @@
 | Subrectangle Queries                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubrectangleQueries.java)<br>~~`Test`~~||||||||
 | Reveal Cards In Increasing Order                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RevealCardsInIncreasingOrder.java)<br>~~`Test`~~||||||||
 | Task Scheduler                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/TaskScheduler.java)<br>~~`Test`~~||||||||
+| Count Triplets That Can Form Two Arrays of Equal XOR|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/EqualXOR.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
