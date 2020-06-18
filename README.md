@@ -116,6 +116,7 @@
 | Shortest Word Distance III                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ShortestWordDistance.java)<br>~~`Test`~~||||||||
 ｜Maximum Sum of Two Non-Overlapping Subarrays     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumTwoNonOverlappingSubarrays.java)<br>~~`Test`~~||||||||
 | Filter Restaurants by Vegan-Friendly, Price and Distance|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FilterRestaurants.java)<br>~~`Test`~~||||||||
+| Beautiful Arrangement II                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BeautifulArrangement.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
