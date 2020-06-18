@@ -114,6 +114,7 @@
 | Count Triplets That Can Form Two Arrays of Equal XOR|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/EqualXOR.java)<br>~~`Test`~~||||||||
 | Array Nesting                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ArrayNesting.java)<br>~~`Test`~~||||||||
 | Shortest Word Distance III                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/ShortestWordDistance.java)<br>~~`Test`~~||||||||
+｜ Maximum Sum of Two Non-Overlapping Subarrays    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumTwoNonOverlappingSubarrays.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
