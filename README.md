@@ -108,8 +108,9 @@
 | Decrease Elements To Make Array Zigzag           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/DecreaseElementsToMakeArrayZigzag.java)<br>~~`Test`~~||||||||
 | Count Square Submatrices with All Ones           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CountSquareSubmatriceswithAllOnes.java)<br>~~`Test`~~||||||||
 | Sort the Matrix Diagonally                       |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SortMatrixDiagonally.java)<br>~~`Test`~~||||||||
-｜Subrectangle Queries                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubrectangleQueries.java)<br>~~`Test`~~||||||||
-｜ Reveal Cards In Increasing Order                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RevealCardsInIncreasingOrder.java)<br>~~`Test`~~||||||||
+| Subrectangle Queries                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SubrectangleQueries.java)<br>~~`Test`~~||||||||
+| Reveal Cards In Increasing Order                 |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RevealCardsInIncreasingOrder.java)<br>~~`Test`~~||||||||
+| Task Scheduler                                   |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/TaskScheduler.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
