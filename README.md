@@ -121,6 +121,7 @@
 | Best Sightseeing Pair                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BestSightseeingPair.java)<br>~~`Test`~~||||||||
 | Minimum Domino Rotations For Equal Row           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MinimumDominoRotationsForEqualRow.java)<br>~~`Test`~~||||||||
 | Number of Matching Subsequences                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumberOfMatchingSubsequences.java)<br>~~`Test`~~||||||||
+| Candy Crush                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CandyCrush.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
