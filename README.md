@@ -318,6 +318,7 @@
 |--------------------------------------------------|---------------|--------|---------|---------|--------------|---------|------------|
 | Binary Subarrays With Sum                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/BinarySubarraysWithSum.java)<br>~~`Test`~~||||||
 | Rabbits in Forest                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/RabbitsInForest.java)<br>~~`Test`~~||||||
+| Longest String Chain                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/LongestStringChain.java)<br>~~`Test`~~||||||
 
 ### Union and Find
 
