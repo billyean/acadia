@@ -119,6 +119,8 @@
 | Beautiful Arrangement II                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BeautifulArrangement.java)<br>~~`Test`~~||||||||
 | Capacity To Ship Packages Within D Days          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CapacityToShipPackagesWithinDDays.java)<br>~~`Test`~~||||||||
 | Best Sightseeing Pair                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BestSightseeingPair.java)<br>~~`Test`~~||||||||
+| Minimum Domino Rotations For Equal Row           |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MinimumDominoRotationsForEqualRow.java)<br>~~`Test`~~||||||||
+| Number of Matching Subsequences                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/NumberOfMatchingSubsequences.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
