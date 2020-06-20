@@ -320,6 +320,7 @@
 | Rabbits in Forest                                |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/RabbitsInForest.java)<br>~~`Test`~~||||||
 | Longest String Chain                             |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/LongestStringChain.java)<br>~~`Test`~~||||||
 | Sort Characters By Frequency                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/frequencySort.java)<br>~~`Test`~~||||||
+| Sparse Matrix Multiplication                     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/hashtable/SparseMatrixMultiplication.java)<br>~~`Test`~~||||||
 
 ### Union and Find
 
