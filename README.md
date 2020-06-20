@@ -117,6 +117,7 @@
 ｜Maximum Sum of Two Non-Overlapping Subarrays     |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaximumSumTwoNonOverlappingSubarrays.java)<br>~~`Test`~~||||||||
 | Filter Restaurants by Vegan-Friendly, Price and Distance|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FilterRestaurants.java)<br>~~`Test`~~||||||||
 | Beautiful Arrangement II                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BeautifulArrangement.java)<br>~~`Test`~~||||||||
+| Capacity To Ship Packages Within D Days          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CapacityToShipPackagesWithinDDays.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
