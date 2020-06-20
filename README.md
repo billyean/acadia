@@ -118,6 +118,7 @@
 | Filter Restaurants by Vegan-Friendly, Price and Distance|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/FilterRestaurants.java)<br>~~`Test`~~||||||||
 | Beautiful Arrangement II                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BeautifulArrangement.java)<br>~~`Test`~~||||||||
 | Capacity To Ship Packages Within D Days          |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CapacityToShipPackagesWithinDDays.java)<br>~~`Test`~~||||||||
+| Best Sightseeing Pair                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/BestSightseeingPair.java)<br>~~`Test`~~||||||||
 
 ### Matrix
 
