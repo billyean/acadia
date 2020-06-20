@@ -227,6 +227,7 @@
 | String Matching                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/StringMatching.java)<br>~~`Test`~~|||||||
 | Custom Sort String                               |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/CustomSortString.java)<br>~~`Test`~~|||||||
 | Shortest Completing Word                         |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/ShortestCompletingWord.java)<br>~~`Test`~~|||||||
+| Push Dominoes                                    |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/string/PushDominoes.java)<br>~~`Test`~~|||||||
 
 ### Permutation
 
