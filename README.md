@@ -113,6 +113,7 @@
 | [Candy Crush](https://leetcode.com/problems/candy-crush/)                                                                        |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CandyCrush.java)<br>~~`Test`~~||||||||
 | Combination Sum [II](https://leetcode.com/problems/combination-sum-ii/) [III](https://leetcode.com/problems/combination-sum-iii/)|[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/CandyCrush.java)<br>~~`Test`~~||||||||
 | [Range Addition](https://leetcode.com/problems/range-addition/)                                                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RangeAddition.java)<br>~~`Test`~~||||||||
+| [Snapshot Array](https://leetcode.com/problems/snapshot-array/)                                                                  |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SnapshotArray.java)<br>~~`Test`~~||||||||
 
 #### Hard
 
