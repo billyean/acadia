@@ -115,6 +115,8 @@
 | [Range Addition](https://leetcode.com/problems/range-addition/)                                                                                                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/RangeAddition.java)<br>~~`Test`~~||||||||
 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/)                                                                                                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/SnapshotArray.java)<br>~~`Test`~~||||||||
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                                                                                                      |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/MaxAreaOfIsland.java)<br>~~`Test`~~||||||||
+| [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)                                                                                                            |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/AvoidFloodCity.java)<br>~~`Test`~~||||||||
+| [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                              |[`Solution`](java/src/main/java/com/haibo/yan/algorithm/array/Twitter.java)<br>~~`Test`~~||||||||
 
 #### Hard
 
