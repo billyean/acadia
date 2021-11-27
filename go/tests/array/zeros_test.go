@@ -2,10 +2,10 @@ package array
 
 
 import (
-	"array"
-	"testing"
+	"github.com/go/array"
+	"github.com/go/util"
 	"reflect"
-	"util"
+	"testing"
 )
 
 func TestMove1(t *testing.T) {
@@ -13,7 +13,7 @@ func TestMove1(t *testing.T) {
 	expected := []int{0}
 	actual := array.Move(test_data)
 	if  !reflect.DeepEqual(actual, expected) {
-		t.Errorf("Move(%s) expects %s but got %s.", util.SliceToString1(expected), util.SliceToString1(actual))
+		t.Errorf("Move(%s) expects %s but got %s.", actual, util.SliceToString1(expected), util.SliceToString1(actual))
 	}
 }
 
@@ -22,7 +22,7 @@ func TestMove2(t *testing.T) {
 	expected := []int{1}
 	actual := array.Move(test_data)
 	if  !reflect.DeepEqual(actual, expected) {
-		t.Errorf("Move(%s) expects %s but got %s.", util.SliceToString1(expected), util.SliceToString1(actual))
+		t.Errorf("Move(%s) expects %s but got %s.", actual, util.SliceToString1(expected), util.SliceToString1(actual))
 	}
 }
 

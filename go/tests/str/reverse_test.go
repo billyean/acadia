@@ -1,8 +1,8 @@
 package str
 
 import (
+	"github.com/go/str"
 	"testing"
-	"str"
 )
 
 func TestReverseVowels(t *testing.T) {

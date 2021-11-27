@@ -1,7 +1,7 @@
 package miscellaneous
 
 import (
-"miscellaneous"
+"github.com/go/miscellaneous"
 "testing"
 )
 
@@ -11,7 +11,7 @@ type param_and_result struct {
 }
 
 func TestInt2Rome(t *testing.T) {
-	test_data := []param_and_result {
+	test_data := []param_and_result{
 		param_and_result{1, "I"},
 		param_and_result{2, "II"},
 		param_and_result{3, "III"},

@@ -1,8 +1,8 @@
 package dp
 
 import (
+	"github.com/go/dp"
 	"testing"
-	"dp"
 )
 
 func TestFibonacci(t *testing.T) {

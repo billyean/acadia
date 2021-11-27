@@ -1,9 +1,9 @@
 package miscellaneous
 
 import (
-	"miscellaneous"
-	"testing"
+	"github.com/go/miscellaneous"
 	"reflect"
+	"testing"
 )
 
 func TestWatch_n(t *testing.T) {

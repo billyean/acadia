@@ -1,7 +1,7 @@
 package util
 
 import (
-	"ll"
+	"github.com/go/ll"
 	"strconv"
 )
 

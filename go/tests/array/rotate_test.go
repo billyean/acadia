@@ -1,9 +1,9 @@
 package array
 
 import (
-	"array"
-	"testing"
+	"github.com/go/array"
 	"reflect"
+	"testing"
 )
 
 func TestBinarySearch(t *testing.T) {

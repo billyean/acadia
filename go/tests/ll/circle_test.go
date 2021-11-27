@@ -1,8 +1,8 @@
 package ll
 
 import (
+	"github.com/go/ll"
 	"testing"
-	"ll"
 )
 
 func TestCirculated(t *testing.T) {

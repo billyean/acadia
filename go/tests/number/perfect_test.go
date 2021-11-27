@@ -1,7 +1,7 @@
 package number
 
 import (
-	"number"
+	"github.com/go/number"
 	"testing"
 )
 

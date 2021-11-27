@@ -1,10 +1,10 @@
 package maths
 
 import (
-	"testing"
-	"maths"
+	"github.com/go/maths"
+	"github.com/go/util"
 	"reflect"
-	"util"
+	"testing"
 )
 
 func TestAddOne1(t *testing.T) {

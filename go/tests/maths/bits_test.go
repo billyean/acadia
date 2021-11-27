@@ -1,8 +1,8 @@
 package maths
 
 import (
+	"github.com/go/maths"
 	"testing"
-	"maths"
 )
 
 func TestPowerOfTwo1(t *testing.T) {

@@ -1,8 +1,8 @@
 package str
 
 import (
+	"github.com/go/str"
 	"testing"
-	"str"
 )
 
 func TestSubstr(t *testing.T) {

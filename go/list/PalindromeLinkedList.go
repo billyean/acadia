@@ -37,7 +37,7 @@ func find_middle(head *ListNode) *ListNode {
 	return one.Next
 }
 
-func reverse(head *ListNode) *ListNode{
+func reverse(head *ListNode) *ListNode {
 	var nh = head
 	
 	for c := nh.Next; c != nil; {

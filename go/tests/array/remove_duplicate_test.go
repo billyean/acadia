@@ -1,7 +1,7 @@
 package array
 
 import (
-	"array"
+	"github.com/go/array"
 	"testing"
 )
 
