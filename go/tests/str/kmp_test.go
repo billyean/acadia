@@ -1,7 +1,7 @@
 package str
 
 import (
-	"github.com/go/str"
+	"github.com/go/src/str"
 	"testing"
 )
 

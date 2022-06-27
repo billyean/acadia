@@ -1,7 +1,7 @@
 package maths
 
 import (
-	"github.com/go/maths"
+	"github.com/go/src/maths"
 	"testing"
 )
 

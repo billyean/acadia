@@ -1,7 +1,7 @@
 package ll
 
 import (
-	"github.com/go/ll"
+	"github.com/go/src/ll"
 	"testing"
 )
 

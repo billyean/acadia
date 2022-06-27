@@ -1,7 +1,7 @@
 package dp
 
 import (
-	"github.com/go/dp"
+	"github.com/go/src/dp"
 	"testing"
 )
 

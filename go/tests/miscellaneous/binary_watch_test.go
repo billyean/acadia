@@ -1,7 +1,7 @@
 package miscellaneous
 
 import (
-	"github.com/go/miscellaneous"
+	"github.com/go/src/miscellaneous"
 	"reflect"
 	"testing"
 )
