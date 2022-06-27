@@ -1,11 +1,11 @@
 package maths
 
 func PowerOfTwo(n int) bool {
-	return n & (n - 1) == 0
+	return n&(n-1) == 0
 }
 
 func PowerOfFour(n int) bool {
-	return n == 1 || PowerOfTwo(n) && (n & 0xaaaaaaaa == 0)
+	return n == 1 || PowerOfTwo(n) && (n&0xaaaaaaaa == 0)
 }
 
 func SingleInTwos(nums []int) int {

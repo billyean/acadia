@@ -2,20 +2,20 @@ package miscellaneous
 
 func Int2Rome(num int) string {
 	type vboundary struct {
-		up int
+		up  int
 		low int
-		ru string
-		rl string
+		ru  string
+		rl  string
 	}
 
 	boundary := []vboundary{
 		vboundary{1000, 900, "M", "C"},
-		vboundary{ 500, 400, "D", "C"},
-		vboundary{ 100,  90, "C", "X"},
-		vboundary{  50,  40, "L", "X"},
-		vboundary{  10,   9, "X", "I"},
-		vboundary{   5,   4, "V", "I"},
-		vboundary{   1,   1, "I", "I"},
+		vboundary{500, 400, "D", "C"},
+		vboundary{100, 90, "C", "X"},
+		vboundary{50, 40, "L", "X"},
+		vboundary{10, 9, "X", "I"},
+		vboundary{5, 4, "V", "I"},
+		vboundary{1, 1, "I", "I"},
 	}
 
 	var r string = ""

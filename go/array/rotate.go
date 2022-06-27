@@ -12,7 +12,7 @@ func binary_search(nums []int, k int, s int, e int) int {
 	m := (s + e) >> 1
 
 	if nums[m] == k {
-		for m > 0 && nums[m - 1] == k {
+		for m > 0 && nums[m-1] == k {
 			m--
 		}
 		return m
@@ -23,30 +23,30 @@ func binary_search(nums []int, k int, s int, e int) int {
 			} else if k > nums[s] {
 				return binary_search(nums, k, s, m)
 			} else {
-				return binary_search(nums, k, m + 1, e)
+				return binary_search(nums, k, m+1, e)
 			}
 		} else {
 			return binary_search(nums, k, s, m)
 		}
 	} else {
-		if nums[e - 1] >= nums[m] {
-			if k == nums[e - 1] {
-				if (k == nums[s]) {
+		if nums[e-1] >= nums[m] {
+			if k == nums[e-1] {
+				if k == nums[s] {
 					return s
 				} else {
 					e--
-					for e > 0 && nums[e - 1] == k {
+					for e > 0 && nums[e-1] == k {
 						e--
 					}
 					return e
 				}
-			} else if k < nums[e - 1] {
-				return binary_search(nums, k, m + 1, e)
+			} else if k < nums[e-1] {
+				return binary_search(nums, k, m+1, e)
 			} else {
 				return binary_search(nums, k, s, m)
 			}
 		} else {
-			return binary_search(nums, k, m + 1, e)
+			return binary_search(nums, k, m+1, e)
 		}
 	}
 }
@@ -60,12 +60,11 @@ func RotateLeft(nums []int, k int) {
 }
 
 func reverse(nums []int, s int, e int) {
-	for s < e - 1 {
+	for s < e-1 {
 		v := nums[s]
-		nums[s] = nums[e - 1]
-		nums[e - 1] = v
+		nums[s] = nums[e-1]
+		nums[e-1] = v
 		s++
 		e--
 	}
 }
-

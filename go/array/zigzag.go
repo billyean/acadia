@@ -1,7 +1,7 @@
 package array
 
 func Convert(s string, numRows int) string {
-	if (numRows < 2 || len(s) == 0) {
+	if numRows < 2 || len(s) == 0 {
 		return s
 	}
 
@@ -15,7 +15,7 @@ func Convert(s string, numRows int) string {
 		add := true
 
 		for index < len(s) {
-			zs += s[index:index + 1]
+			zs += s[index : index+1]
 
 			switch {
 			case sp1 == 0:

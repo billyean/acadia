@@ -12,7 +12,7 @@ func TestSlidingWindows1(t *testing.T) {
 	actual := array.MaxSlidingWindow(test_data, 3)
 
 	if  !reflect.DeepEqual(actual, expected) {
-		t.Errorf("MaxSlidingWindow(%s, 3) expects %s but got %s.", actual)
+		t.Errorf("MaxSlidingWindow(%v, 3) expects %v but got %v.", test_data, expected, actual)
 	}
 }
 
@@ -21,7 +21,7 @@ func TestSlidingWindows2(t *testing.T) {
 	expected := []int{}
 	actual := array.MaxSlidingWindow(test_data, 0)
 	if  !reflect.DeepEqual(actual, expected) {
-		t.Errorf("MaxSlidingWindow(%s) expects %s but got %s.", actual)
+		t.Errorf("MaxSlidingWindow(%v) expects %v but got %v.", test_data, expected, actual)
 	}
 }
 
@@ -30,7 +30,7 @@ func TestSlidingWindows3(t *testing.T) {
 	expected := []int{3, 3, 2, 5}
 	actual := array.MaxSlidingWindow(test_data, 3)
 	if  !reflect.DeepEqual(actual, expected) {
-		t.Errorf("MaxSlidingWindow(%s) expects %s but got %s.", actual)
+		t.Errorf("MaxSlidingWindow(%v) expects %v but got %v.", test_data, expected, actual)
 	}
 }
 
@@ -39,7 +39,7 @@ func TestSlidingWindows4(t *testing.T) {
 	expected := []int{7, 4}
 	actual := array.MaxSlidingWindow(test_data, 2)
 	if  !reflect.DeepEqual(actual, expected) {
-		t.Errorf("MaxSlidingWindow(%s) expects %s but got %s.", actual)
+		t.Errorf("MaxSlidingWindow(%v) expects %v but got %v.", test_data, expected, actual)
 	}
 }
 

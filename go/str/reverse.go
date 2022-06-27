@@ -8,7 +8,7 @@ func ReverseVowels(str string) string {
 	for i < j {
 		for i < j {
 			c := str[i]
-			if c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' ||  c == 'I' || c == 'o' || c == 'O' || c == 'u' || c == 'U' {
+			if c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' || c == 'I' || c == 'o' || c == 'O' || c == 'u' || c == 'U' {
 				break
 			}
 			i++
@@ -16,7 +16,7 @@ func ReverseVowels(str string) string {
 
 		for i < j {
 			c := str[j]
-			if c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' ||  c == 'I' || c == 'o' || c == 'O' || c == 'u' || c == 'U' {
+			if c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' || c == 'I' || c == 'o' || c == 'O' || c == 'u' || c == 'U' {
 				break
 			}
 			j--
@@ -46,7 +46,7 @@ func ReverseWord(sentence string) string {
 			i++
 		}
 		j = i
-		for j < len(bytes) && bytes[j] != ' '{
+		for j < len(bytes) && bytes[j] != ' ' {
 			j++
 		}
 		bytes = reverse(bytes, i, j)
@@ -61,11 +61,11 @@ func ReverseWord(sentence string) string {
 }
 
 func reverse(bytes []byte, s int, e int) []byte {
-	half :=  (e - s) / 2
+	half := (e - s) / 2
 	for i := 0; i < half; i++ {
-		c := bytes[s + i]
-		bytes[s + i] = bytes[e - i - 1]
-		bytes[e - i - 1] = c
+		c := bytes[s+i]
+		bytes[s+i] = bytes[e-i-1]
+		bytes[e-i-1] = c
 	}
 
 	return bytes

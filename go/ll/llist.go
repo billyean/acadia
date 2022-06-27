@@ -29,9 +29,9 @@ func CirculateListFromSlice(slice []int, k int) *LinkedList {
 	tail := head
 	kp := head
 
-	for i := 0; tail.Next != nil; i++{
+	for i := 0; tail.Next != nil; i++ {
 		tail = tail.Next
-		if i < p - 1 {
+		if i < p-1 {
 			kp = kp.Next
 		}
 	}

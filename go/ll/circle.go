@@ -10,7 +10,7 @@ func Circulated(head *LinkedList) bool {
 
 	for two != nil && two.Next != nil {
 		if one == two {
-			return true;
+			return true
 		}
 		one = one.Next
 		two = two.Next.Next

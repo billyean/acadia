@@ -7,11 +7,11 @@ func Substr(s string, p string) int {
 	var j = 0
 
 	for i < len(s) && j < len(p) {
-		if (s[i] == p[j]) {
+		if s[i] == p[j] {
 			i++
 			j++
 		} else if j > 0 {
-			j = moves[j - 1]
+			j = moves[j-1]
 		} else {
 			i++
 		}

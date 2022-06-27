@@ -146,18 +146,18 @@ func TestRotateLeft(t *testing.T) {
 	test_data1 := []int{1, 2, 3, 4, 5, 6, 7}
 	array.RotateLeft(test_data1, 0)
 	if !reflect.DeepEqual(test_data1, []int{1, 2, 3, 4, 5, 6, 7}) {
-		t.Errorf("%d's rome digits is expected %s, but got %s.", []int{1, 2, 3, 4, 5, 6, 7}, test_data1)
+		t.Errorf("%d's rome digits is expected %v, but got %v.", 0, []int{1, 2, 3, 4, 5, 6, 7}, test_data1)
 		}
 
 	test_data2 := []int{1, 2, 3, 4, 5, 6, 7}
 	array.RotateLeft(test_data2, 1)
 	if !reflect.DeepEqual(test_data2, []int{2, 3, 4, 5, 6, 7, 1}) {
-		t.Errorf("%d's rome digits is expected %s, but got %s.", []int{2, 3, 4, 5, 6, 7, 1}, test_data2)
+		t.Errorf("%d's rome digits is expected %v, but got %v.", 1, []int{2, 3, 4, 5, 6, 7, 1}, test_data2)
 	}
 
 	test_data3 := []int{1, 2, 3, 4, 5, 6, 7}
 	array.RotateLeft(test_data3, 5)
 	if !reflect.DeepEqual(test_data3, []int{6, 7, 1, 2, 3, 4, 5}) {
-		t.Errorf("%d's rome digits is expected %s, but got %s.", []int{6, 7, 1, 2, 3, 4, 5}, test_data3)
+		t.Errorf("%d's rome digits is expected %v, but got %v.",2,  []int{6, 7, 1, 2, 3, 4, 5}, test_data3)
 	}
 }

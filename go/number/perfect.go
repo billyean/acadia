@@ -11,21 +11,21 @@ import "math"
 // Output: True
 // Explanation: 28 = 1 + 2 + 4 + 7 + 14
 func CheckPerfectNumber(num int) bool {
-	if (num == 1) {
+	if num == 1 {
 		return false
 	}
 	var s = int(math.Sqrt(float64(num)))
-	var sum  = 1
+	var sum = 1
 	var index = 2
 	for index <= s {
-		if (num % index == 0) {
-			if (index * index == num) {
+		if num%index == 0 {
+			if index*index == num {
 				sum += index
 			} else {
-				sum += index + num / index
+				sum += index + num/index
 			}
 
-			if (sum > num) {
+			if sum > num {
 				return false
 			}
 		}

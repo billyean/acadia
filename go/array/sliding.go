@@ -9,15 +9,15 @@ func MaxSlidingWindow(nums []int, k int) []int {
 	var stack []int
 
 	for i := 0; i < len(nums); i++ {
-		if len(stack) > 0 && i - stack[0] > k - 1 {
+		if len(stack) > 0 && i-stack[0] > k-1 {
 			stack = stack[1:]
 		}
 		v := nums[i]
-		for len(stack) > 0 && nums[stack[len(stack) - 1]] < v  {
-			stack =stack[0:len(stack) - 1]
+		for len(stack) > 0 && nums[stack[len(stack)-1]] < v {
+			stack = stack[0 : len(stack)-1]
 		}
 		stack = append(stack, i)
-		if i >= k - 1 {
+		if i >= k-1 {
 			max = append(max, nums[stack[0]])
 		}
 	}
@@ -25,7 +25,7 @@ func MaxSlidingWindow(nums []int, k int) []int {
 	return max
 }
 
-func min(a int, b int) int{
+func min(a int, b int) int {
 	if a < b {
 		return a
 	} else {

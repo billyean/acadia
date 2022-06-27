@@ -1,7 +1,7 @@
 package list
 
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
 
@@ -16,7 +16,7 @@ func isPalindrome(head *ListNode) bool {
 	var ch = head
 
 	for s_h != nil {
-		if (s_h.Val != ch.Val) {
+		if s_h.Val != ch.Val {
 			return false
 		}
 	}
@@ -25,7 +25,7 @@ func isPalindrome(head *ListNode) bool {
 }
 
 func find_middle(head *ListNode) *ListNode {
-	var one = head;
+	var one = head
 	var two = head.Next
 	for two != nil {
 		one = one.Next
@@ -39,7 +39,7 @@ func find_middle(head *ListNode) *ListNode {
 
 func reverse(head *ListNode) *ListNode {
 	var nh = head
-	
+
 	for c := nh.Next; c != nil; {
 		var cn = c.Next
 		c.Next = nh

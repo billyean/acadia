@@ -1,7 +1,7 @@
 package tree
 
 type BinaryTree struct {
-	Left *BinaryTree
+	Left  *BinaryTree
 	Right *BinaryTree
 	Value int
 }
