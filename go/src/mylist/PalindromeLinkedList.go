@@ -1,11 +1,11 @@
-package list
+package mylist
 
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-func isPalindrome(head *ListNode) bool {
+func IsPalindrome(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return true
 	}
