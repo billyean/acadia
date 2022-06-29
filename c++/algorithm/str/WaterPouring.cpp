@@ -5,6 +5,7 @@
 #include "WaterPouring.h"
 #include <iostream>
 #include <stack>
+#include <algorithm>
 
 void WaterPouring::printBar(vector<vector<char>>& bars) {
     int c = bars.size(), r = c > 0 ? bars[0].size() : 0;
@@ -18,7 +19,7 @@ void WaterPouring::printBar(vector<vector<char>>& bars) {
 }
 
 vector<vector<char>> WaterPouring::bars(vector<int>& bars) {
-    auto max_it = max_element(bars.begin(), bars.end());
+    auto max_it = std::max_element(bars.begin(), bars.end());
     int top = *max_it;
 
     vector<vector<char>> bars_v;
@@ -49,7 +50,7 @@ vector<vector<char>> WaterPouring::pouring(vector<int>& bars, vector<vector<char
         il--;
     }
 
-    while (ir < ) {
+    while (ir < 10) {
         if (bars[il] > bl) {
             left.push(il);
         } else if (bars[il] < bl) {

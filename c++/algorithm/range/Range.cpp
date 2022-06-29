@@ -16,10 +16,11 @@
 //
 
 #include "Range.h"
+#include <algorithm>
 
 vector<vector<Range>> Range::overlap(vector<Range> ranges) {
     vector<vector<Range>> o;
-    sort(ranges.begin(), ranges.end(), [](const Range& e1, const Range& e2){ return e1.begin() < e2.begin();});
+    std::sort(ranges.begin(), ranges.end(), [](const Range& e1, const Range& e2){ return e1.begin() < e2.begin();});
 
     for (int i = 0; i < ranges.size() - 1; i++) {
         int j = i + 1;
