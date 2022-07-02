@@ -1,6 +1,8 @@
 **/.idea/**
 **/target/**
 scala/project/target/**
+scala/null
+scala/.bsp
 go/pkg/**
 python/venv/**
 python/**/__pycache__/**
