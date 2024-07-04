@@ -8,6 +8,7 @@ python/venv/**
 python/**/__pycache__/**
 c++/cmake-build-debug/**
 javascript/node_modules/**
+rust/Cargo.lock
 .DS_Store
 **/*.iml
 **/out/**
