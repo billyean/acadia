@@ -9,6 +9,7 @@
 * [Javascript](./javascript)
 * [Scala](./scala)
 * [Go](./go)
+* [Rust](./rust)
 
 ### Miscellaneous
 
