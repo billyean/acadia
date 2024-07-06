@@ -73,7 +73,7 @@ impl Array {
 
 #[cfg(test)]
 mod tests {
-    use crate::arrays::median_of_two_sotered_arrays::Array;
+    use crate::arrays::median_of_two_sorted_arrays::Array;
 
     #[test]
     fn test_find_median_sorted_arrays() {

@@ -52,7 +52,7 @@ impl Sort {
 
 #[cfg(test)]
 mod tests {
-    use crate::sort::reverse_pairs::Sort;
+    use crate::arrays::reverse_pairs::Sort;
 
     #[test]
     fn test_reverse_pairs1() {
