@@ -74,7 +74,7 @@ mod tests {
     }
 
     #[test]
-    fn test_max_number2() {
+    fn test_max_number3() {
         assert_eq!(
             TwoArrays::max_number(vec![3, 9], vec![8, 9], 3),
             vec![9, 8, 9]

@@ -1,6 +1,5 @@
 struct Regex;
 
-
 pub fn is_match(s: &str, p: &str, sp: usize, pp: usize) -> bool {
     if sp > s.len() {
         if pp > p.len() {
